@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Sep 24 00:07:25 2023
+Invocation: foremost king_of_the_court.png 
+Output directory: /home/sandwicheese/ctf-writeups/CNC CTF Contest/foren/king of the court/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: king_of_the_court.png
+Start: Sun Sep 24 00:07:25 2023
+Length: 599 KB (614239 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     599 KB 	          0 	  (1000 x 563)
+Finish: Sun Sep 24 00:07:25 2023
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Sep 24 00:07:25 2023
