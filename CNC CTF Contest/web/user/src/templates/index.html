@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Username Management</title>
+  </head>
+  <body>
+    <h1>Username Management</h1>
+
+    <h2>Add a User</h2>
+    <form id="addUserForm" method="POST" action="/add_user">
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter username"
+        required
+      />
+      <button type="submit">Add User</button>
+    </form>
+
+    <h2>Search Users</h2>
+    <form id="searchUserForm" method="GET" action="/search_user">
+      <input
+        type="text"
+        id="searchQuery"
+        name="query"
+        placeholder="Search for users"
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <h2>Users List</h2>
+    <ul id="userList">
+      {% for username in users %}
+      <li>{{ username }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
