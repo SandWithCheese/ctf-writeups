@@ -1,0 +1,10 @@
+We're investigating an old financial crime case, but unfortunately we're very busy with other stuffs and we would like to ask you to find out a few things about our target. But because of the secret nature of this case we couldn't tell you his name nor his company. We can only tell you that his company is publicly traded and all of the required information is in public domain. Good luck.
+
+1. What's the full name of the person in that picture?
+2. What's his listed company's net (non-comprehensive) profit/loss for the year 2016 in dollars?
+3. What's the name of the entity that act as the ultimate beneficiary owner of that listed company?
+4. What's the postal code of the area/building/road that the entity that act as the ultimate beneficiary owner is registered in?
+5. What's the amount of shares owned by foreign pension funds of that listed company per September 2023?
+
+Submit your answer at our server here:
+nc 103.145.226.206 20048

@@ -1,0 +1,9 @@
+version: "3"
+services:
+  pyjail:
+    build: .
+    ports:
+      # public:local
+      - "13337:13337"
+    container_name: pyjail
+    restart: always

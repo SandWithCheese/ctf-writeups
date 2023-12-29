@@ -1,0 +1,7 @@
+version: '3'
+services:
+  flag-gpt:
+    build:
+      context: . 
+    ports:
+      - "42508:1337"

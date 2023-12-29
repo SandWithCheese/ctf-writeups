@@ -1,0 +1,14 @@
+--2023-09-09 10:48:27--  https://pctf.competitivecyber.club/files/78d20b3c4aafe90fd8edd94c36778647/rockyou.zip?token=eyJ1c2VyX2lkIjoxOTMzLCJ0ZWFtX2lkIjo4MTksImZpbGVfaWQiOjU2fQ.ZPyFjA.1KW1S9I6gtmY45UqSuPN-VpfdTI
+Resolving pctf.competitivecyber.club (pctf.competitivecyber.club)... 172.67.191.158, 104.21.76.92, 2606:4700:3037::ac43:bf9e, ...
+Connecting to pctf.competitivecyber.club (pctf.competitivecyber.club)|172.67.191.158|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 53354754 (51M) [application/zip]
+Saving to: ‘rockyou.zip’
+
+rockyou.zip          1%[                 ] 719.51K  --.-KB/s    eta 5d 6h  rockyou.zip          1%[                 ] 719.51K  --.-KB/s    in 1h 46m  
+
+2023-09-09 12:34:45 (116 B/s) - Read error at byte 736778/53354754 (Connection timed out). Retrying.
+
+--2023-09-09 12:34:46--  (try: 2)  https://pctf.competitivecyber.club/files/78d20b3c4aafe90fd8edd94c36778647/rockyou.zip?token=eyJ1c2VyX2lkIjoxOTMzLCJ0ZWFtX2lkIjo4MTksImZpbGVfaWQiOjU2fQ.ZPyFjA.1KW1S9I6gtmY45UqSuPN-VpfdTI
+Connecting to pctf.competitivecyber.club (pctf.competitivecyber.club)|172.67.191.158|:443... connected.
+HTTP request sent, awaiting response... 
