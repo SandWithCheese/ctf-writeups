@@ -1,0 +1,10 @@
+version: '3'
+services:
+  auth:
+    build: .
+    ports:
+      - 13337:13337
+    working_dir: /home/ctf
+    entrypoint: /etc/init.sh
+    init: true
+    restart: always

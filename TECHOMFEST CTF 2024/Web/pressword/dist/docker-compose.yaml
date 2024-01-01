@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  wordpress:
+    build: .
+    ports:
+      - 10337:80
+    extra_hosts:
+      host.docker.internal: host-gateway
+    environment:
+      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+      WP_TITLE: ${WP_TITLE}
+      WP_HOST: ${WP_HOST}
+      # WP_ADMIN_USER: ${WP_ADMIN_USER}
+      # WP_ADMIN_PASSWORD: ${WP_ADMIN_PASSWORD}
+      WP_ADMIN_EMAIL: ${WP_ADMIN_EMAIL}
+    volumes:
+      - ./src:/var/www/html
+      # - ./conf.d/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini:ro
+      - ./conf.d/error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini:ro
+      - ./.htaccess:/var/www/html/.htaccess:ro
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: ${WORDPRESS_DB_NAME}
+      MYSQL_USER: ${WORDPRESS_DB_USER}
+      MYSQL_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
