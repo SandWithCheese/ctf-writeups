@@ -1,0 +1,9 @@
+{
+  "name": "netcomp23/funnotes",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {}
+}
