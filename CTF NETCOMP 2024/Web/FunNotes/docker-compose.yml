@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fun_notes
+    ports:
+      - "10003:80"
