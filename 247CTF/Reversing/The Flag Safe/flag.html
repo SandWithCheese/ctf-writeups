@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Flag Safe</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <style>
+    body {
+      background: #222D32;
+      font-family: 'Roboto', sans-serif;
+    }
+    .login-box {
+      background: #1A2226;
+      text-align: center;
+    }
+    .login-key {
+      height: 100px;
+      font-size: 80px;
+      line-height: 100px;
+      background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 15px;
+    }
+    .login-text {
+      color: #0DB8DE;
+    }
+    .jumbotron {
+      margin: 0px;
+      padding: 0px;
+      background: #222D32;
+    }
+    .vertical-center {
+      min-height: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    input[type=password] {
+      background-color: #1A2226;
+      border: none;
+      border-bottom: 2px solid #0DB8DE;
+      border-top: 0px;
+      border-radius: 0px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      color: #ECF0F5;
+      letter-spacing: 3px;
+    }
+    .form-group {
+      margin-bottom: 35px;
+    }
+    .form-control:focus {
+      border-color: inherit;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-bottom: 2px solid #0DB8DE;
+      background-color: #1A2226;
+      color: #ECF0F5;
+    }
+    .btn-outline-primary {
+      border-color: #0DB8DE;
+      color: #0DB8DE;
+      border-radius: 0px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+    .btn-outline-primary:hover {
+      background-color: #0DB8DE;
+      right: 0px;
+    }
+    .login-button {
+      margin-bottom: 35px;
+    }
+  </style>
+</head>
+<body>
+  <div class="jumbotron vertical-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-2"></div>
+        <div class="col-lg-6 col-md-8 login-box">
+          <div class="col-lg-12 login-key">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+          </div>
+          <div class="col-lg-12 login-form">
+            <form onSubmit="return getFlag()" action="#">
+              <div id="error-msg" class="col-lg-12 login-text text-center"></div>
+              <div class="form-group col-lg-12">
+                <input type="password" id="flag" class="form-control text-center">
+              </div>
+
+              <div class="col-lg-12 text-center login-button">
+                <button type="submit" class="btn btn-block btn-outline-primary">VALID FLAG?</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function getFlag(){
+      var valid_flag = false;
+      var flag = document.getElementById('flag').value;
+      var error = document.getElementById('error-msg');
+      error.textContent = "";
+      try {
+        valid_flag = Module.CompareFlag(flag);
+      } catch (err){
+        error.textContent = err.message;
+        return false;
+      }
+      if (valid_flag){
+        alert(flag);
+      } else {
+        error.textContent = "Invalid flag!";
+      }
+      return false;
+    }
+  </script>
+  <script src="flag.js"></script>
+</body>
+</html>
