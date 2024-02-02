@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Jan 28 10:26:14 2024
+Invocation: foremost TheBookOfMagick.jpg 
+Output directory: /home/sandwicheese/ctf-writeups/CTF ARA 5.0/Forensic/The QRazy Spell/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: TheBookOfMagick.jpg
+Start: Sun Jan 28 10:26:14 2024
+Length: 1 MB (1810790 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      13 KB 	          0 	 
+1:	00000027.gif 	      95 KB 	      13870 	  (300 x 300)
+Finish: Sun Jan 28 10:26:14 2024
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+gif:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Jan 28 10:26:14 2024

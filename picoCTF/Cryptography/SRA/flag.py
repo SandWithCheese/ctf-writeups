@@ -3,7 +3,7 @@ from Crypto.Util.number import long_to_bytes
 
 # from sympy.ntheory import factorint
 
-host, port = "saturn.picoctf.net", 56994
+host, port = "saturn.picoctf.net", 64418
 
 conn = remote(host, port)
 

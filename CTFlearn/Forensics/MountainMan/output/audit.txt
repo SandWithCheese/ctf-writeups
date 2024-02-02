@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Jan 17 20:44:16 2024
+Invocation: foremost MountainMan.jpg 
+Output directory: /home/sandwicheese/ctf-writeups/CTFlearn/Forensics/MountainMan/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: MountainMan.jpg
+Start: Wed Jan 17 20:44:16 2024
+Length: 123 KB (126451 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	     123 KB 	          0 	 
+Finish: Wed Jan 17 20:44:16 2024
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Wed Jan 17 20:44:16 2024
