@@ -1,0 +1,58 @@
+Welcome to the CTFLearn Adoni Assembler Programming Challenge
+
+This Challenge is designed as an entry level 64 bit assembler programming challenge for someone who has never
+done any Assembler programming previously.
+
+==========================================================================
+How to solve this challenge:
+Modify the assembler source adoni.asm so that the flag is written to the screen (stdout)
+
+There are multiple ways to get the flag for this challenge, but if you are new to assembler the intent is for you to
+modify the adoni.asm source file, compile, link and run it to see the flag.
+
+Compiling and linking instructions for adoni.asm are provided in the YouTube videos below.
+
+The videos below provide an introduction to 64 bit Assembler programming on Intel CPU's.
+
+============================================================================
+
+This challenge uses the NASM compiler: https://www.nasm.us/
+
+There are lots of videos and resources on the Internet for learning assembler.  These are the ones that I used as a
+basis for building this challenge (and I'm planning on following the same approach for future Assembler
+challenges).
+
+LiveOverflow on YouTube is an excellent resource and this video is a good place to start if
+you do not know assembler: (not required but recommended)
+https://www.youtube.com/watch?v=6jSKldt7Eqs
+
+This challenge (and the next few also) are based on these YouTube videos.
+Please watch all the videos if you have never done any Assembly programming.
+
+x86_64 Linux Assembly #1 - "Hello, World!"
+https://www.youtube.com/watch?v=VQAKkuLL31g
+
+x86_64 Linux Assembly #2 - "Hello, World!" Breakdown
+https://www.youtube.com/watch?v=BWRR3Hecjao
+
+x86_64 Linux Assembly #3 - Jumps, Calls, Comparisons
+https://www.youtube.com/watch?v=busHtSyx2-w
+
+=================================================================================================
+
+www.asmtutor.com is also a good website for learning assembler.  However this site is based on
+32 bit assembler, and this challenge is a 64 bit challenge.  You can work through asmtutor.com
+also to learn assembler because the concepts are the same.
+
+One difference between 32 and 64 bit assembler is that the system call numbers are different.
+Here is a table of 64 bit system calls:
+https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+
+====================================================================================================
+Adoni is a city in India, more information can be found here:
+https://www.britannica.com/place/Adoni
+https://en.wikipedia.org/wiki/Adoni
+
+If you would like to learn more about India here is a good resource:
+https://www.cia.gov/library/publications/the-world-factbook/geos/in.html
+
