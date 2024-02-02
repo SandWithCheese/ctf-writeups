@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Jan 17 08:49:57 2024
+Invocation: foremost Begin Hack.jpg 
+Output directory: /home/sandwicheese/ctf-writeups/CTFlearn/Forensics/Up For A Little Challenge?/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Begin Hack.jpg
+Start: Wed Jan 17 08:49:57 2024
+Length: 21 KB (21856 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      21 KB 	          0 	 
+Finish: Wed Jan 17 08:49:57 2024
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Wed Jan 17 08:49:57 2024

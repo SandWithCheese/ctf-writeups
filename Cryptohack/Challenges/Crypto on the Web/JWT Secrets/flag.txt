@@ -1,0 +1,1 @@
+crypto{jwt_secret_keys_must_be_protected}
