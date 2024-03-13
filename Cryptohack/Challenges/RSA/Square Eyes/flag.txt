@@ -1,0 +1,1 @@
+crypto{squar3_r00t_i5_f4st3r_th4n_f4ct0r1ng!}
