@@ -1,19 +1,29 @@
-import matplotlib.pyplot as plt
+import pygame
 
-coordinates = []
-with open("secret_map.txt", "r") as f:
-    lines = f.readlines()
-    for line in lines:
-        x, y = line.split()
-        # print(f"({int(x[2:], 16)}, {int(y[2:], 16)})")
-        coordinates.append((int(x[2:], 16), int(y[2:], 16)))
 
-print(coordinates)
+def main():
+    pygame.init()
 
-y = [i[0] for i in coordinates]
-x = [i[1] for i in coordinates]
+    main_surface = pygame.display.set_mode((3000, 500))
 
-y = list(map(lambda x: -x, y))
+    while True:
+        ev = pygame.event.poll()
+        if ev.type == pygame.QUIT:
+            break
 
-plt.plot(x, y, "o")
-plt.show()
+        f = open("secret_map.txt", "r")
+        data = f.readlines()
+        f.close()
+
+        for line in data:
+            l = line.strip().split()
+            x0 = int(l[1], 16)
+            y0 = int(l[0], 16)
+            pygame.draw.line(main_surface, (255, 0, 255), (x0, y0), (x0, y0), 1)
+
+        pygame.display.flip()
+
+    pygame.quit()
+
+
+main()
