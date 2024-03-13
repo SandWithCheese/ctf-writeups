@@ -1,0 +1,1 @@
+crypto{700_m4ny_5m4ll_f4c70r5}
