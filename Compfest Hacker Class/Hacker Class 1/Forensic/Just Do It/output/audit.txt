@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Aug  6 21:55:23 2023
+Invocation: foremost waduh.png 
+Output directory: /home/sandwicheese/Compfest Hacker Class/Hacker Class 1/Forensic/Just Do It/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: waduh.png
+Start: Sun Aug  6 21:55:23 2023
+Length: 439 KB (449843 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000878.zip 	      223 B 	     449620 	 
+1:	00000000.png 	     439 KB 	          0 	  (500 x 590)
+Finish: Sun Aug  6 21:55:23 2023
+
+2 FILES EXTRACTED
+	
+zip:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Aug  6 21:55:23 2023
