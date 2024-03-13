@@ -1,0 +1,27 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon Aug  7 00:37:47 2023
+Invocation: foremost rawr.docx 
+Output directory: /home/sandwicheese/Compfest Hacker Class/Hacker Class 1/Forensic/morphgura/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: rawr.docx
+Start: Mon Aug  7 00:37:47 2023
+Length: 379 KB (388902 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000521.jpg 	     109 KB 	     266992 	 
+1:	00000000.docx 	     379 KB 	          0 	 
+2:	00000009.png 	     255 KB 	       4907 	  (498 x 497)
+Finish: Mon Aug  7 00:37:47 2023
+
+3 FILES EXTRACTED
+	
+jpg:= 1
+zip:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Mon Aug  7 00:37:47 2023
