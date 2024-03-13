@@ -1,0 +1,7 @@
+2229  nano password.txt
+2231  zip -e archive.zip maleo.log
+2232  cp password.txt backuppassword.txt
+2234  truncate -s -5 password.txt
+2235  cat password.txt
+2236  cat backuppassword.txt
+2237  rm -rf backuppassword.txt
