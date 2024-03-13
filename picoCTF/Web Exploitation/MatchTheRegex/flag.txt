@@ -1,0 +1,1 @@
+picoCTF{succ3ssfully_matchtheregex_8ad436ed}
