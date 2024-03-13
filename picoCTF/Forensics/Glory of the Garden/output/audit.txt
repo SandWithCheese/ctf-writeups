@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Aug  8 04:34:50 2023
+Invocation: foremost garden.jpg 
+Output directory: /home/sandwicheese/PicoCTF/Forensics/Glory of the Garden/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: garden.jpg
+Start: Tue Aug  8 04:34:50 2023
+Length: 2 MB (2295192 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	       2 MB 	          0 	 
+Finish: Tue Aug  8 04:34:50 2023
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Tue Aug  8 04:34:50 2023
