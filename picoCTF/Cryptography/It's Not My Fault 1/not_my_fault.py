@@ -23,14 +23,10 @@ def gen_key():
 def get_clue(p, q, BITS):
 	while True:
 		d_p = random.randint(1, 1 << BITS)
-		# d_p = random.randint(1, 2^20)
 		d_q = random.randint(1, q - 1)
 		if d_p % 2 == d_q % 2:
 			d = CRT(d_p, p - 1, d_q, q - 1)
-			# d = d_p mod (p - 1)
-			# d = d_q mod (q - 1)
 			e = inverse(d, (p - 1) * (q - 1))
-			# e = d^-1 mod phi
 			print("Clue : ", e)
 			return
 

@@ -4,7 +4,7 @@ import binascii
 import itertools
 import random
 import string
-
+from string import digits
 
 def pad(msg):
     block_len = 8
