@@ -1,0 +1,5 @@
+[x] Opening connection to ctf-gemastik.ub.ac.id on port 10002
+[x] Opening connection to ctf-gemastik.ub.ac.id on port 10002: Trying 43.218.102.39
+[+] Opening connection to ctf-gemastik.ub.ac.id on port 10002: Done
+[*] Closed connection to ctf-gemastik.ub.ac.id port 10002
+gemastik{bd2a8dc84ac9898be680402ff755c142b6990ed168e422f7dc360066f499ae4b}
