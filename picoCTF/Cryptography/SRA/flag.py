@@ -1,22 +1,32 @@
-from pwn import *
-from Crypto.Util.number import long_to_bytes
+import pwn
+import sympy
+from itertools import combinations
 
-# from sympy.ntheory import factorint
+host, port = "saturn.picoctf.net", 54989
 
-host, port = "saturn.picoctf.net", 64418
+n_len = 128 * 2
 
-conn = remote(host, port)
+conn = pwn.remote(host, port)
 
-c = int(conn.recvline().strip().split(b"=")[-1])
-d = int(conn.recvline().strip().split(b"=")[-1])
 e = 65537
+c = int(conn.recvline().decode().strip().split()[2])
+d = int(conn.recvline().decode().strip().split()[2])
 
-# d = e^-1 mod (p-1)(q-1)
-# ed = 1 mod (p-1)(q-1)
-# ed - 1 = k(p-1)(q-1)
-kphi = d * e - 1
-# factors = factorint(kphi)
+primes = sympy.primefactors(e * d - 1)
+print(primes)
 
-print(long_to_bytes(pow(c, d, kphi)))
+possible_phi = []
+for i in range(2, len(primes)):
+    print(i)
+    combs = list(combinations(primes, i))
+    for comb in combs:
+        total = 1
+        for e in comb:
+            total *= e
+        bin_tot = bin(total)[2:]
+        if n_len - 10 <= len(bin_tot) <= n_len + 10:
+            possible_phi.append(total)
+
+print(possible_phi)
 
 conn.interactive()
