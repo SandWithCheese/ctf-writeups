@@ -1,0 +1,1 @@
+<?php echo file_get_contents('/.flag /.flag/.renaming_the_flag_is_fun.txt');?>
