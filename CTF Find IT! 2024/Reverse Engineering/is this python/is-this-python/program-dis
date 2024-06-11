@@ -1,0 +1,145 @@
+  1           0 LOAD_CONST               0 ('2024')
+              2 STORE_NAME               0 (key)
+
+  2           4 LOAD_CONST               1 ('findit')
+              6 LOAD_NAME                0 (key)
+              8 BINARY_ADD
+             10 STORE_NAME               0 (key)
+
+  3          12 LOAD_CONST               2 (32)
+             14 LOAD_CONST               3 (0)
+             16 LOAD_CONST               3 (0)
+             18 LOAD_CONST               3 (0)
+             20 LOAD_CONST               2 (32)
+             22 LOAD_CONST               2 (32)
+             24 LOAD_CONST               4 (113)
+             26 LOAD_CONST               5 (100)
+             28 LOAD_CONST               6 (116)
+             30 LOAD_CONST               7 (79)
+             32 LOAD_CONST               8 (4)
+             34 LOAD_CONST               9 (89)
+             36 LOAD_CONST              10 (2)
+             38 LOAD_CONST              11 (80)
+             40 LOAD_CONST              12 (54)
+             42 LOAD_CONST              13 (66)
+             44 LOAD_CONST              14 (83)
+             46 LOAD_CONST              15 (92)
+             48 LOAD_CONST              16 (3)
+             50 LOAD_CONST              17 (107)
+             52 LOAD_CONST              18 (8)
+             54 LOAD_CONST              11 (80)
+             56 LOAD_CONST              19 (9)
+             58 LOAD_CONST              20 (11)
+             60 LOAD_CONST              12 (54)
+             62 LOAD_CONST              21 (16)
+             64 LOAD_CONST              22 (93)
+             66 LOAD_CONST              23 (1)
+             68 LOAD_CONST              14 (83)
+             70 LOAD_CONST              24 (90)
+             72 LOAD_CONST              25 (82)
+             74 LOAD_CONST              26 (7)
+             76 LOAD_CONST              27 (49)
+             78 LOAD_CONST              11 (80)
+             80 LOAD_CONST              11 (80)
+             82 LOAD_CONST              28 (71)
+             84 LOAD_CONST              29 (10)
+             86 LOAD_CONST              23 (1)
+             88 LOAD_CONST              23 (1)
+             90 LOAD_CONST              30 (73)
+             92 BUILD_LIST              40
+             94 STORE_NAME               1 (flag_enc)
+
+  5          96 BUILD_LIST               0
+             98 STORE_NAME               2 (key_arr)
+
+  6         100 LOAD_NAME                0 (key)
+            102 GET_ITER
+        >>  104 FOR_ITER                22 (to 128)
+            106 STORE_NAME               3 (character)
+
+  7         108 LOAD_NAME                4 (ord)
+            110 LOAD_NAME                3 (character)
+            112 CALL_FUNCTION            1
+            114 STORE_NAME               3 (character)
+
+  8         116 LOAD_NAME                2 (key_arr)
+            118 LOAD_METHOD              5 (append)
+            120 LOAD_NAME                3 (character)
+            122 CALL_METHOD              1
+            124 POP_TOP
+            126 JUMP_ABSOLUTE          104
+
+ 10     >>  128 BUILD_LIST               0
+            130 STORE_NAME               6 (flag_arr)
+
+ 11         132 LOAD_NAME                1 (flag_enc)
+            134 GET_ITER
+        >>  136 FOR_ITER                22 (to 160)
+            138 STORE_NAME               7 (hex_val)
+
+ 12         140 LOAD_NAME                8 (int)
+            142 LOAD_NAME                9 (hex_val)
+            144 CALL_FUNCTION            1
+            146 STORE_NAME               7 (hex_val)
+
+ 13         148 LOAD_NAME                6 (flag_arr)
+            150 LOAD_METHOD              5 (append)
+            152 LOAD_NAME                7 (hex_val)
+            154 CALL_METHOD              1
+            156 POP_TOP
+            158 JUMP_ABSOLUTE          136
+
+ 14     >>  160 LOAD_NAME               10 (len)
+            162 LOAD_NAME                6 (flag_arr)
+            164 CALL_FUNCTION            1
+            166 LOAD_NAME               10 (len)
+            168 LOAD_NAME                2 (key_arr)
+            170 CALL_FUNCTION            1
+            172 COMPARE_OP               4 (>)
+            174 POP_JUMP_IF_FALSE      188
+
+ 15         176 LOAD_NAME                2 (key_arr)
+            178 LOAD_METHOD             11 (extend)
+            180 LOAD_NAME                2 (key_arr)
+            182 CALL_METHOD              1
+            184 POP_TOP
+            186 JUMP_ABSOLUTE          160
+
+ 17     >>  188 BUILD_LIST               0
+            190 STORE_NAME              12 (flag_dec)
+
+ 18         192 LOAD_NAME               13 (zip)
+            194 LOAD_NAME                2 (key_arr)
+            196 LOAD_NAME                6 (flag_arr)
+            198 CALL_FUNCTION            2
+            200 GET_ITER
+        >>  202 FOR_ITER                26 (to 230)
+            204 UNPACK_SEQUENCE          2
+            206 STORE_NAME              14 (k)
+            208 STORE_NAME              15 (f)
+
+ 19         210 LOAD_NAME               14 (k)
+            212 LOAD_NAME               15 (f)
+            214 BINARY_XOR
+            216 STORE_NAME              16 (xored)
+
+ 20         218 LOAD_NAME               12 (flag_dec)
+            220 LOAD_METHOD              5 (append)
+            222 LOAD_NAME               16 (xored)
+            224 CALL_METHOD              1
+            226 POP_TOP
+            228 JUMP_ABSOLUTE          202
+
+ 21     >>  230 LOAD_CONST              31 ('')
+            232 STORE_NAME              17 (flag_dec_text)
+
+ 22         234 LOAD_NAME               17 (flag_dec_text)
+            236 LOAD_METHOD             18 (join)
+            238 LOAD_NAME               19 (map)
+            240 LOAD_NAME               20 (chr)
+            242 LOAD_NAME               12 (flag_dec)
+            244 CALL_FUNCTION            2
+            246 CALL_METHOD              1
+            248 STORE_NAME              17 (flag_dec_text)
+            250 LOAD_CONST              32 (None)
+            252 RETURN_VALUE

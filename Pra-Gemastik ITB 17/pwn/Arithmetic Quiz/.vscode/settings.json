@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.pl": "prolog",
+        "*.html": "html",
+        "*.sage": "python",
+        "signal.h": "c",
+        "unistd.h": "c"
+    }
+}
