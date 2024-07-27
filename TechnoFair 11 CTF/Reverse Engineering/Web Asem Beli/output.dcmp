@@ -1,0 +1,156 @@
+export memory memory(initial: 256, max: 256);
+
+global g_a:int = 5243920;
+global g_b:int = 0;
+global g_c:int = 0;
+
+export table indirect_function_table:funcref(min: 1, max: 1);
+
+export function wasm_call_ctors() {
+  emscripten_stack_init()
+}
+
+function f_b():int {
+  var a:int = g_a;
+  var b:int = 32;
+  var c:{ a:byte, b:byte, c:byte, d:byte, e:byte, f:byte, g:byte, h:byte, i:byte, j:byte, k:byte, l:byte, m:byte, n:byte, o:byte, p:byte, q:byte, r:byte, s:byte, t:byte, u:byte, v:byte, w:byte, x:byte, y:byte, z:byte, aa:int } = 
+    a - b;
+  var d:int = 0;
+  c.aa = d;
+  var e:int = 105;
+  c.i = e;
+  var f:int = 99;
+  c.c = f;
+  var g:int = 70;
+  c.g = g;
+  var h:int = 95;
+  c.q = h;
+  var i:int = 114;
+  c.j = i;
+  var j:int = 110;
+  c.e = j;
+  var k:int = 49;
+  c.k = k;
+  var l:int = 84;
+  c.a = l;
+  var m:int = 123;
+  c.m = m;
+  var n:int = 49;
+  c.l = n;
+  var o:int = 104;
+  c.d = o;
+  var p:int = 76;
+  c.n = p;
+  var q:int = 79;
+  c.s = q;
+  var r:int = 97;
+  c.h = r;
+  var s:int = 104;
+  c.p = s;
+  var t:int = 57;
+  c.v = t;
+  var u:int = 101;
+  c.b = u;
+  var v:int = 125;
+  c.z = v;
+  var w:int = 111;
+  c.f = w;
+  var x:int = 95;
+  c.u = x;
+  var y:int = 107;
+  c.t = y;
+  var z:int = 116;
+  c.x = z;
+  var aa:int = 107;
+  c.r = aa;
+  var ba:int = 48;
+  c.o = ba;
+  var ca:int = 85;
+  c.y = ca;
+  var da:int = 73;
+  c.w = da;
+  var ea:int = 0;
+  return ea;
+}
+
+export function main(a:int, b:int):int {
+  var c:int = f_b();
+  return c;
+}
+
+export function stackSave():int {
+  return g_a
+}
+
+export function stackRestore(a:int) {
+  g_a = a
+}
+
+export function stackAlloc(a:int):int {
+  var b:int = g_a - a & -16;
+  g_a = b;
+  return b;
+}
+
+export function emscripten_stack_init() {
+  g_c = 5243920;
+  g_b = 1040 + 15 & -16;
+}
+
+export function emscripten_stack_get_free():int {
+  return g_a - g_b
+}
+
+export function emscripten_stack_get_base():int {
+  return g_c
+}
+
+export function emscripten_stack_get_end():int {
+  return g_b
+}
+
+function f_k(a:int) {
+}
+
+function f_l():int {
+  f_k(1024);
+  return 1028;
+}
+
+function f_m(a:int):int {
+  return 1
+}
+
+export function stdio_exit() {
+  var a:int_ptr = f_l()[0]:int;
+  if (eqz(a)) goto B_a;
+  loop L_b {
+    f_o(a);
+    a = a[14];
+    if (a) continue L_b;
+  }
+  label B_a:
+  f_o(0[258]:int);
+  f_o(0[258]:int);
+  f_o(0[258]:int);
+}
+
+function f_o(a:int_ptr) {
+  var c:int;
+  if (eqz(a)) goto B_a;
+  if (a[19] < 0) goto B_b;
+  f_m(a);
+  label B_b:
+  if (a[5] == a[7]) goto B_c;
+  call_indirect(a, 0, 0, a[9]);
+  label B_c:
+  var b:int = a[1];
+  if (b == (c = a[2])) goto B_a;
+  call_indirect(a, i64_extend_i32_s(b - c), 1, a[10]);
+  label B_a:
+}
+
+export function errno_location():int {
+  return 1036
+}
+
