@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    expose:
+      - 1812
+      - 1204
+    ports:
+      - "1812:1812"
+      - "1204:1204"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,9 @@
+version: "3"
+services:
+  dist:
+    build: ./dist
+    restart: always
+    ports:
+      - "7133:3000"
+    environment:
+      - PORT=3000

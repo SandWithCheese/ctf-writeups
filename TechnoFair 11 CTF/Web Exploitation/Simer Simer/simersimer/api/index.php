@@ -1,0 +1,2 @@
+<?php
+// Pemalas Setting

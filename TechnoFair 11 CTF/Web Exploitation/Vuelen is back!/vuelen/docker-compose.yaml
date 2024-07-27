@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    expose:
+      - 1329
+    ports:
+      - "1329:1329"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
