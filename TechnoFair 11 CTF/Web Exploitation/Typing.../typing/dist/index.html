@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>KalkulatorKu</title>
+</head>
+<body>
+  <h1>Kalkulator</h1>
+  <p>Input:</p>
+  <input type="text" id="ex" placeholder="1 + 1"></input>
+  <button id="clc" type="button">Hitung</button>
+  <article>
+    <p>Hasil:</p>
+    <p id="hasil" style="text-align: center; font-size: 4rem;"></p>
+  </article>
+  <script>
+    document.getElementById("clc").addEventListener("click", async () => {
+      const ex = document.getElementById("ex").value.trim();
+      if (!ex) return;
+      try {
+        const res = await fetch("/setCal", {
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ ex }),
+        });
+        const text = await res.text();
+        if (res.status !== 200) {
+          alert(text);
+        } else {
+          document.getElementById("hasil").textContent = text;
+        }
+      } catch (err) {
+        alert(err);
+      }
+    });
+  </script>
+</body>
+</html>

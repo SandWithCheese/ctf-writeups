@@ -1,0 +1,1 @@
+flag = b"TechnoFair11{RSA_is_c0mm0n_EncryptYon_Teqnique_right?}"
