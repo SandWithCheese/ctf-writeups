@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Username</title>
+    <style>
+        @import url('data:text/css;base64,aHRtbCwgYm9keSB7aGVpZ2h0OiAxMDAlO21hcmdpbjogMDtwYWRkaW5nOiAwO30NCmJvZHkge2ZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjtiYWNrZ3JvdW5kLWNvbG9yOiAjNmM1Y2U3O2Rpc3BsYXk6IGZsZXg7ZmxleC1kaXJlY3Rpb246IGNvbHVtbjtqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjthbGlnbi1pdGVtczogY2VudGVyO30NCi5jb250YWluZXIge2ZsZXgtZ3JvdzogMTtkaXNwbGF5OiBmbGV4O2p1c3RpZnktY29udGVudDogY2VudGVyO2FsaWduLWl0ZW1zOiBjZW50ZXI7d2lkdGg6IDEwMCU7fQ0KLmNhcmQge2JhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7Ym9yZGVyLXJhZGl1czogMTBweDtwYWRkaW5nOiAyMHB4O3dpZHRoOiAzMDBweDtib3gtc2hhZG93OiAwIDRweCA2cHggcmdiYSgwLCAwLCAwLCAwLjEpO30NCmgyIHttYXJnaW4tdG9wOiAwO2NvbG9yOiAjMzMzO30NCmlucHV0W3R5cGU9InRleHQiXSB7d2lkdGg6IDEwMCU7cGFkZGluZzogMTBweCAwO21hcmdpbi1ib3R0b206IDIwcHg7Ym9yZGVyOiBub25lO2JvcmRlci1ib3R0b206IDJweCBzb2xpZCAjNmM1Y2U3O2ZvbnQtc2l6ZTogMTZweDtvdXRsaW5lOiBub25lO30NCi5idXR0b25zIHtkaXNwbGF5OiBmbGV4O2p1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2Vlbjt9DQpidXR0b24ge3BhZGRpbmc6IDEwcHggMjBweDtib3JkZXI6IG5vbmU7Ym9yZGVyLXJhZGl1czogNXB4O2N1cnNvcjogcG9pbnRlcjtmb250LXNpemU6IDE0cHg7fQ0KLmNsZWFyIHtiYWNrZ3JvdW5kLWNvbG9yOiAjZjFmMmY2O2NvbG9yOiAjMzMzO30NCi5zdWJtaXQge2JhY2tncm91bmQtY29sb3I6ICM2YzVjZTc7Y29sb3I6IHdoaXRlO30NCiNyZXN1bHQge2NvbG9yOiBibGFjazt0ZXh0LWFsaWduOiBjZW50ZXI7cGFkZGluZzogMTBweDt3aWR0aDogMTAwJTttYXJnaW4tdG9wOiBhdXRvO30=');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Enter Username</h2>
+            <form method="POST" action="/">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <div class="buttons">
+                    <button type="reset" class="clear">Clear</button>
+                    <button type="submit" class="submit">Submit</button>
+                </div>
+            </form>
+            <div id="result">
+                {result}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

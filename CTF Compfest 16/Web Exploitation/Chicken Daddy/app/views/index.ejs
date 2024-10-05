@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Daddy</title>
+    <link rel="stylesheet" href="./css/styles.css" text="text/css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <%- include('partials/nav') %>
+
+    <!-- Welcome sign -->
+    <div class="container flex flex-col justify-center mx-auto py-8 px-8 gap-4">
+        <div class="container flex flex-col items-center border-2 bg-red-500 text-white py-8 rounded-xl">
+            <h1 class="text-3xl font-bold">🍗 Welcome to Chicken Daddy 🍗</h1>
+            <h2 class="text-xl mt-4">The best place to find all your chicken recipes</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <% for (let i = 0; i < recipes.length; i++) { %>
+                <div class="container flex flex-col items-center justify-evenly border-2 border-gray-300 py-8 rounded-xl px-8">
+                    <h1 class="text-xl font-bold text-center"><%= recipes[i].name %></h1>
+                    <img src="<%= recipes[i].img_url %>" alt="<%= recipes[i].name %>" class="w-64 h-64 object-cover rounded-full my-4">
+                    <h2 class="text-md text-center mt-4"><%= recipes[i].description %></h2>
+                    <div class="pt-8 mt-auto">
+                        <a href="/?id=<%= recipes[i].id %>" class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded ">View Recipe</a>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>

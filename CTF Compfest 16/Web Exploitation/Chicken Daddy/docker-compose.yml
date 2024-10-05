@@ -1,0 +1,46 @@
+version: '3.7'
+
+services:
+  mysql_server:
+    container_name: chicken_daddy-mysql
+    build:
+      context: ./src/mysql
+      dockerfile: Dockerfile
+    environment:
+      - MYSQL_ROOT_PASSWORD=anypassworks
+      - MYSQL_DATABASE=anynameworks
+      - MYSQL_USER=whoareyou
+      - MYSQL_PASSWORD=anypassworks
+    volumes:
+      - mysql_db:/var/lib/mysql
+    networks:
+      - web
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 1s
+      timeout: 20s
+      retries: 20
+
+  app:
+    container_name: chicken_daddy-app
+    build:
+      context: ./src/app
+      dockerfile: Dockerfile
+    depends_on:
+      mysql_server:
+        condition: service_healthy
+    environment:
+      - DB_HOST=mysql_server
+      - DB_USER=root
+      - DB_PASS=anypassworks
+      - DB_DATABASE=anynameworks
+    ports:
+      - "9013:3000"
+    networks:
+      - web
+
+volumes:
+  mysql_db:
+
+networks:
+  web:

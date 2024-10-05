@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Daddy</title>
+    <link rel="stylesheet" href="./css/styles.css" text="text/css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <%- include('partials/nav') %>
+    <!-- Recipe -->
+    <div class="container w-screen flex flex-col justify-center mx-auto py-8 gap-4">
+        <div class="container flex flex-col items-center border-2 border-gray-300 py-8 rounded-xl px-8">
+            <h1 class="text-3xl font-bold"><%= recipe.name %></h1>
+            <img src="<%= recipe.img_url %>" alt="<%= recipe.name %>" class="w-64 h-64 object-cover rounded-full my-4">
+            <h2 class="text-xl my-4"><%= recipe.description %></h2>
+            <div class="container w-auto">
+                <% if (recipe.instructions !== null) { %>
+                    <% for (const line of recipe.instructions.split("\n")) { %>
+                        <p class="text-lg"><%= line %></p>
+                    <% } %>
+                <% } else { %>
+                    <p class="text-lg"><%=recipe.instructions%></p>
+                <% } %>
+            </div>
+</body>
+</html>
