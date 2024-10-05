@@ -1,0 +1,26 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "watch": "concurrently \"nodemon index.js\" \"tailwindcss -i ./public/css/tailwind.css -o ./public/css/styles.css --watch\""
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}

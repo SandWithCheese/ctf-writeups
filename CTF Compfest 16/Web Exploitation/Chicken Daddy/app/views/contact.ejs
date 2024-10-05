@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Daddy</title>
+    <link rel="stylesheet" href="./css/styles.css" text="text/css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <%- include('partials/nav') %>
+
+    <!-- Contact Form -->
+    <div class="container w-screen flex flex-col justify-center mx-auto py-8 gap-4">
+        <div class="container flex flex-col items-center border-2 border-gray-300 py-8 rounded-xl px-8">
+            <h1 class="text-3xl font-bold">Contact Us</h1>
+            <h2 class="text-xl mt-4">Have a question or concern? Reach out to us!</h2>
+        </div>
+        <div>
+            <form action="/contact" method="POST" class="container flex flex-col items-center border-2 border-gray-300 py-8 rounded-xl px-8">
+                <label for="name" class="text-xl font-bold">Name</label>
+                <input type="text" id="name" name="name" class="w-64 h-8 border-2 border-gray-300 rounded-md my-4" required>
+                <label for="email" class="text-xl font-bold">Email</label>
+                <input type="email" id="email" name="email" class="w-64 h-8 border-2 border-gray-300 rounded-md my-4" required>
+                <label for="message" class="text-xl font-bold">Message</label>
+                <textarea id="message" name="message" class="w-64 h-32 border-2 border-gray-300 rounded-md my-4" required></textarea>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded ">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

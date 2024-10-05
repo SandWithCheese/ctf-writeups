@@ -1,0 +1,2 @@
+a1 + b1 + c1 + d1 = sums
+(a1 ^ e % n) + (a2 ^ e % n) + ... = weight[0]

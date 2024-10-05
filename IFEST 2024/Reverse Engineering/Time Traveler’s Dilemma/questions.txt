@@ -1,0 +1,5 @@
+Please find the answers to these questions below, once you've found them, go ahead and submit them to the netcat provided.
+
+1. What is the value of the variable 'rand' when 'i = 3'?
+2. What is the value of the variable 'rand' when 'i = 2'?
+3. What is the value of the variable 'rand' when 'i = 1'?

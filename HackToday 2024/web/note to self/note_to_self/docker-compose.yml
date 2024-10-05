@@ -1,0 +1,8 @@
+services:
+  hacktoday:
+    container_name: note_to_self
+    restart: always
+    build:
+      context: .
+    ports:
+      - "80:8000" # exposed:local
