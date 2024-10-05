@@ -1,0 +1,1 @@
+slashroot8{ez_aes_decrypt_game_for_first_chall}

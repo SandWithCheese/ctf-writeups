@@ -1,0 +1,11 @@
+A mad pianist tried to create a code that could change the steganography world.
+He found a new method and thought that this method was the next big thing.
+He was very secretive about his work, however he still couldn't escape our eyes.
+
+We managed to get a hold of the code and the music he created.
+We even managed to get a hold of the reference paper he used.
+https://connections-qj.org/article/new-steganographic-algorithm-hiding-messages-music
+
+Your task, should you choose to accept it, is to recover a secret message left behind by the mad pianist.
+Good luck.
+This message will self-destruct in 5 seconds.
