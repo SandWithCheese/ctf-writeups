@@ -1,0 +1,10 @@
+version: '3'
+services:
+  oldbutgold:
+    build: .
+    ports:
+      - "24242:5000"
+    environment:
+      - FLAG=FLAG{fake_flag}
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=supersecretpassword
