@@ -1,0 +1,10 @@
+services:
+  flask-is-dead:
+    build: .
+    ports:
+      - "5000:5000"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 50M
