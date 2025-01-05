@@ -1,0 +1,6 @@
+services:
+  pdf-generator:
+    build: .
+    restart: always
+    ports:
+      - "10012:1337"

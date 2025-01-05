@@ -1,0 +1,10 @@
+services:
+  solid-blog:
+    build: .
+    ports:
+      - "1337:80"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 50M
