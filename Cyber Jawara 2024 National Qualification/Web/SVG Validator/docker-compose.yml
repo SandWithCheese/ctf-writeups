@@ -1,0 +1,9 @@
+services:
+  flask-app:
+    build: .
+    ports:
+      - "5557:5557"
+    restart: unless-stopped
+    environment:
+      - RECAPTCHA_SITE_KEY=
+      - RECAPTCHA_SECRET_KEY=

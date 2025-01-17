@@ -1,0 +1,16 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "freelance project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ryuk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "crypto": "^1.0.1",
+    "express": "^4.21.2"
+  }
+}

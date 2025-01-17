@@ -1,0 +1,7 @@
+services:
+  pyrip:
+    build: .
+    ports:
+      - target: 9999
+        published: 9999
+        protocol: tcp
