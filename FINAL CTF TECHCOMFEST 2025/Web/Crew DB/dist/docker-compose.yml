@@ -1,0 +1,42 @@
+services:
+  crew-db:
+    build: .
+    restart: always
+    ports:
+      - "10012:1337"
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=REDACTED 
+      - MYSQL_PASSWORD=REDACTED
+      - MYSQL_DATABASE=money_heist
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "mysql", "-u", "REDACTED", "-pREDACTED"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=REDACTED
+      - MYSQL_USER=REDACTED
+      - MYSQL_PASSWORD=REDACTED
+      - MYSQL_DATABASE=money_heist
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-u", "root", "-pREDACTED"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,31 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "62894:8080"
+    environment:
+      SECRET: "${SECRET}"
+      FLAG: "${FLAG}"
+  bot:
+    build:
+      context: bot
+      args:
+        - BROWSER=chromium
+    restart: always
+    environment:
+      APPNAME: Admin
+      APPURL: http://web:8080/
+      APPURLREGEX: ^http(|s)://.*$
+      APPFLAG: "${SECRET}"
+      APPLIMIT: 2
+      APPLIMITTIME: 60
+      USE_PROXY: 1
+      DISPLAY: ${DISPLAY}
+    ports:
+      - "50078:3000"
+    # uncoment this if you need to run the bot in GUI mode
+    # run this before running the docker container if you're use xauth `sudo xhost +local:docker`
+    # volumes:
+    #   - /tmp/.X11-unix:/tmp/.X11-unix

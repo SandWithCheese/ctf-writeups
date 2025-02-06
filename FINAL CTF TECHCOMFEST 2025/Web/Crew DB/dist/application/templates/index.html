@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Heist Database</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #222; color: #fff; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #444; padding: 8px; }
+        th { background-color: #444; }
+        .container { margin: 20px; }
+        input { padding: 5px; }
+        input[type="submit"] { background-color: #e74c3c; border: none; color: #fff; cursor: pointer; }
+        input[type="submit"]:hover { background-color: #c0392b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cyber Heist Crew Database</h1>
+
+        <form method="post" action="/">
+            <label for="role">Crew Role:</label>
+            <input type="text" id="role" name="role" placeholder="e.g., Hacker, Strategist" required>
+            <br>
+            <label for="expertise">Expertise Area:</label>
+            <input type="text" id="expertise" name="expertise" placeholder="e.g., Security, Cryptography" required>
+            <br><br>
+            <input type="submit" value="Search Crew Member">
+        </form>
+
+        {% if data %}
+            <h2>Search Results:</h2>
+            {% if data|length > 0 %}
+                <ul>
+                    {% for row in data %}
+                        <li>{{ row.name }} - {{ row.role }} (Expertise: {{ row.expertise }})</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No results found.</p>
+            {% endif %}
+        {% endif %}
+
+        <h2>All Crew Members:</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Expertise Area</th>
+            </tr>
+            {% for row in all_records %}
+                <tr>
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.role }}</td>
+                    <td>{{ row.expertise }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+</html>
