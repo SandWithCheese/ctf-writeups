@@ -1,0 +1,6 @@
+services:
+  el-kebanteran:
+    build: .
+    restart: always
+    ports:
+      - "12124:5000"

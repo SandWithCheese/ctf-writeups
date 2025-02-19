@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Kebanteren Quotes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="/" class="text-xl font-semibold text-gray-900">El Kebanteren</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="/profile" class="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">Profile</a>
+                        <a href="/get_quotes" class="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-xl mx-auto p-6">
+        <h1 class="text-3xl font-bold text-center text-gray-900 mb-6">
+            Type something and get the wise quotes from Raden Banter
+        </h1>
+
+        <!-- Form Section -->
+        <form method="POST" action="/get_quotes" class="flex flex-col space-y-4">
+            <input type="text" id="input" name="input" required 
+                   class="border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-blue-500 focus:outline-none" 
+                   placeholder="Enter your text here">
+            <input type="submit" value="Submit" 
+                   class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg cursor-pointer">
+        </form>
+
+        <!-- Quotes Output -->
+        <div class="mt-6 text-center">
+            <p class="text-lg text-gray-700">{{ quotes }}</p>
+        </div>
+    </main>
+
+</body>
+</html>

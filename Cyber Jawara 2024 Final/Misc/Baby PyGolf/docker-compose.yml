@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  pygolf:
+    build: .
+    restart: on-failure
+    privileged: true
+    ports:
+      - 9041:5000
