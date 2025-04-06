@@ -1,0 +1,3 @@
+@openzeppelin-contracts/=dependencies/@openzeppelin-contracts-5.2.0-m/
+@openzeppelin-contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.2.0/
+forge-std-1.9.5/=dependencies/forge-std-1.9.5/
