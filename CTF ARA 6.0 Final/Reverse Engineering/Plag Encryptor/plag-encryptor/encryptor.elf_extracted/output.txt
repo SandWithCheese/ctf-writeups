@@ -1,0 +1,625 @@
+execve("./main.bin", ["./main.bin"], 0x7ffc4f5d3378 /* 43 vars */) = 0
+brk(NULL)                               = 0x632c4576d000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f9296000
+readlinkat(AT_FDCWD, "/proc/self/exe", "/home/sandwicheese/ctf-writeups/"..., 4096) = 132
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/glibc-hwcaps/x86-64-v3/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/glibc-hwcaps/x86-64-v3/", 0x7fff7fbee2d0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/glibc-hwcaps/x86-64-v2/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/glibc-hwcaps/x86-64-v2/", 0x7fff7fbee2d0, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=102287, ...}) = 0
+mmap(NULL, 102287, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7c02f927d000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=952616, ...}) = 0
+mmap(NULL, 950296, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9194000
+mmap(0x7c02f91a4000, 520192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7c02f91a4000
+mmap(0x7c02f9223000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8f000) = 0x7c02f9223000
+mmap(0x7c02f927b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe7000) = 0x7c02f927b000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=113000, ...}) = 0
+mmap(NULL, 110744, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9178000
+mmap(0x7c02f917a000, 73728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f917a000
+mmap(0x7c02f918c000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7c02f918c000
+mmap(0x7c02f9192000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7c02f9192000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=199808, ...}) = 0
+mmap(NULL, 203904, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9146000
+mprotect(0x7c02f914a000, 184320, PROT_NONE) = 0
+mmap(0x7c02f914a000, 126976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7c02f914a000
+mmap(0x7c02f9169000, 40960, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7c02f9169000
+mmap(0x7c02f9174000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2d000) = 0x7c02f9174000
+mmap(0x7c02f9177000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x30000) = 0x7c02f9177000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f8e00000
+mmap(0x7c02f8e28000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7c02f8e28000
+mmap(0x7c02f8fb0000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7c02f8fb0000
+mmap(0x7c02f8fff000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x7c02f8fff000
+mmap(0x7c02f9005000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7c02f9005000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f9144000
+arch_prctl(ARCH_SET_FS, 0x7c02f9145300) = 0
+set_tid_address(0x7c02f91455d0)         = 112847
+set_robust_list(0x7c02f91455e0, 24)     = 0
+rseq(0x7c02f9145c20, 0x20, 0, 0x53053053) = 0
+mprotect(0x7c02f8fff000, 16384, PROT_READ) = 0
+mprotect(0x7c02f9174000, 8192, PROT_READ) = 0
+mprotect(0x7c02f9192000, 4096, PROT_READ) = 0
+mprotect(0x7c02f927b000, 4096, PROT_READ) = 0
+mprotect(0x632c08f1c000, 28672, PROT_READ) = 0
+mprotect(0x7c02f92d4000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7c02f927d000, 102287)          = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x632c08535f70, sa_mask=[SEGV], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7c02f8e45330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+getrandom("\xd5\xa2\x40\x95\x64\xb2\x53\xdb", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x632c4576d000
+brk(0x632c4578e000)                     = 0x632c4578e000
+readlink("/proc/self/exe", "/home/sandwicheese/ctf-writeups/"..., 4096) = 132
+readlink("/home", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+readlink("/home/sandwicheese", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+readlink("/home/sandwicheese/ctf-writeups", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+readlink("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+readlink("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+readlink("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+readlink("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+readlink("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+readlink("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/main.bin", 0x7fff7fbedc00, 1023) = -1 EINVAL (Invalid argument)
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5719296, ...}) = 0
+mmap(NULL, 5719296, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7c02f8800000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=27028, ...}) = 0
+mmap(NULL, 27028, PROT_READ, MAP_SHARED, 3, 0) = 0x7c02f928f000
+close(3)                                = 0
+futex(0x7c02f900472c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getrandom("\xc1\xe4\x1e\x47\x97\x3a\xea\xfd\x66\xb9\x87\x5a\xbf\x4a\xa0\xe1\xb5\xc8\x05\x56\x8c\xe7\x5b\x6c", 24, GRND_NONBLOCK) = 24
+brk(0x632c457af000)                     = 0x632c457af000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f9044000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f8dbf000
+brk(0x632c457d0000)                     = 0x632c457d0000
+brk(0x632c457f5000)                     = 0x632c457f5000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f8700000
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=383, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=383, ...}) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 383
+lseek(3, -211, SEEK_CUR)                = 172
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 211
+close(3)                                = 0
+brk(0x632c45816000)                     = 0x632c45816000
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7c02f8e45330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7c02f8e45330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=0x632c08535f70, sa_mask=[SEGV], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7c02f8e45330}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7c02f8e45330}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7c02f8e45330}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x632c087bbd80, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7c02f8e45330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}) = 0
+dup(0)                                  = 3
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}) = 0
+ioctl(0, TCGETS, {c_iflag=ICRNL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(0, TCGETS, {c_iflag=ICRNL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+dup(1)                                  = 3
+close(3)                                = 0
+fstat(1, {st_mode=S_IFREG|0664, st_size=21, ...}) = 0
+ioctl(1, TCGETS, 0x7fff7fbee860)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(1, 0, SEEK_CUR)                   = 0
+ioctl(1, TCGETS, 0x7fff7fbeeb30)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(1, 0, SEEK_CUR)                   = 0
+dup(2)                                  = 3
+close(3)                                = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}) = 0
+ioctl(2, TCGETS, {c_iflag=ICRNL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(2, TCGETS, {c_iflag=ICRNL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+readlink("./main.bin", 0x7fff7fbddfa0, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", 1024) = 124
+readlink("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/main.bin", 0x7fff7fbddb40, 1023) = -1 EINVAL (Invalid argument)
+readlink("/proc/self/exe", "/home/sandwicheese/ctf-writeups/"..., 4096) = 132
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f901f000
+brk(0x632c45837000)                     = 0x632c45837000
+brk(0x632c45858000)                     = 0x632c45858000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f8600000
+brk(0x632c45879000)                     = 0x632c45879000
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/_opcode.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=17656, ...}) = 0
+mmap(NULL, 21752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9289000
+mmap(0x7c02f928a000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f928a000
+mmap(0x7c02f928b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f928b000
+mmap(0x7c02f928c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f928c000
+mmap(0x7c02f928e000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7c02f928e000
+close(3)                                = 0
+mprotect(0x7c02f928c000, 4096, PROT_READ) = 0
+brk(0x632c4589a000)                     = 0x632c4589a000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f8500000
+brk(0x632c458bb000)                     = 0x632c458bb000
+brk(0x632c458b8000)                     = 0x632c458b8000
+getcwd("/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", 1024) = 124
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/_hashlib.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=70736, ...}) = 0
+mmap(NULL, 74832, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f8dac000
+mmap(0x7c02f8db0000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7c02f8db0000
+mmap(0x7c02f8db6000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7c02f8db6000
+mmap(0x7c02f8dba000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7c02f8dba000
+mmap(0x7c02f8dbd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7c02f8dbd000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=4611672, ...}) = 0
+mmap(NULL, 4628056, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f8000000
+mprotect(0x7c02f80b2000, 3743744, PROT_NONE) = 0
+mmap(0x7c02f80b2000, 2486272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb2000) = 0x7c02f80b2000
+mmap(0x7c02f8311000, 860160, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x311000) = 0x7c02f8311000
+mmap(0x7c02f83e3000, 385024, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3e2000) = 0x7c02f83e3000
+mmap(0x7c02f8441000, 9408, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7c02f8441000
+mmap(0x7c02f8444000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x440000) = 0x7c02f8444000
+close(3)                                = 0
+mprotect(0x7c02f83e3000, 372736, PROT_READ) = 0
+mprotect(0x7c02f8dba000, 4096, PROT_READ) = 0
+futex(0x7c02f84404d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440ba4, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440ba0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440b9c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440ef0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440b94, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440b90, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440778, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440a00, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440748, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440b98, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/lib/ssl/openssl.cnf", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=12324, ...}) = 0
+read(3, "#\n# OpenSSL example configuratio"..., 4096) = 4096
+read(3, "d attributes must be the same, a"..., 4096) = 4096
+read(3, "coding of an extension: beware e"..., 4096) = 4096
+read(3, " = $insta::certout # insta.cert."..., 4096) = 36
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+futex(0x7c02f8440920, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440b80, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440b7c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f844070c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7c02f8440b8c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+brk(0x632c458df000)                     = 0x632c458df000
+brk(0x632c45900000)                     = 0x632c45900000
+getrandom("\x2e\x38\x46\x8c\x20\x55\xfa\xdf\x80\x79\x09\x27\xaa\xc8\x92\xc6\x8e\xc5\xf3\xac\xe5\x63\x23\x2d\xdb\x4e\x0b\x41\x3a\x76\x55\x7b"..., 2496, GRND_NONBLOCK) = 2496
+getrandom("\x2c\x18\x2c\x1d\xd7\xf7\x47\xf5\x6b\xb9\xcd\xf8\x8b\xc1\xfd\x0f\x18\xd8\x23\xe7\x02\xe4\x89\x88\x87\x71\x5e\x68\x6a\x67\x99\x4c"..., 2496, GRND_NONBLOCK) = 2496
+mmap(NULL, 299008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f84b7000
+munmap(0x7c02f901f000, 151552)          = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/_cffi_backend.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=206608, ...}) = 0
+mmap(NULL, 218896, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f8d76000
+mprotect(0x7c02f8d7e000, 176128, PROT_NONE) = 0
+mmap(0x7c02f8d7e000, 98304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7c02f8d7e000
+mmap(0x7c02f8d96000, 45056, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7c02f8d96000
+mmap(0x7c02f8da2000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7c02f8da2000
+mmap(0x7c02f8da6000, 9952, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7c02f8da6000
+mmap(0x7c02f8da9000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x30000) = 0x7c02f8da9000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/libffi.so.8", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=51360, ...}) = 0
+mmap(NULL, 55456, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9036000
+mprotect(0x7c02f9038000, 45056, PROT_NONE) = 0
+mmap(0x7c02f9038000, 28672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9038000
+mmap(0x7c02f903f000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7c02f903f000
+mmap(0x7c02f9041000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7c02f9041000
+mmap(0x7c02f9043000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7c02f9043000
+close(3)                                = 0
+mprotect(0x7c02f9041000, 4096, PROT_READ) = 0
+mprotect(0x7c02f8da2000, 4096, PROT_READ) = 0
+brk(0x632c45921000)                     = 0x632c45921000
+newfstatat(AT_FDCWD, "/not_existing", 0x7fff7fbde970, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "", 0x7fff7fbde970, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/not_existing", 0x7fff7fbde7b0, 0) = -1 ENOENT (No such file or directory)
+gettid()                                = 112847
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(3, 0x632c4590f2a0 /* 29 entries */, 32768) = 1016
+getdents64(3, 0x632c4590f2a0 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+epoll_create1(EPOLL_CLOEXEC)            = 3
+close(3)                                = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f7f00000
+brk(0x632c45942000)                     = 0x632c45942000
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+brk(0x632c45964000)                     = 0x632c45964000
+brk(0x632c45985000)                     = 0x632c45985000
+brk(0x632c459a6000)                     = 0x632c459a6000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f7e00000
+brk(0x632c459c7000)                     = 0x632c459c7000
+brk(0x632c459e8000)                     = 0x632c459e8000
+brk(0x632c45a09000)                     = 0x632c45a09000
+brk(0x632c45a2a000)                     = 0x632c45a2a000
+brk(0x632c45a4b000)                     = 0x632c45a4b000
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ecb.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ecb.abi3.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ecb.so", {st_mode=S_IFREG|0664, st_size=21552, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ecb.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=21552, ...}) = 0
+mmap(NULL, 21552, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9283000
+mmap(0x7c02f9284000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f9284000
+mmap(0x7c02f9285000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9285000
+mmap(0x7c02f9286000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9286000
+mmap(0x7c02f9288000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7c02f9288000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../../glibc-hwcaps/x86-64-v3/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../../glibc-hwcaps/x86-64-v3/", 0x7fff7fbe5260, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../../glibc-hwcaps/x86-64-v2/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../../glibc-hwcaps/x86-64-v2/", 0x7fff7fbe5260, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../../libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../../", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../glibc-hwcaps/x86-64-v3/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../glibc-hwcaps/x86-64-v3/", 0x7fff7fbe5260, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../glibc-hwcaps/x86-64-v2/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../glibc-hwcaps/x86-64-v2/", 0x7fff7fbe5260, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/../", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=102287, ...}) = 0
+mmap(NULL, 102287, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7c02f901d000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14408, ...}) = 0
+mmap(NULL, 16400, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f927e000
+mmap(0x7c02f927f000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f927f000
+mmap(0x7c02f9280000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9280000
+mmap(0x7c02f9281000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9281000
+close(3)                                = 0
+mprotect(0x7c02f9281000, 4096, PROT_READ) = 0
+mprotect(0x7c02f9286000, 4096, PROT_READ) = 0
+munmap(0x7c02f901d000, 102287)          = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_cbc.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_cbc.abi3.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_cbc.so", {st_mode=S_IFREG|0664, st_size=25752, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_cbc.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=25752, ...}) = 0
+mmap(NULL, 21656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9030000
+mmap(0x7c02f9031000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f9031000
+mmap(0x7c02f9032000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9032000
+mmap(0x7c02f9033000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9033000
+mmap(0x7c02f9035000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7c02f9035000
+close(3)                                = 0
+mprotect(0x7c02f9033000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_cfb.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_cfb.abi3.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_cfb.so", {st_mode=S_IFREG|0664, st_size=29920, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_cfb.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=29920, ...}) = 0
+mmap(NULL, 21728, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f902a000
+mmap(0x7c02f902b000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f902b000
+mmap(0x7c02f902c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f902c000
+mmap(0x7c02f902d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f902d000
+mmap(0x7c02f902f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7c02f902f000
+close(3)                                = 0
+mprotect(0x7c02f902d000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ofb.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ofb.abi3.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ofb.so", {st_mode=S_IFREG|0664, st_size=25752, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ofb.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=25752, ...}) = 0
+mmap(NULL, 21656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9024000
+mmap(0x7c02f9025000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f9025000
+mmap(0x7c02f9026000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9026000
+mmap(0x7c02f9027000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9027000
+mmap(0x7c02f9029000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7c02f9029000
+close(3)                                = 0
+mprotect(0x7c02f9027000, 4096, PROT_READ) = 0
+brk(0x632c45a7a000)                     = 0x632c45a7a000
+brk(0x632c45ab0000)                     = 0x632c45ab0000
+mmap(NULL, 299008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7c02f846e000
+brk(0x632c45a7a000)                     = 0x632c45a7a000
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ctr.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ctr.abi3.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ctr.so", {st_mode=S_IFREG|0664, st_size=34024, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ctr.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=34024, ...}) = 0
+mmap(NULL, 21736, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f901e000
+mmap(0x7c02f901f000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f901f000
+mmap(0x7c02f9020000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9020000
+mmap(0x7c02f9021000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9021000
+mmap(0x7c02f9023000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7c02f9023000
+close(3)                                = 0
+mprotect(0x7c02f9021000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Util/_strxor.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe3960, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Util/_strxor.abi3.so", 0x7fff7fbe3960, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Util/_strxor.so", {st_mode=S_IFREG|0664, st_size=21448, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Util/_strxor.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=21448, ...}) = 0
+mmap(NULL, 21448, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9018000
+mmap(0x7c02f9019000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f9019000
+mmap(0x7c02f901a000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f901a000
+mmap(0x7c02f901b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f901b000
+mmap(0x7c02f901d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7c02f901d000
+close(3)                                = 0
+mprotect(0x7c02f901b000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_BLAKE2s.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe32f0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_BLAKE2s.abi3.so", 0x7fff7fbe32f0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_BLAKE2s.so", {st_mode=S_IFREG|0664, st_size=29872, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_BLAKE2s.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=29872, ...}) = 0
+mmap(NULL, 21680, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f9012000
+mmap(0x7c02f9013000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f9013000
+mmap(0x7c02f9014000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9014000
+mmap(0x7c02f9015000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f9015000
+mmap(0x7c02f9017000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7c02f9017000
+close(3)                                = 0
+mprotect(0x7c02f9015000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_SHA1.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe0430, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_SHA1.abi3.so", 0x7fff7fbe0430, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_SHA1.so", {st_mode=S_IFREG|0664, st_size=75008, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_SHA1.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=75008, ...}) = 0
+mmap(NULL, 25856, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7df9000
+mmap(0x7c02f7dfa000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7dfa000
+mmap(0x7c02f7dfc000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7c02f7dfc000
+mmap(0x7c02f7dfd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7c02f7dfd000
+mmap(0x7c02f7dff000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7c02f7dff000
+close(3)                                = 0
+mprotect(0x7c02f7dfd000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_SHA256.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe0440, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_SHA256.abi3.so", 0x7fff7fbe0440, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_SHA256.so", {st_mode=S_IFREG|0664, st_size=50480, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_SHA256.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=50480, ...}) = 0
+mmap(NULL, 30000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7df1000
+mmap(0x7c02f7df2000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7df2000
+mmap(0x7c02f7df5000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7c02f7df5000
+mmap(0x7c02f7df6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7c02f7df6000
+mmap(0x7c02f7df8000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7c02f7df8000
+close(3)                                = 0
+mprotect(0x7c02f7df6000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_Salsa20.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe3930, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_Salsa20.abi3.so", 0x7fff7fbe3930, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_Salsa20.so", {st_mode=S_IFREG|0664, st_size=29816, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_Salsa20.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=29816, ...}) = 0
+mmap(NULL, 21624, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7deb000
+mmap(0x7c02f7dec000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7dec000
+mmap(0x7c02f7ded000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7ded000
+mmap(0x7c02f7dee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7dee000
+mmap(0x7c02f7df0000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7c02f7df0000
+close(3)                                = 0
+mprotect(0x7c02f7dee000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Protocol/_scrypt.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe3930, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Protocol/_scrypt.abi3.so", 0x7fff7fbe3930, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Protocol/_scrypt.so", {st_mode=S_IFREG|0664, st_size=29744, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Protocol/_scrypt.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=29744, ...}) = 0
+mmap(NULL, 21552, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7de5000
+mmap(0x7c02f7de6000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7de6000
+mmap(0x7c02f7de7000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7de7000
+mmap(0x7c02f7de8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7de8000
+mmap(0x7c02f7dea000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7c02f7dea000
+close(3)                                = 0
+mprotect(0x7c02f7de8000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Util/_cpuid_c.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe3340, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Util/_cpuid_c.abi3.so", 0x7fff7fbe3340, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Util/_cpuid_c.so", {st_mode=S_IFREG|0664, st_size=21456, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Util/_cpuid_c.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=21456, ...}) = 0
+mmap(NULL, 21456, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7ddf000
+mmap(0x7c02f7de0000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7de0000
+mmap(0x7c02f7de1000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7de1000
+mmap(0x7c02f7de2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7de2000
+mmap(0x7c02f7de4000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7c02f7de4000
+close(3)                                = 0
+mprotect(0x7c02f7de2000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_ghash_portable.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe6700, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_ghash_portable.abi3.so", 0x7fff7fbe6700, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_ghash_portable.so", {st_mode=S_IFREG|0664, st_size=29768, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_ghash_portable.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=29768, ...}) = 0
+mmap(NULL, 21576, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7dd9000
+mmap(0x7c02f7dda000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7dda000
+mmap(0x7c02f7ddb000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7ddb000
+mmap(0x7c02f7ddc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7ddc000
+mmap(0x7c02f7dde000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7c02f7dde000
+close(3)                                = 0
+mprotect(0x7c02f7ddc000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_ghash_clmul.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe66c0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_ghash_clmul.abi3.so", 0x7fff7fbe66c0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_ghash_clmul.so", {st_mode=S_IFREG|0664, st_size=62536, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Hash/_ghash_clmul.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=62536, ...}) = 0
+mmap(NULL, 21576, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7dd3000
+mmap(0x7c02f7dd4000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7dd4000
+mmap(0x7c02f7dd5000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7dd5000
+mmap(0x7c02f7dd6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7dd6000
+mmap(0x7c02f7dd8000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7c02f7dd8000
+close(3)                                = 0
+mprotect(0x7c02f7dd6000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ocb.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ocb.abi3.so", 0x7fff7fbe67e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ocb.so", {st_mode=S_IFREG|0664, st_size=50440, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_ocb.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=50440, ...}) = 0
+mmap(NULL, 25864, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7dcc000
+mmap(0x7c02f7dcd000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7dcd000
+mmap(0x7c02f7dcf000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7c02f7dcf000
+mmap(0x7c02f7dd0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7c02f7dd0000
+mmap(0x7c02f7dd2000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7c02f7dd2000
+close(3)                                = 0
+mprotect(0x7c02f7dd0000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_Salsa20.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe9070, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_Salsa20.abi3.so", 0x7fff7fbe9070, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_Salsa20.so", {st_mode=S_IFREG|0664, st_size=29816, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_aes.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe9010, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_aes.abi3.so", 0x7fff7fbe9010, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_aes.so", {st_mode=S_IFREG|0664, st_size=111648, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_aes.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=111648, ...}) = 0
+mmap(NULL, 37920, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7dc2000
+mmap(0x7c02f7dc3000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7dc3000
+mmap(0x7c02f7dc6000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7c02f7dc6000
+mmap(0x7c02f7dc9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7c02f7dc9000
+mmap(0x7c02f7dcb000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7c02f7dcb000
+close(3)                                = 0
+mprotect(0x7c02f7dc9000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_aesni.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe9010, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_aesni.abi3.so", 0x7fff7fbe9010, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_aesni.so", {st_mode=S_IFREG|0664, st_size=107672, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_raw_aesni.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=107672, ...}) = 0
+mmap(NULL, 25752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7dbb000
+mmap(0x7c02f7dbc000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7dbc000
+mmap(0x7c02f7dbe000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7c02f7dbe000
+mmap(0x7c02f7dbf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7c02f7dbf000
+mmap(0x7c02f7dc1000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7c02f7dc1000
+close(3)                                = 0
+mprotect(0x7c02f7dbf000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_ARC4.cpython-310-x86_64-linux-gnu.so", 0x7fff7fbe9070, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_ARC4.abi3.so", 0x7fff7fbe9070, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_ARC4.so", {st_mode=S_IFREG|0664, st_size=25664, ...}, 0) = 0
+openat(AT_FDCWD, "/home/sandwicheese/ctf-writeups/CTF ARA 6.0 Final/Reverse Engineering/Plag Encryptor/plag-encryptor/encryptor.elf_extracted/Crypto/Util/../Cipher/_ARC4.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0664, st_size=25664, ...}) = 0
+mmap(NULL, 21568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7c02f7db5000
+mmap(0x7c02f7db6000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7c02f7db6000
+mmap(0x7c02f7db7000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7db7000
+mmap(0x7c02f7db8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7c02f7db8000
+mmap(0x7c02f7dba000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7c02f7dba000
+close(3)                                = 0
+mprotect(0x7c02f7db8000, 4096, PROT_READ) = 0
+openat(AT_FDCWD, "plag.txt", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(3, {st_mode=S_IFREG|0664, st_size=2, ...}) = 0
+ioctl(3, TCGETS, 0x7fff7fbec6a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=2, ...}) = 0
+read(3, "A\n", 3)                       = 2
+read(3, "", 1)                          = 0
+close(3)                                = 0
+getrandom("\xf7\x6f\x65\x5a\x4e\xb6\xce\x39", 8, 0) = 8
+openat(AT_FDCWD, "plag.txt.enc", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+ioctl(3, TCGETS, 0x7fff7fbec6a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+write(3, "O\243A\331\356O\257\355r\252\367oeZN\266\3169", 18) = 18
+close(3)                                = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7c02f8e45330}, {sa_handler=0x632c087bbd80, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7c02f8e45330}, 8) = 0
+munmap(0x7c02f9283000, 21552)           = 0
+munmap(0x7c02f9030000, 21656)           = 0
+munmap(0x7c02f902a000, 21728)           = 0
+munmap(0x7c02f9024000, 21656)           = 0
+munmap(0x7c02f901e000, 21736)           = 0
+munmap(0x7c02f9018000, 21448)           = 0
+munmap(0x7c02f9012000, 21680)           = 0
+munmap(0x7c02f7df9000, 25856)           = 0
+munmap(0x7c02f7df1000, 30000)           = 0
+munmap(0x7c02f7de5000, 21552)           = 0
+munmap(0x7c02f7ddf000, 21456)           = 0
+munmap(0x7c02f7dd9000, 21576)           = 0
+munmap(0x7c02f7dd3000, 21576)           = 0
+munmap(0x7c02f7dcc000, 25864)           = 0
+munmap(0x7c02f7deb000, 21624)           = 0
+munmap(0x7c02f7dc2000, 37920)           = 0
+munmap(0x7c02f7dbb000, 25752)           = 0
+munmap(0x7c02f7db5000, 21568)           = 0
+munmap(0x7c02f927e000, 16400)           = 0
+munmap(0x7c02f84b7000, 299008)          = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
