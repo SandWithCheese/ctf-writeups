@@ -1,0 +1,6 @@
+the flag is split into two parts
+one will be shown on the screen (I think?)
+and the other is inside the 7z file
+
+oh, dont forget to kill the game after exiting. looks like the exit logic’s a bit broken (still learning unity)
+debug is on
