@@ -1,0 +1,17 @@
+{
+  "name": "chovid-giveaway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flag.js",
+  "scripts": {
+    "start": "node flag.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.14.0",
+    "keccak256": "^1.0.6"
+  }
+}
