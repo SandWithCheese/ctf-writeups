@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Admin Panel</h2>
+
+    <form method="POST" class="mb-4">
+        <input type="text" name="name" placeholder="Asteroid name" required class="border p-2 mb-2 w-full">
+        <textarea name="description" placeholder="Description" required class="border p-2 mb-2 w-full"></textarea>
+        <button type="submit" name="add" class="bg-green-500 text-white px-4 py-2 rounded">Add Asteroid</button>
+    </form>
+
+    <h3 class="text-xl font-semibold mb-2">Existing Asteroids</h3>
+    {% if asteroids %}
+        <div class="bg-white shadow rounded max-h-96 overflow-y-auto">
+            <ul>
+                {% for asteroid in asteroids %}
+                    <li class="p-4 border-b flex justify-between items-center">
+                        <span>{{ asteroid['name'] }}</span>
+                        <form method="POST" class="ml-2">
+                            <input type="hidden" name="asteroid_id" value="{{ asteroid['id'] }}">
+                            <button type="submit" name="delete" class="text-red-600">Delete</button>
+                        </form>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% else %}
+        <p class="text-gray-600">No asteroids found.</p>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{
+  "name": "Baby V8",
+  "version": "1.0.0",
+  "description": "Baby V8",
+  "main": "index.html",
+  "scripts": {
+    "start": "nw ."
+  },
+  "window": {
+    "title": "Baby V8",
+    "width": 800,
+    "height": 600,
+    "min_width": 400,
+    "min_height": 400,
+    "show": true,
+    "frame": true
+  },
+  "dependencies": {
+    "nw": "0.100.0"
+  }
+} 

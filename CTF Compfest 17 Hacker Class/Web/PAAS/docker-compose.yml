@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  paas:
+    build: .
+    container_name: paas
+    ports:
+      - "8888:8888"
+    environment:
+      - FLASK_ENV=production
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

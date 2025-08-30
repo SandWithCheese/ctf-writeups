@@ -1,0 +1,2 @@
+You got it! Now solve it on remote
+COMPFEST17{fake_flag_for_testing}
