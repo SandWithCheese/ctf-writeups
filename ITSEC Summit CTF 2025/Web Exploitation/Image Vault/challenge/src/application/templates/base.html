@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Vault - Your Digital Gallery</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css" />
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class="fas fa-vault me-2"></i>Image Vault</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            {% if not session['is_loggedin'] %}
+            <div class="collapse navbar-collapse me-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <div class="d-flex">
+                        <a href="/login" class="btn btn-outline-light me-2">Login</a>
+                        <a href="/register" class="btn btn-primary">Register</a>
+                    </div>
+                </ul>
+            </div>
+            {% else %}
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/upload">Upload</a>
+                </li>
+                {% if session['role'] == 'admin' %}
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/invite">Invite User</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/flag">Flag</a>
+                </li>
+                {% endif %}
+            </ul>
+            {% endif %}
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/report">Report Broken Link</a>
+                </li>
+            </ul>
+           
+        </div>
+    </nav>
+    
+    {% block content %} {% endblock %}
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

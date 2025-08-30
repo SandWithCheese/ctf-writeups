@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  front-server:
+    build:
+      context: ./front-server
+    container_name: front_server
+    ports:
+      - "5001:5000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+    networks:
+      - appnet
+
+  internal-server:
+    build:
+      context: ./internal-server
+    container_name: php_internal
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: bridge

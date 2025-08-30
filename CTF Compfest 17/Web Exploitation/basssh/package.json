@@ -1,0 +1,12 @@
+{
+  "name": "shab",
+  "version": "1.0.0",
+  "description": "Bash-based web stack with Tailwind CSS",
+  "scripts": {
+    "build-css": "tailwindcss -i ./static/style.css -o ./static/tailwind.css",
+    "watch-css": "tailwindcss -i ./static/style.css -o ./static/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

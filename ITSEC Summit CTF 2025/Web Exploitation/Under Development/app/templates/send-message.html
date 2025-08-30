@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Send Message to Higher Up</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #1a0000, #3b003b, #8a0037, #000000);
+      background-size: 400% 400%;
+      animation: gradientShift 20s ease infinite;
+      color: #f0f3f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 3rem 1rem;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(255, 0, 100, 0.3);
+    }
+
+    .form-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border-radius: 18px;
+      padding: 2rem;
+      box-shadow: 0 8px 25px rgba(255, 0, 90, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      max-width: 600px;
+      width: 100%;
+      transition: all 0.3s ease;
+    }
+
+    .form-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(255, 0, 120, 0.25);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: #ffdee9;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      outline: none;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #ccc;
+    }
+
+    button {
+      background-color: #ff005c;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ff3377;
+    }
+
+    @media (max-width: 480px) {
+      .form-card {
+        padding: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Send Message to Higher Up</h1>
+
+  <div class="form-card">
+    <form id="messageForm" method="post" action="/send-message">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  <script>
+    document.getElementById("messageForm").addEventListener("submit", async function (event) {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value;
+      const message = document.getElementById("message").value;
+
+      try {
+        const response = await fetch("/send-message", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ name, message })
+        });
+
+        if (response.redirected) {
+          window.location.href = response.url;
+        } else {
+          const result = await response.json();
+          alert(result.message || "Message sent successfully!");
+        }
+      } catch (err) {
+        console.error("Failed to send:", err);
+        alert("There was an error sending your message.");
+      }
+    });
+  </script>
+</body>
+</html>

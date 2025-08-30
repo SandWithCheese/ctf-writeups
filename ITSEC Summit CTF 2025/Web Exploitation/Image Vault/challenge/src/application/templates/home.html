@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 mt-5">
+        <div class="container mt-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-3">Photos Vault</h2>
+                {% if images|length == 0 %}
+                <p class="text-muted">This vault is empty, secure your first memory now by uploading a photo.</p>
+                {% endif %}
+            </div>
+            <div class="row g-4 justify-content-center">
+                {% for image in images %}
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <img src="/static/uploads/{{ image['filename'] }}">
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </section>
+{% endblock %}

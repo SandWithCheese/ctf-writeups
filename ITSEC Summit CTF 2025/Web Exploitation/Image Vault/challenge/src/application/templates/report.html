@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section id="report-broken-link" class="py-5 mt-5">
+  <div class="container mt-5">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="display-4 fw-bold mb-3">Report Broken Link</h2>
+      <p class="text-muted">Help us keep things clean by letting us know what doesn't work.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+        <form id="reportForm">
+          <div class="mb-3">
+            <label for="url" class="form-label">Broken URL</label>
+            <input type="url" class="form-control" id="url" placeholder="https://localhost:1337" required>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-danger">Submit Report</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.getElementById('reportForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const url = document.getElementById('url').value;
+
+    fetch('/api/report', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url })
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.success) {
+        alert("Thank you! Admin check the link soon.");
+        document.getElementById('reportForm').reset();
+      } else {
+        alert(data.message);
+      }
+    })
+    .catch(err => alert("Network error. Try again later."));
+  });
+</script>
+{% endblock %}

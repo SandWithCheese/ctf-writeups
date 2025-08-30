@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section id="invite-user" class="py-5 mt-5">
+  <div class="container mt-5">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="display-5 fw-bold">Invite a User</h2>
+      <p class="text-muted">Generate an invite code for a new user</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="p-4 form-card text-center">
+          <div class="icon-circle mb-3">
+            <i class="fas fa-user-plus"></i>
+          </div>
+
+          <form id="inviteForm">
+            <div class="form-floating mb-3 text-start">
+              <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <label for="username">Username</label>
+            </div>
+
+            <div id="inviteResponse" class="mt-3"></div>
+
+            <button type="submit" class="btn btn-primary w-100 py-2">Generate Invite</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- User List Table -->
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-20" data-aos="fade-up" data-aos-delay="300">
+        <div class="table-responsive">
+          <table class="table table-bordered text-white align-middle">
+            <thead class="table-light text-dark">
+              <tr>
+                <th scope="col">Username</th>
+                <th scope="col">Invite Code</th>
+                <th scope="col" class="text-center">Action</th>
+              </tr>
+            </thead>
+            <tbody id="userList">
+              {% for invite in invited %}
+              <tr>
+                <td>{{ invite.username }}</td>
+                <td><code id="code-{{ invite.username }}">••••••••</code></td>
+                <td class="text-center">
+                  <button class="btn btn-sm btn-outline-light" onclick="toggleCode('{{ invite.username }}')">View Invite Code</button>
+                </td>
+              </tr>
+              {% else %}
+              <tr>
+                <td colspan="3" class="text-center text-muted">No users have been invited yet. Start by adding a username above.</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="/static/js/invite.js"></script>
+{% endblock %}
