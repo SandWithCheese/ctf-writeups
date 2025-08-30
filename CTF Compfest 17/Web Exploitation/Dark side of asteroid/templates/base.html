@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Asteroid App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Orbitron', Arial, sans-serif; }
+        .asteroid-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            position: relative;
+            min-height: 100vh;
+        }
+        .asteroid-shadow {
+            box-shadow: 0 4px 24px 0 rgba(59,130,246,0.15);
+        }
+        /* Bintang-bintang */
+        .stars {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            top: 0; left: 0;
+            z-index: 0;
+            pointer-events: none;
+        }
+        .asteroid-card {
+            background: rgba(30, 41, 59, 0.85);
+            border: 1px solid #334155;
+        }
+    </style>
+</head>
+<body class="asteroid-bg min-h-screen relative overflow-y-auto overflow-x-hidden">
+    <canvas class="stars"></canvas>
+    <nav class="bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 asteroid-shadow mb-8">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <span class="text-3xl">☄️</span>
+                <span class="text-2xl font-bold text-white tracking-wide drop-shadow">Asteroid App</span>
+            </div>
+            <div class="space-x-4">
+                {% if session['username'] %}
+                    <a href="{{ url_for('catalog') }}" class="text-white hover:text-yellow-300 font-semibold transition">Catalog</a>
+                    {% if session['role'] == 'admin' %}
+                        <a href="{{ url_for('admin') }}" class="text-white hover:text-pink-400 font-semibold transition">Admin Panel</a>
+                    {% else %}
+                        <a href="{{ url_for('profile') }}" class="text-white hover:text-green-300 font-semibold transition">Profile</a>
+                    {% endif %}
+                    <a href="{{ url_for('logout') }}" class="text-white hover:text-red-400 font-semibold transition">Logout</a>
+                {% else %}
+                    <a href="{{ url_for('home') }}" class="text-white hover:text-yellow-300 font-semibold transition">Login</a>
+                    <a href="{{ url_for('register') }}" class="text-white hover:text-green-300 font-semibold transition">Register</a>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+    <div class="max-w-4xl mx-auto px-4 py-8 asteroid-card rounded-xl asteroid-shadow relative z-10 overflow-x-hidden">
+        {% block content %}{% endblock %}
+    </div>
+    <footer class="mt-12 text-center text-gray-400 text-sm relative z-10">
+        <div class="flex justify-center items-center gap-2">
+            <span>Made with ☄️ by Asteroid Team</span>
+            <span class="animate-spin inline-block text-blue-400">🪐</span>
+        </div>
+    </footer>
+    <script>
+    // Bintang-bintang animasi
+    const canvas = document.querySelector('.stars');
+    if(canvas) {
+        const ctx = canvas.getContext('2d');
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resize);
+        resize();
+        const stars = Array.from({length: 120}, () => ({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            r: Math.random() * 1.2 + 0.3,
+            o: Math.random() * 0.5 + 0.5
+        }));
+        function draw() {
+            ctx.clearRect(0,0,canvas.width,canvas.height);
+            for(const s of stars) {
+                ctx.beginPath();
+                ctx.arc(s.x, s.y, s.r, 0, 2*Math.PI);
+                ctx.fillStyle = `rgba(255,255,255,${s.o})`;
+                ctx.fill();
+            }
+        }
+        setInterval(draw, 60);
+    }
+    </script>
+</body>
+</html>

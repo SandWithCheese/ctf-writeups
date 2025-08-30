@@ -1,0 +1,2 @@
+PROJECT_NAME=basssh
+TAILWIND=on

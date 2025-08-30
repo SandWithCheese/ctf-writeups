@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+    .profile-container {
+        max-width: 400px;
+        margin: 40px auto;
+        background: #181c24;
+        border-radius: 14px;
+        box-shadow: 0 4px 24px #0002;
+        padding: 32px 28px 24px 28px;
+        color: #eaeaea;
+        font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .profile-container h2 {
+        text-align: center;
+        margin-bottom: 24px;
+        letter-spacing: 1px;
+        color: #7ecfff;
+    }
+    .profile-picture {
+        display: block;
+        margin: 0 auto 18px auto;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #7ecfff;
+        background: #222;
+        box-shadow: 0 2px 8px #0003;
+    }
+    .upload-form {
+        margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .upload-form label {
+        font-size: 1rem;
+        color: #b8e1ff;
+    }
+    .upload-form input[type="text"] {
+        width: 100%;
+        padding: 8px 10px;
+        border-radius: 6px;
+        border: 1px solid #333;
+        background: #23272f;
+        color: #eaeaea;
+        margin-top: 6px;
+        font-size: 1rem;
+        transition: border 0.2s;
+    }
+    .upload-form input[type="text"]:focus {
+        border: 1.5px solid #7ecfff;
+        outline: none;
+    }
+    .upload-form button {
+        margin-top: 8px;
+        padding: 10px 0;
+        border-radius: 6px;
+        border: none;
+        background: linear-gradient(90deg, #7ecfff 60%, #3a8dde 100%);
+        color: #181c24;
+        font-weight: bold;
+        font-size: 1.08rem;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+    .upload-form button:hover {
+        background: linear-gradient(90deg, #3a8dde 60%, #7ecfff 100%);
+    }
+    pre {
+        font-size: 0.98rem;
+        margin-top: 8px;
+        overflow-x: auto;
+    }
+    .no-profile {
+        text-align: center;
+        color: #aaa;
+        margin: 18px 0;
+    }
+</style>
+<div class="profile-container">
+    <h2>Profile</h2>
+    {% if user.profile_picture %}
+        {% if user.profile_type and user.profile_type.startswith('image/') %}
+            <img src="{{ url_for('static', filename=user['profile_picture']) }}" class="profile-picture">
+        {% else %}
+            <p style="color:#faa; font-weight:bold;">
+                Failed to render as image. Server responded with:
+            </p>
+            <pre style="background:#222; color:#eee; padding:1em; border-radius:8px;">{{ error_preview }}</pre>
+        {% endif %}
+    {% else %}
+        <p class="no-profile">No profile content set.</p>
+    {% endif %}
+
+    <form method="post" class="upload-form">
+        <label>
+            Photo URL:<br>
+            <input type="text" name="photo_url" placeholder="Paste image URL here" required>
+        </label>
+        <button type="submit">Upload</button>
+    </form>
+</div>
+{% endblock %}

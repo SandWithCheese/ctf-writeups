@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <!-- Features Section -->
+    <section id="features" class="py-5 mt-5">
+        <div class="container mt-5" data-aos="zoom-in">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="p-4 form-card text-center">
+                        <div class="icon-circle mb-3">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3 class="fw-bold mb-4">Welcome Back</h3>
+                        <form id="loginForm">
+                            <div class="form-floating mb-3 text-start">
+                                <input type="text" class="form-control" id="username" placeholder="username" required>
+                                <label for="username">Username</label>
+                            </div>
+                            <div class="form-floating mb-4 text-start">
+                                <input type="password" class="form-control" id="password" placeholder="Password" required>
+                                <label for="password">Password</label>
+                            </div>
+                            <div id="errorMessage" class="text-start"></div>
+                            <button id="loginBtn" type="submit" class="btn btn-primary w-100 py-2">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            errorMessage.innerHTML = '';
+
+            try {
+                const response = await fetch('/api/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    window.location.href = '/home';
+                } else {
+                    errorMessage.innerHTML = `<div class='error-message mb-5'>${data.message}</div>`;
+                }
+            } catch (error) {
+                alert('Error connecting to server');
+            }
+        });
+    </script>
+{% endblock %}

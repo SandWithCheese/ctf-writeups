@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Baby V8</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.5s ease;
+        }
+        .container {
+            background-color: #2a2a2a;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            color: #00ff00;
+        }
+        .password-input {
+            width: 100%;
+            padding: 15px;
+            margin: 20px 0;
+            background: #333;
+            border: 2px solid #00ff00;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            letter-spacing: 5px;
+            text-align: center;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .feedback {
+            font-size: 16px;
+            margin-top: 20px;
+            text-align: center;
+            min-height: 50px;
+        }
+        h1 {
+            text-align: center;
+            color: #00ff00;
+            margin-bottom: 30px;
+        }
+        .success {
+            background-color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Can you guess what I'm thinking? I'll give you the flag immediately once you figured it out!</h1>
+        <input type="text" id="passwordInput" class="password-input" placeholder="Try to guess what's as3ng thinking? >" autocomplete="off">
+        <div class="feedback" id="feedback"></div>
+    </div>
+    <script src="loader.js"></script>
+</body>
+</html> 

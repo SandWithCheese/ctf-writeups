@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- Upload Section -->
+    <section id="upload" class="py-5 mt-5">
+        <div class="container mt-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-3">Upload your Photos</h2>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="upload-area" onclick="document.getElementById('fileInput').click()">
+                        <div class="upload-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <h4 class="mb-3">Drop your images here</h4>
+                        <p class="text-muted mb-0">or click to browse your files</p>
+                        <input type="file" id="fileInput" multiple accept="image/png" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/static/js/upload.js"></script>
+{% endblock %}

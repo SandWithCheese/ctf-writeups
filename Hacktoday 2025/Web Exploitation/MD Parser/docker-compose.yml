@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  md-parser-2:
+    build: .
+    ports:
+      - "8001:80"
+    restart: unless-stopped

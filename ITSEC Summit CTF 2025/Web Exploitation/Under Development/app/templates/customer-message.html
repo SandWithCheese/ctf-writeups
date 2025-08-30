@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src *; script-src 'self'; base-uri 'self'; frame-ancestors 'none';">
+  <title>Customer Messages</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #1a0000, #3b003b, #8a0037, #000000);
+      background-size: 400% 400%;
+      animation: gradientShift 20s ease infinite;
+      color: #f0f3f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 3rem 1rem;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 2.5rem;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(255, 0, 100, 0.3);
+    }
+
+    .message-container {
+      max-width: 1000px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+    }
+
+    .message-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border-radius: 18px;
+      padding: 1.2rem 1.6rem;
+      box-shadow: 0 8px 25px rgba(255, 0, 90, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .message-card:hover {
+      transform: translateY(-5px) scale(1.015);
+      box-shadow: 0 12px 30px rgba(255, 0, 120, 0.3);
+    }
+
+    .sender {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #ffdee9;
+      margin-bottom: 0.4rem;
+    }
+
+    .text {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #f4f0f5;
+    }
+
+    @media (max-width: 480px) {
+      .message-card {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Messages From Customers</h1>
+  <div class="message-container">
+    <div class="message-card">
+      <div class="sender">John</div>
+      <div class="text">Mas, kalau boleh tahu kapan buka ya? Saya udah mau beli-beli banyak di sini.</div>
+    </div>
+    <div class="message-card">
+      <div class="sender">Fay</div>
+      <div class="text">TBH saya ngerasa banyak hal yang kurang sih di booth kemarin, tapi tetep saya beli :(, why am i so stoopid</div>
+    </div>
+    <div class="message-card">
+      <div class="sender">Rocky</div>
+      <div class="text">Jujur itu kemearin lucu banget ambalabu-nyaaaa GEMASHHH</div>
+    </div>
+    <div class="message-card">
+      <div class="sender">{{name|safe}}</div>
+      <div class="text">
+        {{message|safe}}
+      </div>
+    </div>
+  </div>
+</body>
+</html>

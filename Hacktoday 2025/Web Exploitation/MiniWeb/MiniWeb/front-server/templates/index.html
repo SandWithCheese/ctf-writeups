@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiniWeb</title>
+    <link rel="stylesheet" href="static/style.css" />
+    <style>
+      .search-container {
+        position: absolute;
+        bottom: 20%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+      }
+
+      .search-wrapper {
+        width: 80%;
+        max-width: 500px;
+        position: relative;
+      }
+
+      .search-input {
+        width: 100%;
+        padding: 12px 50px 12px 20px;
+        border-radius: 30px;
+        border: 3px solid #231f1e;
+        background-color: white;
+        font-size: 1.1rem;
+        outline: none;
+        transition: all 0.3s ease;
+        color: #231f1e;
+        font-weight: 500;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .search-input:focus {
+        border-color: #a6a4ad;
+      }
+
+      .search-button {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #231f1e;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.3s ease;
+      }
+
+      .search-button:hover {
+        background-color: #a6a4ad;
+      }
+
+      .search-icon {
+        width: 18px;
+        height: 18px;
+        fill: #f5d60e;
+      }
+
+      .confirmation-message {
+        position: absolute;
+        bottom: 12%;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #231f1e;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.5s ease;
+      }
+
+      .confirmation-message.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .confirmation-box {
+        display: inline-block;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border: 2px solid #231f1e;
+      }
+
+      .name-highlight {
+        color: #4285f4;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="eyes-wrapper">
+        <div class="eye"><div class="eyeball"></div></div>
+        <div class="eye"><div class="eyeball"></div></div>
+      </div>
+
+      <!-- Search component -->
+      <div class="search-container">
+        <div class="search-wrapper">
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Subscribe to our newsletter!" 
+            autocomplete="off"
+          >
+          <button id="searchButton" class="search-button">
+            <svg class="search-icon" viewBox="0 0 24 24">
+              <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Confirmation message - now handled via JS -->
+      <div id="confirmationMessage" class="confirmation-message">
+        <div class="confirmation-box">
+          Thanks <span id="subscriberName" class="name-highlight">{{name}}</span> for subscribing!
+        </div>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="static/script.js"></script>
+    <script>
+      const searchInput = document.getElementById('searchInput');
+      const searchButton = document.getElementById('searchButton');
+      const confirmationMessage = document.getElementById('confirmationMessage');
+      const subscriberName = document.getElementById('subscriberName');
+
+      function handleSearch() {
+        const name = searchInput.value.trim();
+        if (name) {
+          fetch(`/sub?name=${encodeURIComponent(name)}`).catch(() => {});
+
+          subscriberName.textContent = name;
+          confirmationMessage.classList.add('visible');
+
+        }
+      }
+
+      searchButton.addEventListener('click', handleSearch);
+
+      searchInput.addEventListener('keypress', (event) => {
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          handleSearch();
+        }
+      });
+    </script>
+  </body>
+</html>
