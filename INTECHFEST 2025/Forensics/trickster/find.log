@@ -1,0 +1,37 @@
+06:08:01.291895946 231204 openat /etc/ld.so.cache fd=3(<f>/etc/ld.so.cache) dirfd=-100(AT_FDCWD) name=/etc/ld.so.cache flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493854  SUCCESS
+06:08:01.291907478 231204 close /etc/ld.so.cache res=0  SUCCESS
+06:08:01.291918258 231204 openat /lib64/libselinux.so.1 fd=3(<f>/lib64/libselinux.so.1) dirfd=-100(AT_FDCWD) name=/lib64/libselinux.so.1 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4634541  SUCCESS
+06:08:01.291922156 231204 read /lib64/libselinux.so.1 res=832 data=.ELF..............>......z......@...................@.8...@.....................  SUCCESS
+06:08:01.291926384 231204 read /lib64/libselinux.so.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.291941562 231204 read /lib64/libselinux.so.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.291979604 231204 close /lib64/libselinux.so.1 res=0  SUCCESS
+06:08:01.291994682 231204 openat /lib64/libm.so.6 fd=3(<f>/lib64/libm.so.6) dirfd=-100(AT_FDCWD) name=/lib64/libm.so.6 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297180  SUCCESS
+06:08:01.291997958 231204 read /lib64/libm.so.6 res=832 data=.ELF..............>..... .......@........]..........@.8...@.#.".................  SUCCESS
+06:08:01.292027785 231204 close /lib64/libm.so.6 res=0  SUCCESS
+06:08:01.292039767 231204 openat /lib64/libc.so.6 fd=3(<f>/lib64/libc.so.6) dirfd=-100(AT_FDCWD) name=/lib64/libc.so.6 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297158  SUCCESS
+06:08:01.292043194 231204 read /lib64/libc.so.6 res=832 data=.ELF..............>.............@......... .........@.8...@.L.K.........@.......  SUCCESS
+06:08:01.292048484 231204 read /lib64/libc.so.6 res=32 data=............GNU.................  SUCCESS
+06:08:01.292086395 231204 close /lib64/libc.so.6 res=0  SUCCESS
+06:08:01.292102565 231204 openat /lib64/libpcre2-8.so.0 fd=3(<f>/lib64/libpcre2-8.so.0) dirfd=-100(AT_FDCWD) name=/lib64/libpcre2-8.so.0 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4634504  SUCCESS
+06:08:01.292106222 231204 read /lib64/libpcre2-8.so.0 res=832 data=.ELF..............>......#......@........C..........@.8...@.....................  SUCCESS
+06:08:01.292109949 231204 read /lib64/libpcre2-8.so.0 res=32 data=............GNU.................  SUCCESS
+06:08:01.292117634 231204 read /lib64/libpcre2-8.so.0 res=32 data=............GNU.................  SUCCESS
+06:08:01.292144915 231204 close /lib64/libpcre2-8.so.0 res=0  SUCCESS
+06:08:01.292157879 231204 openat /lib64/libdl.so.2 fd=3(<f>/lib64/libdl.so.2) dirfd=-100(AT_FDCWD) name=/lib64/libdl.so.2 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297168  SUCCESS
+06:08:01.292160895 231204 read /lib64/libdl.so.2 res=832 data=.ELF..............>.....p.......@.......xB..........@.8...@.!. .................  SUCCESS
+06:08:01.292192034 231204 close /lib64/libdl.so.2 res=0  SUCCESS
+06:08:01.292204928 231204 openat /lib64/libpthread.so.0 fd=3(<f>/lib64/libpthread.so.0) dirfd=-100(AT_FDCWD) name=/lib64/libpthread.so.0 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297259  SUCCESS
+06:08:01.292208194 231204 read /lib64/libpthread.so.0 res=832 data=.ELF..............>......n......@........?..........@.8...@.(.'.........@.......  SUCCESS
+06:08:01.292245955 231204 close /lib64/libpthread.so.0 res=0  SUCCESS
+06:08:01.292568883 231204 openat /proc/filesystems fd=3(<f>/proc/filesystems) dirfd=-100(AT_FDCWD) name=/proc/filesystems flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=80 ino=4026532104  SUCCESS
+06:08:01.292588680 231204 read /proc/filesystems res=428 data=nodev.sysfs.nodev.tmpfs.nodev.bdev.nodev.proc.nodev.cgroup.nodev.cgroup2.nodev.c  SUCCESS
+06:08:01.292591977 231204 read /proc/filesystems res=0 data=NULL  SUCCESS
+06:08:01.292595643 231204 close /proc/filesystems res=0  SUCCESS
+06:08:01.292615140 231204 openat  fd=3(<f>) dirfd=-100(AT_FDCWD) name=. flags=1(O_RDONLY) mode=0 dev=10308 ino=6684959  SUCCESS
+06:08:01.292678259 231204 openat /home/uzer fd=4(<d>/home/uzer) dirfd=-100(AT_FDCWD) name=/home/uzer flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4472741  SUCCESS
+06:08:01.292726480 231204 close /home/uzer res=0  SUCCESS
+06:08:01.292745395 231204 close /home/uzer res=0  SUCCESS
+06:08:01.292747519 231204 close /home/uzer res=0  SUCCESS
+06:08:01.292754262 231204 close  res=0  SUCCESS
+06:08:01.292763359 231204 close  res=0  SUCCESS
+06:08:01.292764752 231204 close  res=0  SUCCESS

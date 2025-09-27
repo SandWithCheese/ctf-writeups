@@ -1,0 +1,10 @@
+{
+  "evt.cpu": 3,
+  "evt.dir": "<",
+  "evt.info": "res=63 data=.....M..h/...{]...D..SC.Y?...nb..k..@.....N.....!J...-...~S/.O. ",
+  "evt.num": 115863,
+  "evt.outputtime": 1757113681804454850,
+  "evt.type": "write",
+  "proc.name": "split",
+  "thread.tid": 231225
+}

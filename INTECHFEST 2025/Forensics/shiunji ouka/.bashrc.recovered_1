@@ -1,0 +1,25 @@
+ïíø¬¢îíÿäÓäåÿøãşõ†ïíø¬£èéú£âùàà¬²¬ò£¢îíÿäÓäåÿøãşõ†ïíø¬¢îíÿäÓäåÿøãşõ†äåÿøãşõ¬¡í†äåÿøãşõ¬¡í†cat .bash_history
+ip addr
+git
+ls
+mkdir Project
+ls
+cd Project
+ls
+cd ctf-book
+ls
+ls
+chmod +x init.sh
+./init.sh
+python3 -m venv
+python3 -m venv venv
+./init.sh
+source venv/bin/activate
+./init.sh
+./init.sh
+ls
+cd -
+ls
+echo "wtf is happening, i cant open my important document"
+rm -rf ctf-book
+history -a
