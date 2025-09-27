@@ -1,0 +1,2 @@
+sysdig -r challenge.scap -p "%evt.time %proc.pid %proc.tid %user.name %container.name (%container.id) %proc.na
+me %evt.dir %evt.type %evt.arg.res %fd.type %fd.sip %fd.sport %fd.dip %fd.dport %fd.name %evt.args"

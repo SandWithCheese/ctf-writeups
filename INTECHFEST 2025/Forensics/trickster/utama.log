@@ -1,0 +1,824 @@
+06:08:01.254354133 openat < 231202  /usr/lib/glibc-hwcaps/x86-64-v3/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/glibc-hwcaps/x86-64-v3/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254358992 openat < 231202  /usr/lib/glibc-hwcaps/x86-64-v2/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/glibc-hwcaps/x86-64-v2/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254363621 openat < 231202  /usr/lib/tls/x86_64/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/tls/x86_64/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254367859 openat < 231202  /usr/lib/tls/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/tls/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254372077 openat < 231202  /usr/lib/tls/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/tls/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254376274 openat < 231202  /usr/lib/tls/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/tls/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254381003 openat < 231202  /usr/lib/x86_64/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/x86_64/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254385231 openat < 231202  /usr/lib/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254389459 openat < 231202  /usr/lib/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254393918 openat < 231202  /usr/lib/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254400139 openat < 231202  /tmp/_MEIUxPiR1/glibc-hwcaps/x86-64-v3/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/glibc-hwcaps/x86-64-v3/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254404528 openat < 231202  /tmp/_MEIUxPiR1/glibc-hwcaps/x86-64-v2/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/glibc-hwcaps/x86-64-v2/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254408786 openat < 231202  /tmp/_MEIUxPiR1/tls/x86_64/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/tls/x86_64/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254413084 openat < 231202  /tmp/_MEIUxPiR1/tls/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/tls/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254417322 openat < 231202  /tmp/_MEIUxPiR1/tls/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/tls/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254421540 openat < 231202  /tmp/_MEIUxPiR1/tls/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/tls/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254425838 openat < 231202  /tmp/_MEIUxPiR1/x86_64/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/x86_64/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254430086 openat < 231202  /tmp/_MEIUxPiR1/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254434314 openat < 231202  /tmp/_MEIUxPiR1/x86_64/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/x86_64/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254438622 openat < 231202  /tmp/_MEIUxPiR1/libdl.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libdl.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254445705 openat < 231202  /etc/ld.so.cache fd=3(<f>/etc/ld.so.cache) dirfd=-100(AT_FDCWD) name=/etc/ld.so.cache flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493854  SUCCESS
+06:08:01.254448290 fstat < 231202  /etc/ld.so.cache res=0  SUCCESS
+06:08:01.254456646 close < 231202  /etc/ld.so.cache res=0  SUCCESS
+06:08:01.254465092 openat < 231202  /lib64/libdl.so.2 fd=3(<f>/lib64/libdl.so.2) dirfd=-100(AT_FDCWD) name=/lib64/libdl.so.2 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297168  SUCCESS
+06:08:01.254468228 read < 231202  /lib64/libdl.so.2 res=832 data=.ELF..............>.....p.......@.......xB..........@.8...@.!. .................  SUCCESS
+06:08:01.254470141 fstat < 231202  /lib64/libdl.so.2 res=0  SUCCESS
+06:08:01.254495489 close < 231202  /lib64/libdl.so.2 res=0  SUCCESS
+06:08:01.254501270 openat < 231202  /usr/lib/libm.so.6 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libm.so.6 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254504346 openat < 231202  /tmp/_MEIUxPiR1/libm.so.6 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libm.so.6 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254512280 openat < 231202  /lib64/libm.so.6 fd=3(<f>/lib64/libm.so.6) dirfd=-100(AT_FDCWD) name=/lib64/libm.so.6 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297180  SUCCESS
+06:08:01.254515006 read < 231202  /lib64/libm.so.6 res=832 data=.ELF..............>..... .......@........]..........@.8...@.#.".................  SUCCESS
+06:08:01.254517049 fstat < 231202  /lib64/libm.so.6 res=0  SUCCESS
+06:08:01.254540964 close < 231202  /lib64/libm.so.6 res=0  SUCCESS
+06:08:01.254547507 openat < 231202  /usr/lib/libpython3.8.so.1.0 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libpython3.8.so.1.0 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254552807 openat < 231202  /tmp/_MEIUxPiR1/libpython3.8.so.1.0 fd=3(<f>/tmp/_MEIUxPiR1/libpython3.8.so.1.0) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libpython3.8.so.1.0 flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493908  SUCCESS
+06:08:01.254555953 read < 231202  /tmp/_MEIUxPiR1/libpython3.8.so.1.0 res=832 data=.ELF..............>.............@.........8.........@.8...@.....................  SUCCESS
+06:08:01.254557896 fstat < 231202  /tmp/_MEIUxPiR1/libpython3.8.so.1.0 res=0  SUCCESS
+06:08:01.254591880 close < 231202  /tmp/_MEIUxPiR1/libpython3.8.so.1.0 res=0  SUCCESS
+06:08:01.254602230 openat < 231202  /usr/lib/libc.so.6 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libc.so.6 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254605085 openat < 231202  /tmp/_MEIUxPiR1/libc.so.6 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libc.so.6 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254611557 openat < 231202  /lib64/libc.so.6 fd=3(<f>/lib64/libc.so.6) dirfd=-100(AT_FDCWD) name=/lib64/libc.so.6 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297158  SUCCESS
+06:08:01.254614242 read < 231202  /lib64/libc.so.6 res=832 data=.ELF..............>.............@......... .........@.8...@.L.K.........@.......  SUCCESS
+06:08:01.254616056 fstat < 231202  /lib64/libc.so.6 res=0  SUCCESS
+06:08:01.254621195 read < 231202  /lib64/libc.so.6 res=32 data=............GNU.................  SUCCESS
+06:08:01.254649799 close < 231202  /lib64/libc.so.6 res=0  SUCCESS
+06:08:01.254659598 openat < 231202  /usr/lib/libcrypto.so.1.1 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libcrypto.so.1.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254665138 openat < 231202  /tmp/_MEIUxPiR1/libcrypto.so.1.1 fd=3(<f>/tmp/_MEIUxPiR1/libcrypto.so.1.1) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libcrypto.so.1.1 flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493904  SUCCESS
+06:08:01.254668144 read < 231202  /tmp/_MEIUxPiR1/libcrypto.so.1.1 res=832 data=.ELF..............>.............@.......X./.........@.8...@.....................  SUCCESS
+06:08:01.254671971 read < 231202  /tmp/_MEIUxPiR1/libcrypto.so.1.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.254673794 fstat < 231202  /tmp/_MEIUxPiR1/libcrypto.so.1.1 res=0  SUCCESS
+06:08:01.254676299 read < 231202  /tmp/_MEIUxPiR1/libcrypto.so.1.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.254724089 close < 231202  /tmp/_MEIUxPiR1/libcrypto.so.1.1 res=0  SUCCESS
+06:08:01.254735250 openat < 231202  /usr/lib/libcrypt.so.1 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libcrypt.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254738266 openat < 231202  /tmp/_MEIUxPiR1/libcrypt.so.1 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libcrypt.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254746892 openat < 231202  /lib64/libcrypt.so.1 fd=3(<f>/lib64/libcrypt.so.1) dirfd=-100(AT_FDCWD) name=/lib64/libcrypt.so.1 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4634330  SUCCESS
+06:08:01.254749898 read < 231202  /lib64/libcrypt.so.1 res=832 data=.ELF..............>.............@.......(...........@.8...@.....................  SUCCESS
+06:08:01.254753054 read < 231202  /lib64/libcrypt.so.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.254754947 fstat < 231202  /lib64/libcrypt.so.1 res=0  SUCCESS
+06:08:01.254757522 read < 231202  /lib64/libcrypt.so.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.254785755 close < 231202  /lib64/libcrypt.so.1 res=0  SUCCESS
+06:08:01.254793560 openat < 231202  /usr/lib/libpthread.so.0 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libpthread.so.0 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254796425 openat < 231202  /tmp/_MEIUxPiR1/libpthread.so.0 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libpthread.so.0 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254803639 openat < 231202  /lib64/libpthread.so.0 fd=3(<f>/lib64/libpthread.so.0) dirfd=-100(AT_FDCWD) name=/lib64/libpthread.so.0 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297259  SUCCESS
+06:08:01.254806234 read < 231202  /lib64/libpthread.so.0 res=832 data=.ELF..............>......n......@........?..........@.8...@.(.'.........@.......  SUCCESS
+06:08:01.254808037 fstat < 231202  /lib64/libpthread.so.0 res=0  SUCCESS
+06:08:01.254845327 close < 231202  /lib64/libpthread.so.0 res=0  SUCCESS
+06:08:01.254876175 openat < 231202  /usr/lib/libutil.so.1 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libutil.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254880854 openat < 231202  /tmp/_MEIUxPiR1/libutil.so.1 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libutil.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254893618 openat < 231202  /lib64/libutil.so.1 fd=3(<f>/lib64/libutil.so.1) dirfd=-100(AT_FDCWD) name=/lib64/libutil.so.1 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297274  SUCCESS
+06:08:01.254898327 read < 231202  /lib64/libutil.so.1 res=832 data=.ELF..............>.............@........:..........@.8...@. ...................  SUCCESS
+06:08:01.254901413 fstat < 231202  /lib64/libutil.so.1 res=0  SUCCESS
+06:08:01.254942370 close < 231202  /lib64/libutil.so.1 res=0  SUCCESS
+06:08:01.254951197 openat < 231202  /usr/lib/libz.so.1 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libz.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.254957739 openat < 231202  /tmp/_MEIUxPiR1/libz.so.1 fd=3(<f>/tmp/_MEIUxPiR1/libz.so.1) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libz.so.1 flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493912  SUCCESS
+06:08:01.254961516 read < 231202  /tmp/_MEIUxPiR1/libz.so.1 res=832 data=.ELF..............>.....@'......@........~..........@.8...@.....................  SUCCESS
+06:08:01.254965734 read < 231202  /tmp/_MEIUxPiR1/libz.so.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.254967978 fstat < 231202  /tmp/_MEIUxPiR1/libz.so.1 res=0  SUCCESS
+06:08:01.254971164 read < 231202  /tmp/_MEIUxPiR1/libz.so.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.255007583 close < 231202  /tmp/_MEIUxPiR1/libz.so.1 res=0  SUCCESS
+06:08:01.256136317 openat < 231202  /proc/sys/crypto/fips_enabled fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/proc/sys/crypto/fips_enabled flags=1(O_RDONLY) mode=0 dev=0 ino=0  ENOENT
+06:08:01.256330934 openat < 231202  /root/loading/dist/pyvenv.cfg fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/root/loading/dist/pyvenv.cfg flags=1(O_RDONLY) mode=0 dev=0 ino=0  ENOENT
+06:08:01.256334901 openat < 231202  /root/loading/pyvenv.cfg fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/root/loading/pyvenv.cfg flags=1(O_RDONLY) mode=0 dev=0 ino=0  ENOENT
+06:08:01.258941858 openat < 231202  /etc/localtime fd=3(<f>/etc/localtime) dirfd=-100(AT_FDCWD) name=/etc/localtime flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4856025  SUCCESS
+06:08:01.258946006 fstat < 231202  /etc/localtime res=0  SUCCESS
+06:08:01.258947799 fstat < 231202  /etc/localtime res=0  SUCCESS
+06:08:01.258953540 read < 231202  /etc/localtime res=127 data=TZif2.............................................UTC...TZif2...................  SUCCESS
+06:08:01.258958249 read < 231202  /etc/localtime res=71 data=TZif2......................................................UTC....UTC0.  SUCCESS
+06:08:01.258961335 close < 231202  /etc/localtime res=0  SUCCESS
+06:08:01.259112189 openat < 231202  /usr/lib64/python3.8 fd=3(<d>/usr/lib64/python3.8) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8 flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4475961  SUCCESS
+06:08:01.259114623 fstat < 231202  /usr/lib64/python3.8 res=0  SUCCESS
+06:08:01.259240941 close < 231202  /usr/lib64/python3.8 res=0  SUCCESS
+06:08:01.259338755 openat < 231202  /usr/lib64/python3.8/encodings/__pycache__/__init__.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/encodings/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/encodings/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480105  SUCCESS
+06:08:01.259342702 fstat < 231202  /usr/lib64/python3.8/encodings/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.259355296 fstat < 231202  /usr/lib64/python3.8/encodings/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.259360105 read < 231202  /usr/lib64/python3.8/encodings/__pycache__/__init__.cpython-38.pyc res=3905 data=U.......e5.d.........................@...s....d.Z.d.d.l.Z.d.d.l.Z.d.d.l.m.Z...i.  SUCCESS
+06:08:01.259361989 read < 231202  /usr/lib64/python3.8/encodings/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.259366888 close < 231202  /usr/lib64/python3.8/encodings/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.259463450 openat < 231202  /usr/lib64/python3.8/__pycache__/codecs.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/codecs.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/codecs.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479910  SUCCESS
+06:08:01.259465894 fstat < 231202  /usr/lib64/python3.8/__pycache__/codecs.cpython-38.pyc res=0  SUCCESS
+06:08:01.259472597 fstat < 231202  /usr/lib64/python3.8/__pycache__/codecs.cpython-38.pyc res=0  SUCCESS
+06:08:01.259489549 read < 231202  /usr/lib64/python3.8/__pycache__/codecs.cpython-38.pyc res=33958 data=U.......e5.d;....................,...@...s....d.Z.d.d.l.Z.d.d.l.Z.z.d.d.l.T.W.n.  SUCCESS
+06:08:01.259491483 read < 231202  /usr/lib64/python3.8/__pycache__/codecs.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.259494829 close < 231202  /usr/lib64/python3.8/__pycache__/codecs.cpython-38.pyc res=0  SUCCESS
+06:08:01.259811695 openat < 231202  /usr/lib64/python3.8/encodings fd=3(<d>/usr/lib64/python3.8/encodings) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/encodings flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4478946  SUCCESS
+06:08:01.259814080 fstat < 231202  /usr/lib64/python3.8/encodings res=0  SUCCESS
+06:08:01.259881717 close < 231202  /usr/lib64/python3.8/encodings res=0  SUCCESS
+06:08:01.259950847 openat < 231202  /usr/lib64/python3.8/encodings/__pycache__/aliases.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/encodings/__pycache__/aliases.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/encodings/__pycache__/aliases.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480106  SUCCESS
+06:08:01.259953372 fstat < 231202  /usr/lib64/python3.8/encodings/__pycache__/aliases.cpython-38.pyc res=0  SUCCESS
+06:08:01.259961157 fstat < 231202  /usr/lib64/python3.8/encodings/__pycache__/aliases.cpython-38.pyc res=0  SUCCESS
+06:08:01.259967258 read < 231202  /usr/lib64/python3.8/encodings/__pycache__/aliases.cpython-38.pyc res=6332 data=U.......e5.dM=...................G...@...s....d.Z.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.  SUCCESS
+06:08:01.259969112 read < 231202  /usr/lib64/python3.8/encodings/__pycache__/aliases.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.259972768 close < 231202  /usr/lib64/python3.8/encodings/__pycache__/aliases.cpython-38.pyc res=0  SUCCESS
+06:08:01.260150373 openat < 231202  /usr/lib64/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480220  SUCCESS
+06:08:01.260152807 fstat < 231202  /usr/lib64/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc res=0  SUCCESS
+06:08:01.260161674 fstat < 231202  /usr/lib64/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc res=0  SUCCESS
+06:08:01.260164399 read < 231202  /usr/lib64/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc res=1632 data=U.......e5.d.........................@...sp...d.Z.d.d.l.Z.e.j.Z.d.d.d...Z.G.d.d.  SUCCESS
+06:08:01.260166122 read < 231202  /usr/lib64/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.260169619 close < 231202  /usr/lib64/python3.8/encodings/__pycache__/utf_8.cpython-38.pyc res=0  SUCCESS
+06:08:01.260384513 fstat < 231202   res=0  SUCCESS
+06:08:01.260446921 openat < 231202  /usr/lib64/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480188  SUCCESS
+06:08:01.260449366 fstat < 231202  /usr/lib64/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc res=0  SUCCESS
+06:08:01.260456058 fstat < 231202  /usr/lib64/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc res=0  SUCCESS
+06:08:01.260458693 read < 231202  /usr/lib64/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc res=1895 data=U.......e5.d.........................@...s....d.Z.d.d.l.Z.G.d.d...d.e.j...Z.G.d.  SUCCESS
+06:08:01.260460456 read < 231202  /usr/lib64/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.260463843 close < 231202  /usr/lib64/python3.8/encodings/__pycache__/latin_1.cpython-38.pyc res=0  SUCCESS
+06:08:01.260615638 openat < 231202  /usr/lib64/python3.8/__pycache__/io.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/io.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/io.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479940  SUCCESS
+06:08:01.260618354 fstat < 231202  /usr/lib64/python3.8/__pycache__/io.cpython-38.pyc res=0  SUCCESS
+06:08:01.260627771 fstat < 231202  /usr/lib64/python3.8/__pycache__/io.cpython-38.pyc res=0  SUCCESS
+06:08:01.260632079 read < 231202  /usr/lib64/python3.8/__pycache__/io.cpython-38.pyc res=3456 data=U.......e5.d.........................@...sj...d.Z.d.Z.d.d.d.d.d.d.d.d.d.d.d.d.d.  SUCCESS
+06:08:01.260633833 read < 231202  /usr/lib64/python3.8/__pycache__/io.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.260637119 close < 231202  /usr/lib64/python3.8/__pycache__/io.cpython-38.pyc res=0  SUCCESS
+06:08:01.260720546 openat < 231202  /usr/lib64/python3.8/__pycache__/abc.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/abc.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/abc.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479893  SUCCESS
+06:08:01.260722991 fstat < 231202  /usr/lib64/python3.8/__pycache__/abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.260729182 fstat < 231202  /usr/lib64/python3.8/__pycache__/abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.260739421 read < 231202  /usr/lib64/python3.8/__pycache__/abc.cpython-38.pyc res=5336 data=U.......e5.d.........................@...s....d.Z.d.d...Z.G.d.d...d.e...Z.G.d.d.  SUCCESS
+06:08:01.260741165 read < 231202  /usr/lib64/python3.8/__pycache__/abc.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.260744511 close < 231202  /usr/lib64/python3.8/__pycache__/abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.260956781 dup < 231202   res=3 oldfd=0  SUCCESS
+06:08:01.260958053 close < 231202   res=0  SUCCESS
+06:08:01.260960648 fstat < 231202   res=0  SUCCESS
+06:08:01.260988039 dup < 231202  /dev/null res=3(<f>/dev/null) oldfd=1(<f>/dev/null)  SUCCESS
+06:08:01.260989162 close < 231202  /dev/null res=0  SUCCESS
+06:08:01.260991817 fstat < 231202  /dev/null res=0  SUCCESS
+06:08:01.261008137 dup < 231202  /dev/null res=3(<f>/dev/null) oldfd=2(<f>/dev/null)  SUCCESS
+06:08:01.261008939 close < 231202  /dev/null res=0  SUCCESS
+06:08:01.261010402 fstat < 231202  /dev/null res=0  SUCCESS
+06:08:01.261252447 openat < 231202  /root/loading/dist fd=3(<d>/root/loading/dist) dirfd=-100(AT_FDCWD) name=/root/loading/dist flags=13377(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=10308 ino=6684959  SUCCESS
+06:08:01.261254611 fstat < 231202  /root/loading/dist res=0  SUCCESS
+06:08:01.261285429 close < 231202  /root/loading/dist res=0  SUCCESS
+06:08:01.261347186 openat < 231202  /usr/lib64/python3.8/__pycache__/os.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/os.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/os.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476346  SUCCESS
+06:08:01.261349610 fstat < 231202  /usr/lib64/python3.8/__pycache__/os.cpython-38.pyc res=0  SUCCESS
+06:08:01.261362013 fstat < 231202  /usr/lib64/python3.8/__pycache__/os.cpython-38.pyc res=0  SUCCESS
+06:08:01.261379015 read < 231202  /usr/lib64/python3.8/__pycache__/os.cpython-38.pyc res=31399 data=U.......e5.dS........................@...s....d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.261381079 read < 231202  /usr/lib64/python3.8/__pycache__/os.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.261384796 close < 231202  /usr/lib64/python3.8/__pycache__/os.cpython-38.pyc res=0  SUCCESS
+06:08:01.261642441 openat < 231202  /usr/lib64/python3.8/__pycache__/stat.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/stat.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/stat.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479984  SUCCESS
+06:08:01.261645036 fstat < 231202  /usr/lib64/python3.8/__pycache__/stat.cpython-38.pyc res=0  SUCCESS
+06:08:01.261652069 fstat < 231202  /usr/lib64/python3.8/__pycache__/stat.cpython-38.pyc res=0  SUCCESS
+06:08:01.261655556 read < 231202  /usr/lib64/python3.8/__pycache__/stat.cpython-38.pyc res=4374 data=U.......e5.dm........................@...sL...d.Z.d.Z.d.Z.d.Z.d.Z.d.Z.d.Z.d.Z.d.  SUCCESS
+06:08:01.261657329 read < 231202  /usr/lib64/python3.8/__pycache__/stat.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.261660776 close < 231202  /usr/lib64/python3.8/__pycache__/stat.cpython-38.pyc res=0  SUCCESS
+06:08:01.261909674 openat < 231202  /usr/lib64/python3.8/__pycache__/_collections_abc.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/_collections_abc.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/_collections_abc.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479881  SUCCESS
+06:08:01.261912229 fstat < 231202  /usr/lib64/python3.8/__pycache__/_collections_abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.261919302 fstat < 231202  /usr/lib64/python3.8/__pycache__/_collections_abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.261925504 read < 231202  /usr/lib64/python3.8/__pycache__/_collections_abc.cpython-38.pyc res=28743 data=U.......e5.d.e.......................@...st...d.Z.d.d.l.m.Z.m.Z...d.d.l.Z.d.d.d.  SUCCESS
+06:08:01.261927338 read < 231202  /usr/lib64/python3.8/__pycache__/_collections_abc.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.261930904 close < 231202  /usr/lib64/python3.8/__pycache__/_collections_abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.262581649 openat < 231202  /usr/lib64/python3.8/__pycache__/posixpath.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/posixpath.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/posixpath.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479960  SUCCESS
+06:08:01.262584234 fstat < 231202  /usr/lib64/python3.8/__pycache__/posixpath.cpython-38.pyc res=0  SUCCESS
+06:08:01.262591658 fstat < 231202  /usr/lib64/python3.8/__pycache__/posixpath.cpython-38.pyc res=0  SUCCESS
+06:08:01.262595656 read < 231202  /usr/lib64/python3.8/__pycache__/posixpath.cpython-38.pyc res=10430 data=U.......e5.d.=...................&...@...s^...d.Z.d.Z.d.Z.d.Z.d.Z.d.Z.d.Z.d.Z.d.  SUCCESS
+06:08:01.262597539 read < 231202  /usr/lib64/python3.8/__pycache__/posixpath.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.262601076 close < 231202  /usr/lib64/python3.8/__pycache__/posixpath.cpython-38.pyc res=0  SUCCESS
+06:08:01.262742983 openat < 231202  /usr/lib64/python3.8/__pycache__/genericpath.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/genericpath.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/genericpath.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479931  SUCCESS
+06:08:01.262745498 fstat < 231202  /usr/lib64/python3.8/__pycache__/genericpath.cpython-38.pyc res=0  SUCCESS
+06:08:01.262752711 fstat < 231202  /usr/lib64/python3.8/__pycache__/genericpath.cpython-38.pyc res=0  SUCCESS
+06:08:01.262755416 read < 231202  /usr/lib64/python3.8/__pycache__/genericpath.cpython-38.pyc res=4003 data=U.......e5.do........................@...s....d.Z.d.d.l.Z.d.d.l.Z.d.d.d.d.d.d.d.  SUCCESS
+06:08:01.262757160 read < 231202  /usr/lib64/python3.8/__pycache__/genericpath.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.262760556 close < 231202  /usr/lib64/python3.8/__pycache__/genericpath.cpython-38.pyc res=0  SUCCESS
+06:08:01.263035123 openat < 231202  /usr/lib64/python3.8/__pycache__/site.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/site.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/site.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479978  SUCCESS
+06:08:01.263037637 fstat < 231202  /usr/lib64/python3.8/__pycache__/site.cpython-38.pyc res=0  SUCCESS
+06:08:01.263044991 fstat < 231202  /usr/lib64/python3.8/__pycache__/site.cpython-38.pyc res=0  SUCCESS
+06:08:01.263049961 read < 231202  /usr/lib64/python3.8/__pycache__/site.cpython-38.pyc res=16977 data=U.......N..dNU.......................@...s&...d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.263051814 read < 231202  /usr/lib64/python3.8/__pycache__/site.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.263055421 close < 231202  /usr/lib64/python3.8/__pycache__/site.cpython-38.pyc res=0  SUCCESS
+06:08:01.263189103 openat < 231202  /usr/lib64/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479887  SUCCESS
+06:08:01.263191567 fstat < 231202  /usr/lib64/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc res=0  SUCCESS
+06:08:01.263198190 fstat < 231202  /usr/lib64/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc res=0  SUCCESS
+06:08:01.263200694 read < 231202  /usr/lib64/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc res=3483 data=U.......e5.d+........................@...s@...d.Z.d.d.l.Z.G.d.d...d.e...Z.G.d.d.  SUCCESS
+06:08:01.263202378 read < 231202  /usr/lib64/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.263205654 close < 231202  /usr/lib64/python3.8/__pycache__/_sitebuiltins.cpython-38.pyc res=0  SUCCESS
+06:08:01.263364503 openat < 231202  /usr/local/lib64/python3.8/site-packages fd=3(<d>/usr/local/lib64/python3.8/site-packages) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4481912  SUCCESS
+06:08:01.263366867 fstat < 231202  /usr/local/lib64/python3.8/site-packages res=0  SUCCESS
+06:08:01.263384540 close < 231202  /usr/local/lib64/python3.8/site-packages res=0  SUCCESS
+06:08:01.263405450 openat < 231202  /usr/local/lib/python3.8/site-packages fd=3(<d>/usr/local/lib/python3.8/site-packages) dirfd=-100(AT_FDCWD) name=/usr/local/lib/python3.8/site-packages flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4483301  SUCCESS
+06:08:01.263407704 fstat < 231202  /usr/local/lib/python3.8/site-packages res=0  SUCCESS
+06:08:01.263431108 close < 231202  /usr/local/lib/python3.8/site-packages res=0  SUCCESS
+06:08:01.263447369 openat < 231202  /usr/local/lib/python3.8/site-packages/distutils-precedence.pth fd=3(<f>/usr/local/lib/python3.8/site-packages/distutils-precedence.pth) dirfd=-100(AT_FDCWD) name=/usr/local/lib/python3.8/site-packages/distutils-precedence.pth flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4483870  SUCCESS
+06:08:01.263450795 fstat < 231202  /usr/local/lib/python3.8/site-packages/distutils-precedence.pth res=0  SUCCESS
+06:08:01.263614263 openat < 231202  /usr/lib64/python3.8/__pycache__/_bootlocale.cpython-38.pyc fd=4(<f>/usr/lib64/python3.8/__pycache__/_bootlocale.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/_bootlocale.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4475971  SUCCESS
+06:08:01.263619072 fstat < 231202  /usr/lib64/python3.8/__pycache__/_bootlocale.cpython-38.pyc res=0  SUCCESS
+06:08:01.263629151 fstat < 231202  /usr/lib64/python3.8/__pycache__/_bootlocale.cpython-38.pyc res=0  SUCCESS
+06:08:01.263644740 read < 231202  /usr/lib64/python3.8/__pycache__/_bootlocale.cpython-38.pyc res=1245 data=U.......e5.d.........................@...sz...d.Z.d.d.l.Z.d.d.l.Z.e.j...d...r,d.  SUCCESS
+06:08:01.263647115 read < 231202  /usr/lib64/python3.8/__pycache__/_bootlocale.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.263654589 close < 231202  /usr/lib64/python3.8/__pycache__/_bootlocale.cpython-38.pyc res=0  SUCCESS
+06:08:01.263836972 read < 231202  /usr/local/lib/python3.8/site-packages/distutils-precedence.pth res=151 data=import os; var = 'SETUPTOOLS_USE_DISTUTILS'; enabled = os.environ.get(var, 'loca  SUCCESS
+06:08:01.264065893 openat < 231202  /usr/lib64/python3.8/lib-dynload fd=4(<d>/usr/lib64/python3.8/lib-dynload) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4479276  SUCCESS
+06:08:01.264068448 fstat < 231202  /usr/lib64/python3.8/lib-dynload res=0  SUCCESS
+06:08:01.264116628 close < 231202  /usr/lib64/python3.8/lib-dynload res=0  SUCCESS
+06:08:01.264162515 openat < 231202  /usr/local/lib64/python3.8/site-packages fd=4(<d>/usr/local/lib64/python3.8/site-packages) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4481912  SUCCESS
+06:08:01.264164709 fstat < 231202  /usr/local/lib64/python3.8/site-packages res=0  SUCCESS
+06:08:01.264175870 close < 231202  /usr/local/lib64/python3.8/site-packages res=0  SUCCESS
+06:08:01.264210966 openat < 231202  /usr/local/lib/python3.8/site-packages fd=4(<d>/usr/local/lib/python3.8/site-packages) dirfd=-100(AT_FDCWD) name=/usr/local/lib/python3.8/site-packages flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4483301  SUCCESS
+06:08:01.264213070 fstat < 231202  /usr/local/lib/python3.8/site-packages res=0  SUCCESS
+06:08:01.264230473 close < 231202  /usr/local/lib/python3.8/site-packages res=0  SUCCESS
+06:08:01.264298350 openat < 231202  /usr/local/lib/python3.8/site-packages/_distutils_hack/__pycache__/__init__.cpython-38.pyc fd=4(<f>/usr/local/lib/python3.8/site-packages/_distutils_hack/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib/python3.8/site-packages/_distutils_hack/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4483916  SUCCESS
+06:08:01.264300815 fstat < 231202  /usr/local/lib/python3.8/site-packages/_distutils_hack/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.264311475 fstat < 231202  /usr/local/lib/python3.8/site-packages/_distutils_hack/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.264318669 read < 231202  /usr/local/lib/python3.8/site-packages/_distutils_hack/__pycache__/__init__.cpython-38.pyc res=8161 data=U..........hb........................@...s....d.d.l.Z.d.d.l.Z.d.Z.d.d...Z.d.d...  SUCCESS
+06:08:01.264320572 read < 231202  /usr/local/lib/python3.8/site-packages/_distutils_hack/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.264324349 close < 231202  /usr/local/lib/python3.8/site-packages/_distutils_hack/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.264419739 read < 231202  /usr/local/lib/python3.8/site-packages/distutils-precedence.pth res=0 data=NULL  SUCCESS
+06:08:01.264427453 close < 231202  /usr/local/lib/python3.8/site-packages/distutils-precedence.pth res=0  SUCCESS
+06:08:01.264450076 openat < 231202  /usr/lib64/python3.8/site-packages fd=3(<d>/usr/lib64/python3.8/site-packages) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/site-packages flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4479671  SUCCESS
+06:08:01.264452461 fstat < 231202  /usr/lib64/python3.8/site-packages res=0  SUCCESS
+06:08:01.264484130 close < 231202  /usr/lib64/python3.8/site-packages res=0  SUCCESS
+06:08:01.264505410 openat < 231202  /usr/lib/python3.8/site-packages fd=3(<d>/usr/lib/python3.8/site-packages) dirfd=-100(AT_FDCWD) name=/usr/lib/python3.8/site-packages flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4475957  SUCCESS
+06:08:01.264507674 fstat < 231202  /usr/lib/python3.8/site-packages res=0  SUCCESS
+06:08:01.264518024 close < 231202  /usr/lib/python3.8/site-packages res=0  SUCCESS
+06:08:01.264638040 openat < 231202  /usr/lib64/python3.8/site-packages fd=3(<d>/usr/lib64/python3.8/site-packages) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/site-packages flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4479671  SUCCESS
+06:08:01.264640234 fstat < 231202  /usr/lib64/python3.8/site-packages res=0  SUCCESS
+06:08:01.264648319 close < 231202  /usr/lib64/python3.8/site-packages res=0  SUCCESS
+06:08:01.264679919 openat < 231202  /usr/lib/python3.8/site-packages fd=3(<d>/usr/lib/python3.8/site-packages) dirfd=-100(AT_FDCWD) name=/usr/lib/python3.8/site-packages flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4475957  SUCCESS
+06:08:01.264682023 fstat < 231202  /usr/lib/python3.8/site-packages res=0  SUCCESS
+06:08:01.264690629 close < 231202  /usr/lib/python3.8/site-packages res=0  SUCCESS
+06:08:01.264871389 openat < 231202  /usr/lib64/python3.8/__pycache__/inspect.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/inspect.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/inspect.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476319  SUCCESS
+06:08:01.264874014 fstat < 231202  /usr/lib64/python3.8/__pycache__/inspect.cpython-38.pyc res=0  SUCCESS
+06:08:01.264881228 fstat < 231202  /usr/lib64/python3.8/__pycache__/inspect.cpython-38.pyc res=0  SUCCESS
+06:08:01.264922465 read < 231202  /usr/lib64/python3.8/__pycache__/inspect.cpython-38.pyc res=80595 data=U.......e5.d.........................@...s....d.Z.d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.  SUCCESS
+06:08:01.264924649 read < 231202  /usr/lib64/python3.8/__pycache__/inspect.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.264928466 close < 231202  /usr/lib64/python3.8/__pycache__/inspect.cpython-38.pyc res=0  SUCCESS
+06:08:01.265272414 openat < 231202  /usr/lib64/python3.8/__pycache__/dis.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/dis.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/dis.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479921  SUCCESS
+06:08:01.265274989 fstat < 231202  /usr/lib64/python3.8/__pycache__/dis.cpython-38.pyc res=0  SUCCESS
+06:08:01.265281792 fstat < 231202  /usr/lib64/python3.8/__pycache__/dis.cpython-38.pyc res=0  SUCCESS
+06:08:01.265285759 read < 231202  /usr/lib64/python3.8/__pycache__/dis.cpython-38.pyc res=15810 data=U.......e5.dZP.......................@...s....d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.265287602 read < 231202  /usr/lib64/python3.8/__pycache__/dis.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.265291199 close < 231202  /usr/lib64/python3.8/__pycache__/dis.cpython-38.pyc res=0  SUCCESS
+06:08:01.265488120 openat < 231202  /usr/lib64/python3.8/__pycache__/types.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/types.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/types.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480000  SUCCESS
+06:08:01.265490554 fstat < 231202  /usr/lib64/python3.8/__pycache__/types.cpython-38.pyc res=0  SUCCESS
+06:08:01.265499682 fstat < 231202  /usr/lib64/python3.8/__pycache__/types.cpython-38.pyc res=0  SUCCESS
+06:08:01.265505382 read < 231202  /usr/lib64/python3.8/__pycache__/types.cpython-38.pyc res=9179 data=U.......e5.d.%.......................@...s....d.Z.d.d.l.Z.d.d...Z.e.e...Z.e.d.d.  SUCCESS
+06:08:01.265507256 read < 231202  /usr/lib64/python3.8/__pycache__/types.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.265510692 close < 231202  /usr/lib64/python3.8/__pycache__/types.cpython-38.pyc res=0  SUCCESS
+06:08:01.265713925 openat < 231202  /usr/lib64/python3.8/collections/__pycache__/__init__.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/collections/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/collections/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480017  SUCCESS
+06:08:01.265716520 fstat < 231202  /usr/lib64/python3.8/collections/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.265723473 fstat < 231202  /usr/lib64/python3.8/collections/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.265730987 read < 231202  /usr/lib64/python3.8/collections/__pycache__/__init__.cpython-38.pyc res=46438 data=U.......e5.dC........................@...s&...d.Z.d.d.d.d.d.d.d.d.d.g.Z.d.d.l.Z.  SUCCESS
+06:08:01.265732851 read < 231202  /usr/lib64/python3.8/collections/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.265736588 close < 231202  /usr/lib64/python3.8/collections/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.266003600 openat < 231202  /usr/lib64/python3.8/__pycache__/operator.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/operator.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/operator.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479954  SUCCESS
+06:08:01.266006315 fstat < 231202  /usr/lib64/python3.8/__pycache__/operator.cpython-38.pyc res=0  SUCCESS
+06:08:01.266013549 fstat < 231202  /usr/lib64/python3.8/__pycache__/operator.cpython-38.pyc res=0  SUCCESS
+06:08:01.266021173 read < 231202  /usr/lib64/python3.8/__pycache__/operator.cpython-38.pyc res=13693 data=U.......e5.d.)...................6...@...s(...d.Z.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.  SUCCESS
+06:08:01.266023027 read < 231202  /usr/lib64/python3.8/__pycache__/operator.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.266026704 close < 231202  /usr/lib64/python3.8/__pycache__/operator.cpython-38.pyc res=0  SUCCESS
+06:08:01.266616063 openat < 231202  /usr/lib64/python3.8/__pycache__/keyword.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/keyword.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/keyword.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479942  SUCCESS
+06:08:01.266618558 fstat < 231202  /usr/lib64/python3.8/__pycache__/keyword.cpython-38.pyc res=0  SUCCESS
+06:08:01.266625481 fstat < 231202  /usr/lib64/python3.8/__pycache__/keyword.cpython-38.pyc res=0  SUCCESS
+06:08:01.266628276 read < 231202  /usr/lib64/python3.8/__pycache__/keyword.cpython-38.pyc res=1000 data=U.......e5.d.....................#...@...sd...d.Z.d.d.g.Z.d.d.d.d.d.d.d.d.d.d.d.  SUCCESS
+06:08:01.266630019 read < 231202  /usr/lib64/python3.8/__pycache__/keyword.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.266633456 close < 231202  /usr/lib64/python3.8/__pycache__/keyword.cpython-38.pyc res=0  SUCCESS
+06:08:01.266736840 openat < 231202  /usr/lib64/python3.8/__pycache__/heapq.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/heapq.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/heapq.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479936  SUCCESS
+06:08:01.266739305 fstat < 231202  /usr/lib64/python3.8/__pycache__/heapq.cpython-38.pyc res=0  SUCCESS
+06:08:01.266745897 fstat < 231202  /usr/lib64/python3.8/__pycache__/heapq.cpython-38.pyc res=0  SUCCESS
+06:08:01.266749855 read < 231202  /usr/lib64/python3.8/__pycache__/heapq.cpython-38.pyc res=14072 data=U.......e5.d]Y.......................@...sZ...d.Z.d.Z.d.d.d.d.d.d.d.d.g.Z.d.d...  SUCCESS
+06:08:01.266751588 read < 231202  /usr/lib64/python3.8/__pycache__/heapq.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.266754784 close < 231202  /usr/lib64/python3.8/__pycache__/heapq.cpython-38.pyc res=0  SUCCESS
+06:08:01.266856275 openat < 231202  /usr/lib64/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479299  SUCCESS
+06:08:01.266859601 read < 231202  /usr/lib64/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.............@.......`g..........@.8...@.....................  SUCCESS
+06:08:01.266863439 read < 231202  /usr/lib64/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.266865292 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.266868648 read < 231202  /usr/lib64/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.266910607 close < 231202  /usr/lib64/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.267113750 openat < 231202  /usr/lib64/python3.8/__pycache__/reprlib.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/reprlib.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/reprlib.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479968  SUCCESS
+06:08:01.267116365 fstat < 231202  /usr/lib64/python3.8/__pycache__/reprlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.267123348 fstat < 231202  /usr/lib64/python3.8/__pycache__/reprlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.267127536 read < 231202  /usr/lib64/python3.8/__pycache__/reprlib.cpython-38.pyc res=5305 data=U.......e5.d.........................@...s^...d.Z.d.d.d.g.Z.d.d.l.Z.d.d.l.m.Z...  SUCCESS
+06:08:01.267129429 read < 231202  /usr/lib64/python3.8/__pycache__/reprlib.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.267132916 close < 231202  /usr/lib64/python3.8/__pycache__/reprlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.267578705 openat < 231202  /usr/lib64/python3.8/__pycache__/opcode.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/opcode.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/opcode.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479953  SUCCESS
+06:08:01.267581330 fstat < 231202  /usr/lib64/python3.8/__pycache__/opcode.cpython-38.pyc res=0  SUCCESS
+06:08:01.267588974 fstat < 231202  /usr/lib64/python3.8/__pycache__/opcode.cpython-38.pyc res=0  SUCCESS
+06:08:01.267593423 read < 231202  /usr/lib64/python3.8/__pycache__/opcode.cpython-38.pyc res=5422 data=U.......e5.d.........................@...s....d.Z.d.d.d.d.d.d.d.d.d.d.d.d.d.g.Z.  SUCCESS
+06:08:01.267595246 read < 231202  /usr/lib64/python3.8/__pycache__/opcode.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.267599103 close < 231202  /usr/lib64/python3.8/__pycache__/opcode.cpython-38.pyc res=0  SUCCESS
+06:08:01.267732484 openat < 231202  /usr/lib64/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479306  SUCCESS
+06:08:01.267737834 read < 231202  /usr/lib64/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.............@........&..........@.8...@.....................  SUCCESS
+06:08:01.267741842 read < 231202  /usr/lib64/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.267744256 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.267749025 read < 231202  /usr/lib64/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.267789131 close < 231202  /usr/lib64/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.268110265 openat < 231202  /usr/lib64/python3.8/collections fd=3(<d>/usr/lib64/python3.8/collections) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/collections flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4476628  SUCCESS
+06:08:01.268112740 fstat < 231202  /usr/lib64/python3.8/collections res=0  SUCCESS
+06:08:01.268131786 close < 231202  /usr/lib64/python3.8/collections res=0  SUCCESS
+06:08:01.268183994 openat < 231202  /usr/lib64/python3.8/collections/__pycache__/abc.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/collections/__pycache__/abc.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/collections/__pycache__/abc.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480018  SUCCESS
+06:08:01.268186429 fstat < 231202  /usr/lib64/python3.8/collections/__pycache__/abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.268193612 fstat < 231202  /usr/lib64/python3.8/collections/__pycache__/abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.268196297 read < 231202  /usr/lib64/python3.8/collections/__pycache__/abc.cpython-38.pyc res=193 data=U.......e5.dD........................@...s....d.d.l.T.d.d.l.m.Z...d.S.)......)..  SUCCESS
+06:08:01.268198161 read < 231202  /usr/lib64/python3.8/collections/__pycache__/abc.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.268201477 close < 231202  /usr/lib64/python3.8/collections/__pycache__/abc.cpython-38.pyc res=0  SUCCESS
+06:08:01.268296526 openat < 231202  /usr/lib64/python3.8/__pycache__/enum.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/enum.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/enum.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479923  SUCCESS
+06:08:01.268298971 fstat < 231202  /usr/lib64/python3.8/__pycache__/enum.cpython-38.pyc res=0  SUCCESS
+06:08:01.268305763 fstat < 231202  /usr/lib64/python3.8/__pycache__/enum.cpython-38.pyc res=0  SUCCESS
+06:08:01.268322475 read < 231202  /usr/lib64/python3.8/__pycache__/enum.cpython-38.pyc res=25964 data=U.......e5.d.........................@...s....d.d.l.Z.d.d.l.m.Z.m.Z...d.d.d.d.d.  SUCCESS
+06:08:01.268324398 read < 231202  /usr/lib64/python3.8/__pycache__/enum.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.268327785 close < 231202  /usr/lib64/python3.8/__pycache__/enum.cpython-38.pyc res=0  SUCCESS
+06:08:01.268907035 openat < 231202  /usr/lib64/python3.8/importlib/__pycache__/__init__.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/importlib/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/importlib/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480229  SUCCESS
+06:08:01.268909901 fstat < 231202  /usr/lib64/python3.8/importlib/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.268917144 fstat < 231202  /usr/lib64/python3.8/importlib/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.268919949 read < 231202  /usr/lib64/python3.8/importlib/__pycache__/__init__.cpython-38.pyc res=3760 data=U.......e5.d.........................@...sj...d.Z.d.d.d.d.g.Z.d.d.l.Z.d.d.l.Z.z.  SUCCESS
+06:08:01.268921753 read < 231202  /usr/lib64/python3.8/importlib/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.268925400 close < 231202  /usr/lib64/python3.8/importlib/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.269038533 openat < 231202  /usr/lib64/python3.8/__pycache__/warnings.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/warnings.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/warnings.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476460  SUCCESS
+06:08:01.269040937 fstat < 231202  /usr/lib64/python3.8/__pycache__/warnings.cpython-38.pyc res=0  SUCCESS
+06:08:01.269047279 fstat < 231202  /usr/lib64/python3.8/__pycache__/warnings.cpython-38.pyc res=0  SUCCESS
+06:08:01.269051918 read < 231202  /usr/lib64/python3.8/__pycache__/warnings.cpython-38.pyc res=13654 data=U.......e5.d.L.......................@...s....d.Z.d.d.l.Z.d.d.d.d.d.d.d.d.g.Z.d<  SUCCESS
+06:08:01.269053731 read < 231202  /usr/lib64/python3.8/__pycache__/warnings.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.269056917 close < 231202  /usr/lib64/python3.8/__pycache__/warnings.cpython-38.pyc res=0  SUCCESS
+06:08:01.269225294 openat < 231202  /usr/lib64/python3.8/importlib fd=3(<d>/usr/lib64/python3.8/importlib) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/importlib flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4479236  SUCCESS
+06:08:01.269227589 fstat < 231202  /usr/lib64/python3.8/importlib res=0  SUCCESS
+06:08:01.269260220 close < 231202  /usr/lib64/python3.8/importlib res=0  SUCCESS
+06:08:01.269312378 openat < 231202  /usr/lib64/python3.8/importlib/__pycache__/machinery.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/importlib/__pycache__/machinery.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/importlib/__pycache__/machinery.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480231  SUCCESS
+06:08:01.269314853 fstat < 231202  /usr/lib64/python3.8/importlib/__pycache__/machinery.cpython-38.pyc res=0  SUCCESS
+06:08:01.269321876 fstat < 231202  /usr/lib64/python3.8/importlib/__pycache__/machinery.cpython-38.pyc res=0  SUCCESS
+06:08:01.269324581 read < 231202  /usr/lib64/python3.8/importlib/__pycache__/machinery.cpython-38.pyc res=964 data=U.......e5.dL........................@...s....d.Z.d.d.l.Z.d.d.l.m.Z...d.d.l.m.Z.  SUCCESS
+06:08:01.269326375 read < 231202  /usr/lib64/python3.8/importlib/__pycache__/machinery.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.269329771 close < 231202  /usr/lib64/python3.8/importlib/__pycache__/machinery.cpython-38.pyc res=0  SUCCESS
+06:08:01.269436011 openat < 231202  /usr/lib64/python3.8/__pycache__/linecache.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/linecache.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/linecache.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479943  SUCCESS
+06:08:01.269438556 fstat < 231202  /usr/lib64/python3.8/__pycache__/linecache.cpython-38.pyc res=0  SUCCESS
+06:08:01.269444777 fstat < 231202  /usr/lib64/python3.8/__pycache__/linecache.cpython-38.pyc res=0  SUCCESS
+06:08:01.269447362 read < 231202  /usr/lib64/python3.8/__pycache__/linecache.cpython-38.pyc res=3869 data=U.......e5.d.........................@...sn...d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.269449106 read < 231202  /usr/lib64/python3.8/__pycache__/linecache.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.269452422 close < 231202  /usr/lib64/python3.8/__pycache__/linecache.cpython-38.pyc res=0  SUCCESS
+06:08:01.269552901 openat < 231202  /usr/lib64/python3.8/__pycache__/functools.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/functools.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/functools.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479930  SUCCESS
+06:08:01.269555285 fstat < 231202  /usr/lib64/python3.8/__pycache__/functools.cpython-38.pyc res=0  SUCCESS
+06:08:01.269561627 fstat < 231202  /usr/lib64/python3.8/__pycache__/functools.cpython-38.pyc res=0  SUCCESS
+06:08:01.269574882 read < 231202  /usr/lib64/python3.8/__pycache__/functools.cpython-38.pyc res=27903 data=U.......e5.d.........................@...s....d.Z.d.d.d.d.d.d.d.d.d.d.d.d.d.g.Z.  SUCCESS
+06:08:01.269576726 read < 231202  /usr/lib64/python3.8/__pycache__/functools.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.269580413 close < 231202  /usr/lib64/python3.8/__pycache__/functools.cpython-38.pyc res=0  SUCCESS
+06:08:01.270036000 openat < 231202  /usr/lib64/python3.8/__pycache__/tokenize.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/tokenize.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/tokenize.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476445  SUCCESS
+06:08:01.270038645 fstat < 231202  /usr/lib64/python3.8/__pycache__/tokenize.cpython-38.pyc res=0  SUCCESS
+06:08:01.270045899 fstat < 231202  /usr/lib64/python3.8/__pycache__/tokenize.cpython-38.pyc res=0  SUCCESS
+06:08:01.270051019 read < 231202  /usr/lib64/python3.8/__pycache__/tokenize.cpython-38.pyc res=17162 data=U.......e5.d.d.......................@...sH...d.Z.d.Z.d.Z.d.d.l.m.Z...d.d.l.m.Z.  SUCCESS
+06:08:01.270052912 read < 231202  /usr/lib64/python3.8/__pycache__/tokenize.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.270056719 close < 231202  /usr/lib64/python3.8/__pycache__/tokenize.cpython-38.pyc res=0  SUCCESS
+06:08:01.270218985 openat < 231202  /usr/lib64/python3.8/__pycache__/re.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/re.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/re.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479967  SUCCESS
+06:08:01.270221469 fstat < 231202  /usr/lib64/python3.8/__pycache__/re.cpython-38.pyc res=0  SUCCESS
+06:08:01.270228042 fstat < 231202  /usr/lib64/python3.8/__pycache__/re.cpython-38.pyc res=0  SUCCESS
+06:08:01.270237880 read < 231202  /usr/lib64/python3.8/__pycache__/re.cpython-38.pyc res=14424 data=U.......e5.d.=.......................@...s....d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.270239684 read < 231202  /usr/lib64/python3.8/__pycache__/re.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.270243290 close < 231202  /usr/lib64/python3.8/__pycache__/re.cpython-38.pyc res=0  SUCCESS
+06:08:01.270367995 openat < 231202  /usr/lib64/python3.8/__pycache__/sre_compile.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/sre_compile.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/sre_compile.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476406  SUCCESS
+06:08:01.270370540 fstat < 231202  /usr/lib64/python3.8/__pycache__/sre_compile.cpython-38.pyc res=0  SUCCESS
+06:08:01.270377313 fstat < 231202  /usr/lib64/python3.8/__pycache__/sre_compile.cpython-38.pyc res=0  SUCCESS
+06:08:01.270381140 read < 231202  /usr/lib64/python3.8/__pycache__/sre_compile.cpython-38.pyc res=15144 data=U.......e5.dGh.......................@...s$...d.Z.d.d.l.Z.d.d.l.Z.d.d.l.T.e.j.e.  SUCCESS
+06:08:01.270382883 read < 231202  /usr/lib64/python3.8/__pycache__/sre_compile.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.270386330 close < 231202  /usr/lib64/python3.8/__pycache__/sre_compile.cpython-38.pyc res=0  SUCCESS
+06:08:01.270622053 openat < 231202  /usr/lib64/python3.8/__pycache__/sre_parse.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/sre_parse.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/sre_parse.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476410  SUCCESS
+06:08:01.270624548 fstat < 231202  /usr/lib64/python3.8/__pycache__/sre_parse.cpython-38.pyc res=0  SUCCESS
+06:08:01.270631281 fstat < 231202  /usr/lib64/python3.8/__pycache__/sre_parse.cpython-38.pyc res=0  SUCCESS
+06:08:01.270638795 read < 231202  /usr/lib64/python3.8/__pycache__/sre_parse.cpython-38.pyc res=21649 data=U.......e5.d&........................@...s....d.Z.d.d.l.T.d.Z.d.Z.e.d...Z.e.d...  SUCCESS
+06:08:01.270640638 read < 231202  /usr/lib64/python3.8/__pycache__/sre_parse.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.270644135 close < 231202  /usr/lib64/python3.8/__pycache__/sre_parse.cpython-38.pyc res=0  SUCCESS
+06:08:01.270818643 openat < 231202  /usr/lib64/python3.8/__pycache__/sre_constants.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/sre_constants.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/sre_constants.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479982  SUCCESS
+06:08:01.270821208 fstat < 231202  /usr/lib64/python3.8/__pycache__/sre_constants.cpython-38.pyc res=0  SUCCESS
+06:08:01.270827841 fstat < 231202  /usr/lib64/python3.8/__pycache__/sre_constants.cpython-38.pyc res=0  SUCCESS
+06:08:01.270830856 read < 231202  /usr/lib64/python3.8/__pycache__/sre_constants.cpython-38.pyc res=6361 data=U.......e5.d.........................@...sD...d.Z.d.Z.d.d.l.m.Z.m.Z...G.d.d...d.  SUCCESS
+06:08:01.270832580 read < 231202  /usr/lib64/python3.8/__pycache__/sre_constants.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.270836056 close < 231202  /usr/lib64/python3.8/__pycache__/sre_constants.cpython-38.pyc res=0  SUCCESS
+06:08:01.271376413 openat < 231202  /usr/lib64/python3.8/__pycache__/copyreg.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/copyreg.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/copyreg.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476276  SUCCESS
+06:08:01.271379229 fstat < 231202  /usr/lib64/python3.8/__pycache__/copyreg.cpython-38.pyc res=0  SUCCESS
+06:08:01.271389398 fstat < 231202  /usr/lib64/python3.8/__pycache__/copyreg.cpython-38.pyc res=0  SUCCESS
+06:08:01.271396241 read < 231202  /usr/lib64/python3.8/__pycache__/copyreg.cpython-38.pyc res=4320 data=U.......e5.d.........................@...s....d.Z.d.d.d.d.d.g.Z.i.Z.d.d.d...Z.d.  SUCCESS
+06:08:01.271398144 read < 231202  /usr/lib64/python3.8/__pycache__/copyreg.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.271401871 close < 231202  /usr/lib64/python3.8/__pycache__/copyreg.cpython-38.pyc res=0  SUCCESS
+06:08:01.271529632 openat < 231202  /usr/lib64/python3.8/__pycache__/token.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/token.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/token.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479995  SUCCESS
+06:08:01.271532106 fstat < 231202  /usr/lib64/python3.8/__pycache__/token.cpython-38.pyc res=0  SUCCESS
+06:08:01.271538739 fstat < 231202  /usr/lib64/python3.8/__pycache__/token.cpython-38.pyc res=0  SUCCESS
+06:08:01.271541223 read < 231202  /usr/lib64/python3.8/__pycache__/token.cpython-38.pyc res=2487 data=U.......e5.d@....................0...@...s....d.Z.d.d.d.d.g.Z.d.Z.d.Z.d.Z.d.Z.d.  SUCCESS
+06:08:01.271542957 read < 231202  /usr/lib64/python3.8/__pycache__/token.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.271546143 close < 231202  /usr/lib64/python3.8/__pycache__/token.cpython-38.pyc res=0  SUCCESS
+06:08:01.272965665 openat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/__init__.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/ctypes/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/ctypes/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480023  SUCCESS
+06:08:01.272968390 fstat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.272976184 fstat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.272987836 read < 231202  /usr/lib64/python3.8/ctypes/__pycache__/__init__.cpython-38.pyc res=16374 data=U.......e5.d.E.......................@...s ...d.Z.d.d.l.Z.d.d.l.Z.d.Z.d.d.l.m.Z.  SUCCESS
+06:08:01.272989870 read < 231202  /usr/lib64/python3.8/ctypes/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.272993818 close < 231202  /usr/lib64/python3.8/ctypes/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.273188123 openat < 231202  /usr/lib64/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479290  SUCCESS
+06:08:01.273191690 read < 231202  /usr/lib64/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>......~......@.......`...........@.8...@.....................  SUCCESS
+06:08:01.273195187 read < 231202  /usr/lib64/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.273196920 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.273200016 read < 231202  /usr/lib64/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.273235673 close < 231202  /usr/lib64/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.273247675 openat < 231202  /usr/lib/libffi.so.6 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libffi.so.6 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.273254528 openat < 231202  /tmp/_MEIUxPiR1/libffi.so.6 fd=3(<f>/tmp/_MEIUxPiR1/libffi.so.6) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libffi.so.6 flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493906  SUCCESS
+06:08:01.273257684 read < 231202  /tmp/_MEIUxPiR1/libffi.so.6 res=832 data=.ELF..............>.............@...................@.8...@.....................  SUCCESS
+06:08:01.273259878 fstat < 231202  /tmp/_MEIUxPiR1/libffi.so.6 res=0  SUCCESS
+06:08:01.273284385 close < 231202  /tmp/_MEIUxPiR1/libffi.so.6 res=0  SUCCESS
+06:08:01.273553782 openat < 231202  /usr/lib64/python3.8/__pycache__/struct.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/struct.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/struct.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479986  SUCCESS
+06:08:01.273556377 fstat < 231202  /usr/lib64/python3.8/__pycache__/struct.cpython-38.pyc res=0  SUCCESS
+06:08:01.273563700 fstat < 231202  /usr/lib64/python3.8/__pycache__/struct.cpython-38.pyc res=0  SUCCESS
+06:08:01.273566305 read < 231202  /usr/lib64/python3.8/__pycache__/struct.cpython-38.pyc res=332 data=U.......e5.d.........................@...s8...d.d.d.d.d.d.d.d.g.Z.d.d.l.T.d.d.l.  SUCCESS
+06:08:01.273568089 read < 231202  /usr/lib64/python3.8/__pycache__/struct.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.273571585 close < 231202  /usr/lib64/python3.8/__pycache__/struct.cpython-38.pyc res=0  SUCCESS
+06:08:01.273646977 openat < 231202  /usr/lib64/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479317  SUCCESS
+06:08:01.273650313 read < 231202  /usr/lib64/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.....02......@...................@.8...@.....................  SUCCESS
+06:08:01.273653670 read < 231202  /usr/lib64/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.273655363 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.273658368 read < 231202  /usr/lib64/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.273687303 close < 231202  /usr/lib64/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.274148701 openat < 231202  /usr/lib64/python3.8/ctypes fd=3(<d>/usr/lib64/python3.8/ctypes) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/ctypes flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4476659  SUCCESS
+06:08:01.274151096 fstat < 231202  /usr/lib64/python3.8/ctypes res=0  SUCCESS
+06:08:01.274167567 close < 231202  /usr/lib64/python3.8/ctypes res=0  SUCCESS
+06:08:01.274219314 openat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/_endian.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/ctypes/__pycache__/_endian.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/ctypes/__pycache__/_endian.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480025  SUCCESS
+06:08:01.274221839 fstat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/_endian.cpython-38.pyc res=0  SUCCESS
+06:08:01.274232038 fstat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/_endian.cpython-38.pyc res=0  SUCCESS
+06:08:01.274236667 read < 231202  /usr/lib64/python3.8/ctypes/__pycache__/_endian.cpython-38.pyc res=1931 data=U.......e5.d.........................@...s....d.d.l.Z.d.d.l.T.e.e...Z.d.d...Z.G.  SUCCESS
+06:08:01.274238601 read < 231202  /usr/lib64/python3.8/ctypes/__pycache__/_endian.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.274242368 close < 231202  /usr/lib64/python3.8/ctypes/__pycache__/_endian.cpython-38.pyc res=0  SUCCESS
+06:08:01.274411957 openat < 231202  /usr/lib64/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479327  SUCCESS
+06:08:01.274415383 read < 231202  /usr/lib64/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.....p ......@.......(l..........@.8...@.....................  SUCCESS
+06:08:01.274418820 read < 231202  /usr/lib64/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.274420673 fstat < 231202  /usr/lib64/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.274423970 read < 231202  /usr/lib64/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.274456651 close < 231202  /usr/lib64/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.274632201 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/__pycache__/__init__.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482504  SUCCESS
+06:08:01.274634786 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.274645426 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.274648041 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/__pycache__/__init__.cpython-38.pyc res=437 data=U.......d..h.........................@...s0...d.d.d.d.d.d.d.d.g.Z.d.Z.d...d.d...  SUCCESS
+06:08:01.274649805 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.274653101 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.274754071 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto fd=3(<d>/usr/local/lib64/python3.8/site-packages/Crypto) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4481913  SUCCESS
+06:08:01.274756335 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto res=0  SUCCESS
+06:08:01.274788816 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto res=0  SUCCESS
+06:08:01.274858377 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482020  SUCCESS
+06:08:01.274860932 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.274868216 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.274870901 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-38.pyc res=2103 data=U.......d..h.........................@...s....d.d...Z.d.S.).c...................  SUCCESS
+06:08:01.274872654 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.274876030 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.274951212 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher fd=3(<d>/usr/local/lib64/python3.8/site-packages/Crypto/Cipher) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Cipher flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4481939  SUCCESS
+06:08:01.274953466 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher res=0  SUCCESS
+06:08:01.274992109 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher res=0  SUCCESS
+06:08:01.275048876 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/AES.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/AES.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/AES.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482032  SUCCESS
+06:08:01.275051330 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/AES.cpython-38.pyc res=0  SUCCESS
+06:08:01.275057963 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/AES.cpython-38.pyc res=0  SUCCESS
+06:08:01.275065758 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/AES.cpython-38.pyc res=7071 data=U.......d..hE#.......................@...s....d.d.l.Z.d.d.l.m.Z...d.d.l.m.Z.m.Z.  SUCCESS
+06:08:01.275067561 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/AES.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.275070857 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/AES.cpython-38.pyc res=0  SUCCESS
+06:08:01.275183870 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/__init__.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482493  SUCCESS
+06:08:01.275186685 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.275193217 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.275195662 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/__init__.cpython-38.pyc res=1103 data=U.......d..h.........................@...s....d.Z.d.d.d.d.d.d.g.Z.d.S.).a[...Mis  SUCCESS
+06:08:01.275197435 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.275200541 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.275252078 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util fd=3(<d>/usr/local/lib64/python3.8/site-packages/Crypto/Util) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util flags=46145(O_DIRECTORY|O_NONBLOCK|O_RDONLY|O_CLOEXEC|O_TMPFILE) mode=0 dev=6F ino=4482467  SUCCESS
+06:08:01.275254292 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util res=0  SUCCESS
+06:08:01.275277075 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util res=0  SUCCESS
+06:08:01.275329133 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_raw_api.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_raw_api.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_raw_api.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482497  SUCCESS
+06:08:01.275331498 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_raw_api.cpython-38.pyc res=0  SUCCESS
+06:08:01.275338240 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_raw_api.cpython-38.pyc res=0  SUCCESS
+06:08:01.275344011 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_raw_api.cpython-38.pyc res=8784 data=U.......d..h8).......................@...s....d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.m.Z.  SUCCESS
+06:08:01.275345885 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_raw_api.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.275349081 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_raw_api.cpython-38.pyc res=0  SUCCESS
+06:08:01.275473675 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/py3compat.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/py3compat.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/py3compat.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482500  SUCCESS
+06:08:01.275476140 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/py3compat.cpython-38.pyc res=0  SUCCESS
+06:08:01.275482412 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/py3compat.cpython-38.pyc res=0  SUCCESS
+06:08:01.275485277 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/py3compat.cpython-38.pyc res=5399 data=U.......d..h.........................@...sX...d.Z.d.d.l.Z.d.d.l.Z.e.j.d...d.k.r.  SUCCESS
+06:08:01.275486960 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/py3compat.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.275489926 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/py3compat.cpython-38.pyc res=0  SUCCESS
+06:08:01.275594643 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_file_system.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_file_system.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_file_system.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482501  SUCCESS
+06:08:01.275597038 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_file_system.cpython-38.pyc res=0  SUCCESS
+06:08:01.275603209 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_file_system.cpython-38.pyc res=0  SUCCESS
+06:08:01.275605534 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_file_system.cpython-38.pyc res=841 data=U.......d..h{........................@...s....d.d.l.Z.d.d...Z.d.S.)......Nc.....  SUCCESS
+06:08:01.275607197 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_file_system.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.275610212 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_file_system.cpython-38.pyc res=0  SUCCESS
+06:08:01.275801042 openat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/util.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/ctypes/__pycache__/util.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/ctypes/__pycache__/util.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4480026  SUCCESS
+06:08:01.275803566 fstat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/util.cpython-38.pyc res=0  SUCCESS
+06:08:01.275810329 fstat < 231202  /usr/lib64/python3.8/ctypes/__pycache__/util.cpython-38.pyc res=0  SUCCESS
+06:08:01.275817132 read < 231202  /usr/lib64/python3.8/ctypes/__pycache__/util.cpython-38.pyc res=8063 data=U.......e5.d76.......................@...sB...d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.e.  SUCCESS
+06:08:01.275818915 read < 231202  /usr/lib64/python3.8/ctypes/__pycache__/util.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.275822332 close < 231202  /usr/lib64/python3.8/ctypes/__pycache__/util.cpython-38.pyc res=0  SUCCESS
+06:08:01.275950974 openat < 231202  /usr/lib64/python3.8/__pycache__/shutil.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/shutil.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/shutil.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479976  SUCCESS
+06:08:01.275953478 fstat < 231202  /usr/lib64/python3.8/__pycache__/shutil.cpython-38.pyc res=0  SUCCESS
+06:08:01.275960051 fstat < 231202  /usr/lib64/python3.8/__pycache__/shutil.cpython-38.pyc res=0  SUCCESS
+06:08:01.275979447 read < 231202  /usr/lib64/python3.8/__pycache__/shutil.cpython-38.pyc res=37412 data=U.......e5.d1........................@...s....d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.275981391 read < 231202  /usr/lib64/python3.8/__pycache__/shutil.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.275984717 close < 231202  /usr/lib64/python3.8/__pycache__/shutil.cpython-38.pyc res=0  SUCCESS
+06:08:01.276399849 openat < 231202  /usr/lib64/python3.8/__pycache__/fnmatch.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/fnmatch.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/fnmatch.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479926  SUCCESS
+06:08:01.276402454 fstat < 231202  /usr/lib64/python3.8/__pycache__/fnmatch.cpython-38.pyc res=0  SUCCESS
+06:08:01.276409407 fstat < 231202  /usr/lib64/python3.8/__pycache__/fnmatch.cpython-38.pyc res=0  SUCCESS
+06:08:01.276413224 read < 231202  /usr/lib64/python3.8/__pycache__/fnmatch.cpython-38.pyc res=3357 data=U.......e5.d.........................@...sj...d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.276415017 read < 231202  /usr/lib64/python3.8/__pycache__/fnmatch.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.276418253 close < 231202  /usr/lib64/python3.8/__pycache__/fnmatch.cpython-38.pyc res=0  SUCCESS
+06:08:01.276562986 openat < 231202  /usr/lib64/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479340  SUCCESS
+06:08:01.276566312 read < 231202  /usr/lib64/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>......"......@...................@.8...@.....................  SUCCESS
+06:08:01.276569668 read < 231202  /usr/lib64/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.276571392 fstat < 231202  /usr/lib64/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.276574698 read < 231202  /usr/lib64/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.276608141 close < 231202  /usr/lib64/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.276774313 openat < 231202  /usr/lib64/python3.8/__pycache__/bz2.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/bz2.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/bz2.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479902  SUCCESS
+06:08:01.276777009 fstat < 231202  /usr/lib64/python3.8/__pycache__/bz2.cpython-38.pyc res=0  SUCCESS
+06:08:01.276784633 fstat < 231202  /usr/lib64/python3.8/__pycache__/bz2.cpython-38.pyc res=0  SUCCESS
+06:08:01.276792828 read < 231202  /usr/lib64/python3.8/__pycache__/bz2.cpython-38.pyc res=11447 data=U.......e5.d.1.......................@...s....d.Z.d.d.d.d.d.d.g.Z.d.Z.d.d.l.m.Z.  SUCCESS
+06:08:01.276794702 read < 231202  /usr/lib64/python3.8/__pycache__/bz2.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.276798349 close < 231202  /usr/lib64/python3.8/__pycache__/bz2.cpython-38.pyc res=0  SUCCESS
+06:08:01.276938533 openat < 231202  /usr/lib64/python3.8/__pycache__/_compression.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/_compression.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/_compression.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479883  SUCCESS
+06:08:01.276941127 fstat < 231202  /usr/lib64/python3.8/__pycache__/_compression.cpython-38.pyc res=0  SUCCESS
+06:08:01.276947730 fstat < 231202  /usr/lib64/python3.8/__pycache__/_compression.cpython-38.pyc res=0  SUCCESS
+06:08:01.276950746 read < 231202  /usr/lib64/python3.8/__pycache__/_compression.cpython-38.pyc res=4148 data=U.......e5.d.........................@...s:...d.Z.d.d.l.Z.e.j.Z.G.d.d...d.e.j...  SUCCESS
+06:08:01.276952439 read < 231202  /usr/lib64/python3.8/__pycache__/_compression.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.276955795 close < 231202  /usr/lib64/python3.8/__pycache__/_compression.cpython-38.pyc res=0  SUCCESS
+06:08:01.277173184 openat < 231202  /usr/lib64/python3.8/__pycache__/threading.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/threading.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/threading.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476440  SUCCESS
+06:08:01.277175809 fstat < 231202  /usr/lib64/python3.8/__pycache__/threading.cpython-38.pyc res=0  SUCCESS
+06:08:01.277182943 fstat < 231202  /usr/lib64/python3.8/__pycache__/threading.cpython-38.pyc res=0  SUCCESS
+06:08:01.277200155 read < 231202  /usr/lib64/python3.8/__pycache__/threading.cpython-38.pyc res=39978 data=U.......e5.d.........................@...s2...d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.277202099 read < 231202  /usr/lib64/python3.8/__pycache__/threading.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.277205685 close < 231202  /usr/lib64/python3.8/__pycache__/threading.cpython-38.pyc res=0  SUCCESS
+06:08:01.277431240 openat < 231202  /usr/lib64/python3.8/__pycache__/_weakrefset.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/_weakrefset.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/_weakrefset.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479892  SUCCESS
+06:08:01.277434055 fstat < 231202  /usr/lib64/python3.8/__pycache__/_weakrefset.cpython-38.pyc res=0  SUCCESS
+06:08:01.277440878 fstat < 231202  /usr/lib64/python3.8/__pycache__/_weakrefset.cpython-38.pyc res=0  SUCCESS
+06:08:01.277445587 read < 231202  /usr/lib64/python3.8/__pycache__/_weakrefset.cpython-38.pyc res=7602 data=U.......e5.dg........................@...s2...d.d.l.m.Z...d.g.Z.G.d.d...d...Z.G.  SUCCESS
+06:08:01.277447340 read < 231202  /usr/lib64/python3.8/__pycache__/_weakrefset.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.277450526 close < 231202  /usr/lib64/python3.8/__pycache__/_weakrefset.cpython-38.pyc res=0  SUCCESS
+06:08:01.277791789 openat < 231202  /usr/lib64/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479280  SUCCESS
+06:08:01.277796487 read < 231202  /usr/lib64/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.............@.......0[..........@.8...@.....................  SUCCESS
+06:08:01.277800856 read < 231202  /usr/lib64/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.277802779 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.277806306 read < 231202  /usr/lib64/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.277843466 close < 231202  /usr/lib64/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.277855919 openat < 231202  /usr/lib/libbz2.so.1 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libbz2.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.277866279 openat < 231202  /tmp/_MEIUxPiR1/libbz2.so.1 fd=3(<f>/tmp/_MEIUxPiR1/libbz2.so.1) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libbz2.so.1 flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493903  SUCCESS
+06:08:01.277869665 read < 231202  /tmp/_MEIUxPiR1/libbz2.so.1 res=832 data=.ELF..............>.............@...................@.8...@.....................  SUCCESS
+06:08:01.277872941 read < 231202  /tmp/_MEIUxPiR1/libbz2.so.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.277875075 fstat < 231202  /tmp/_MEIUxPiR1/libbz2.so.1 res=0  SUCCESS
+06:08:01.277878101 read < 231202  /tmp/_MEIUxPiR1/libbz2.so.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.277915662 close < 231202  /tmp/_MEIUxPiR1/libbz2.so.1 res=0  SUCCESS
+06:08:01.278231526 openat < 231202  /usr/lib64/python3.8/__pycache__/lzma.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/lzma.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/lzma.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479945  SUCCESS
+06:08:01.278235033 fstat < 231202  /usr/lib64/python3.8/__pycache__/lzma.cpython-38.pyc res=0  SUCCESS
+06:08:01.278243940 fstat < 231202  /usr/lib64/python3.8/__pycache__/lzma.cpython-38.pyc res=0  SUCCESS
+06:08:01.278261162 read < 231202  /usr/lib64/python3.8/__pycache__/lzma.cpython-38.pyc res=12020 data=U.......e5.d.2...................$...@...s....d.Z.d.d.d.d.d.d.d.d.d.d.d.d.d.d.d.  SUCCESS
+06:08:01.278263066 read < 231202  /usr/lib64/python3.8/__pycache__/lzma.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.278267414 close < 231202  /usr/lib64/python3.8/__pycache__/lzma.cpython-38.pyc res=0  SUCCESS
+06:08:01.278404011 openat < 231202  /usr/lib64/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479303  SUCCESS
+06:08:01.278408069 read < 231202  /usr/lib64/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>......)......@...................@.8...@.....................  SUCCESS
+06:08:01.278411746 read < 231202  /usr/lib64/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.278413769 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.278417066 read < 231202  /usr/lib64/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.278454145 close < 231202  /usr/lib64/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.278465226 openat < 231202  /usr/lib/liblzma.so.5 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/liblzma.so.5 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.278472570 openat < 231202  /tmp/_MEIUxPiR1/liblzma.so.5 fd=3(<f>/tmp/_MEIUxPiR1/liblzma.so.5) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/liblzma.so.5 flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493907  SUCCESS
+06:08:01.278476047 read < 231202  /tmp/_MEIUxPiR1/liblzma.so.5 res=832 data=.ELF..............>......5......@.......Pr..........@.8...@.....................  SUCCESS
+06:08:01.278479764 read < 231202  /tmp/_MEIUxPiR1/liblzma.so.5 res=32 data=............GNU.................  SUCCESS
+06:08:01.278481687 fstat < 231202  /tmp/_MEIUxPiR1/liblzma.so.5 res=0  SUCCESS
+06:08:01.278484713 read < 231202  /tmp/_MEIUxPiR1/liblzma.so.5 res=32 data=............GNU.................  SUCCESS
+06:08:01.278515351 close < 231202  /tmp/_MEIUxPiR1/liblzma.so.5 res=0  SUCCESS
+06:08:01.278815446 openat < 231202  /usr/lib64/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479325  SUCCESS
+06:08:01.278819643 read < 231202  /usr/lib64/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.....`.......@.......@7..........@.8...@.....................  SUCCESS
+06:08:01.278823040 read < 231202  /usr/lib64/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.278824823 fstat < 231202  /usr/lib64/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.278827949 read < 231202  /usr/lib64/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.278858787 close < 231202  /usr/lib64/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.279394385 openat < 231202  /usr/lib64/python3.8/__pycache__/subprocess.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/subprocess.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/subprocess.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476422  SUCCESS
+06:08:01.279397291 fstat < 231202  /usr/lib64/python3.8/__pycache__/subprocess.cpython-38.pyc res=0  SUCCESS
+06:08:01.279407099 fstat < 231202  /usr/lib64/python3.8/__pycache__/subprocess.cpython-38.pyc res=0  SUCCESS
+06:08:01.279436284 read < 231202  /usr/lib64/python3.8/__pycache__/subprocess.cpython-38.pyc res=42209 data=U.......e5.d.1.......................@...s....d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.279438378 read < 231202  /usr/lib64/python3.8/__pycache__/subprocess.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.279442606 close < 231202  /usr/lib64/python3.8/__pycache__/subprocess.cpython-38.pyc res=0  SUCCESS
+06:08:01.279769561 openat < 231202  /usr/lib64/python3.8/__pycache__/signal.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/signal.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/signal.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479977  SUCCESS
+06:08:01.279772176 fstat < 231202  /usr/lib64/python3.8/__pycache__/signal.cpython-38.pyc res=0  SUCCESS
+06:08:01.279779861 fstat < 231202  /usr/lib64/python3.8/__pycache__/signal.cpython-38.pyc res=0  SUCCESS
+06:08:01.279782606 read < 231202  /usr/lib64/python3.8/__pycache__/signal.cpython-38.pyc res=2845 data=U.......e5.d.........................@...s&...d.d.l.Z.d.d.l.T.d.d.l.m.Z...d.d.l.  SUCCESS
+06:08:01.279784309 read < 231202  /usr/lib64/python3.8/__pycache__/signal.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.279787776 close < 231202  /usr/lib64/python3.8/__pycache__/signal.cpython-38.pyc res=0  SUCCESS
+06:08:01.280502922 openat < 231202  /usr/lib64/python3.8/__pycache__/contextlib.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/contextlib.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/contextlib.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476272  SUCCESS
+06:08:01.280505547 fstat < 231202  /usr/lib64/python3.8/__pycache__/contextlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.280513412 fstat < 231202  /usr/lib64/python3.8/__pycache__/contextlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.280518221 read < 231202  /usr/lib64/python3.8/__pycache__/contextlib.cpython-38.pyc res=20231 data=U.......e5.d.a.......................@...sj...d.Z.d.d.l.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.280520074 read < 231202  /usr/lib64/python3.8/__pycache__/contextlib.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.280523831 close < 231202  /usr/lib64/python3.8/__pycache__/contextlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.280987203 openat < 231202  /usr/lib64/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479309  SUCCESS
+06:08:01.280991071 read < 231202  /usr/lib64/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.............@.......`F..........@.8...@.....................  SUCCESS
+06:08:01.280994818 read < 231202  /usr/lib64/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.280996591 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.280999967 read < 231202  /usr/lib64/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.281042467 close < 231202  /usr/lib64/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.281163956 openat < 231202  /usr/lib64/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479334  SUCCESS
+06:08:01.281167342 read < 231202  /usr/lib64/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>......%......@.......`~..........@.8...@.....................  SUCCESS
+06:08:01.281170729 read < 231202  /usr/lib64/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.281172412 fstat < 231202  /usr/lib64/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.281175508 read < 231202  /usr/lib64/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.281207107 close < 231202  /usr/lib64/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.281350006 openat < 231202  /usr/lib64/python3.8/__pycache__/selectors.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/selectors.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/selectors.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479973  SUCCESS
+06:08:01.281352601 fstat < 231202  /usr/lib64/python3.8/__pycache__/selectors.cpython-38.pyc res=0  SUCCESS
+06:08:01.281360115 fstat < 231202  /usr/lib64/python3.8/__pycache__/selectors.cpython-38.pyc res=0  SUCCESS
+06:08:01.281370725 read < 231202  /usr/lib64/python3.8/__pycache__/selectors.cpython-38.pyc res=16937 data=U.......e5.d.H.......................@...s....d.Z.d.d.l.m.Z.m.Z...d.d.l.m.Z...d.  SUCCESS
+06:08:01.281372609 read < 231202  /usr/lib64/python3.8/__pycache__/selectors.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.281376246 close < 231202  /usr/lib64/python3.8/__pycache__/selectors.cpython-38.pyc res=0  SUCCESS
+06:08:01.281514295 openat < 231202  /usr/lib64/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479326  SUCCESS
+06:08:01.281517692 read < 231202  /usr/lib64/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.....07......@...................@.8...@.....................  SUCCESS
+06:08:01.281521018 read < 231202  /usr/lib64/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.281522681 fstat < 231202  /usr/lib64/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.281525877 read < 231202  /usr/lib64/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.281562176 close < 231202  /usr/lib64/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.282020608 openat < 231202  /usr/lib64/python3.8/__pycache__/tempfile.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/tempfile.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/tempfile.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479992  SUCCESS
+06:08:01.282023524 fstat < 231202  /usr/lib64/python3.8/__pycache__/tempfile.cpython-38.pyc res=0  SUCCESS
+06:08:01.282033954 fstat < 231202  /usr/lib64/python3.8/__pycache__/tempfile.cpython-38.pyc res=0  SUCCESS
+06:08:01.282048721 read < 231202  /usr/lib64/python3.8/__pycache__/tempfile.cpython-38.pyc res=23399 data=U.......e5.d.k.......................@...s....d.Z.d.d.d.d.d.d.d.d.d.d.d.d.d.g.Z.  SUCCESS
+06:08:01.282050685 read < 231202  /usr/lib64/python3.8/__pycache__/tempfile.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.282054522 close < 231202  /usr/lib64/python3.8/__pycache__/tempfile.cpython-38.pyc res=0  SUCCESS
+06:08:01.282282131 openat < 231202  /usr/lib64/python3.8/__pycache__/random.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/random.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/random.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479966  SUCCESS
+06:08:01.282284635 fstat < 231202  /usr/lib64/python3.8/__pycache__/random.cpython-38.pyc res=0  SUCCESS
+06:08:01.282291258 fstat < 231202  /usr/lib64/python3.8/__pycache__/random.cpython-38.pyc res=0  SUCCESS
+06:08:01.282295456 read < 231202  /usr/lib64/python3.8/__pycache__/random.cpython-38.pyc res=20110 data=U.......e5.d.p.......................@...s....d.Z.d.d.l.m.Z...d.d.l.m.Z.m.Z.m.Z.  SUCCESS
+06:08:01.282297239 read < 231202  /usr/lib64/python3.8/__pycache__/random.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.282300636 close < 231202  /usr/lib64/python3.8/__pycache__/random.cpython-38.pyc res=0  SUCCESS
+06:08:01.282471948 openat < 231202  /usr/lib64/python3.8/__pycache__/bisect.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/bisect.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/bisect.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479901  SUCCESS
+06:08:01.282474363 fstat < 231202  /usr/lib64/python3.8/__pycache__/bisect.cpython-38.pyc res=0  SUCCESS
+06:08:01.282480815 fstat < 231202  /usr/lib64/python3.8/__pycache__/bisect.cpython-38.pyc res=0  SUCCESS
+06:08:01.282483309 read < 231202  /usr/lib64/python3.8/__pycache__/bisect.cpython-38.pyc res=2356 data=U.......e5.d.........................@...sZ...d.Z.d.d.d...Z.d.d.d...Z.d.d.d...Z.  SUCCESS
+06:08:01.282485013 read < 231202  /usr/lib64/python3.8/__pycache__/bisect.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.282488259 close < 231202  /usr/lib64/python3.8/__pycache__/bisect.cpython-38.pyc res=0  SUCCESS
+06:08:01.282563560 openat < 231202  /usr/lib64/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479278  SUCCESS
+06:08:01.282566867 read < 231202  /usr/lib64/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.............@.......p7..........@.8...@.....................  SUCCESS
+06:08:01.282570133 read < 231202  /usr/lib64/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.282571796 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.282574972 read < 231202  /usr/lib64/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.282604728 close < 231202  /usr/lib64/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.282812529 openat < 231202  /usr/lib64/python3.8/__pycache__/hashlib.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/hashlib.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/hashlib.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479935  SUCCESS
+06:08:01.282815034 fstat < 231202  /usr/lib64/python3.8/__pycache__/hashlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.282822167 fstat < 231202  /usr/lib64/python3.8/__pycache__/hashlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.282825303 read < 231202  /usr/lib64/python3.8/__pycache__/hashlib.cpython-38.pyc res=5423 data=U.......N..d. .......................@...sv...d.Z.d.Z.e.e...Z.e.e...Z.e.d...Z.d.  SUCCESS
+06:08:01.282827106 read < 231202  /usr/lib64/python3.8/__pycache__/hashlib.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.282830834 close < 231202  /usr/lib64/python3.8/__pycache__/hashlib.cpython-38.pyc res=0  SUCCESS
+06:08:01.282937594 openat < 231202  /usr/lib64/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479298  SUCCESS
+06:08:01.282941081 read < 231202  /usr/lib64/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>......4......@...................@.8...@.....................  SUCCESS
+06:08:01.282944497 read < 231202  /usr/lib64/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.282946201 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.282949417 read < 231202  /usr/lib64/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.282980966 close < 231202  /usr/lib64/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.282991386 openat < 231202  /usr/lib/libssl.so.1.1 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib/libssl.so.1.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.282997327 openat < 231202  /tmp/_MEIUxPiR1/libssl.so.1.1 fd=3(<f>/tmp/_MEIUxPiR1/libssl.so.1.1) dirfd=-100(AT_FDCWD) name=/tmp/_MEIUxPiR1/libssl.so.1.1 flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493910  SUCCESS
+06:08:01.283000613 read < 231202  /tmp/_MEIUxPiR1/libssl.so.1.1 res=832 data=.ELF..............>.............@........m..........@.8...@.....................  SUCCESS
+06:08:01.283003649 read < 231202  /tmp/_MEIUxPiR1/libssl.so.1.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.283005482 fstat < 231202  /tmp/_MEIUxPiR1/libssl.so.1.1 res=0  SUCCESS
+06:08:01.283008408 read < 231202  /tmp/_MEIUxPiR1/libssl.so.1.1 res=32 data=............GNU.................  SUCCESS
+06:08:01.283044906 close < 231202  /tmp/_MEIUxPiR1/libssl.so.1.1 res=0  SUCCESS
+06:08:01.283423239 openat < 231202  /usr/lib64/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479279  SUCCESS
+06:08:01.283426875 read < 231202  /usr/lib64/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>......!......@........]..........@.8...@.....................  SUCCESS
+06:08:01.283430472 read < 231202  /usr/lib64/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.283432246 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.283435351 read < 231202  /usr/lib64/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.283464506 close < 231202  /usr/lib64/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.283581807 openat < 231202  /usr/lib64/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479312  SUCCESS
+06:08:01.283585193 read < 231202  /usr/lib64/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>......"......@...................@.8...@.....................  SUCCESS
+06:08:01.283588389 read < 231202  /usr/lib64/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.283590063 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.283593349 read < 231202  /usr/lib64/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.283624447 close < 231202  /usr/lib64/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.283798234 openat < 231202  /usr/lib64/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so fd=3(<f>/usr/lib64/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479311  SUCCESS
+06:08:01.283801951 read < 231202  /usr/lib64/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so res=832 data=.ELF..............>.....@.......@........X..........@.8...@.....................  SUCCESS
+06:08:01.283805147 read < 231202  /usr/lib64/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.283806831 fstat < 231202  /usr/lib64/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.283812912 read < 231202  /usr/lib64/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so res=32 data=............GNU.................  SUCCESS
+06:08:01.283839793 close < 231202  /usr/lib64/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so res=0  SUCCESS
+06:08:01.284023338 openat < 231202  /usr/lib64/python3.8/__pycache__/weakref.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/weakref.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/weakref.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4476466  SUCCESS
+06:08:01.284025863 fstat < 231202  /usr/lib64/python3.8/__pycache__/weakref.cpython-38.pyc res=0  SUCCESS
+06:08:01.284035902 fstat < 231202  /usr/lib64/python3.8/__pycache__/weakref.cpython-38.pyc res=0  SUCCESS
+06:08:01.284047363 read < 231202  /usr/lib64/python3.8/__pycache__/weakref.cpython-38.pyc res=19520 data=U.......e5.d.S.......................@...s....d.Z.d.d.l.m.Z.m.Z.m.Z.m.Z.m.Z.m.Z.  SUCCESS
+06:08:01.284049297 read < 231202  /usr/lib64/python3.8/__pycache__/weakref.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.284053044 close < 231202  /usr/lib64/python3.8/__pycache__/weakref.cpython-38.pyc res=0  SUCCESS
+06:08:01.284535622 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_cpu_features.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_cpu_features.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_cpu_features.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482502  SUCCESS
+06:08:01.284538267 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_cpu_features.cpython-38.pyc res=0  SUCCESS
+06:08:01.284550100 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_cpu_features.cpython-38.pyc res=0  SUCCESS
+06:08:01.284552855 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_cpu_features.cpython-38.pyc res=694 data=U.......d..h.........................@...s*...d.d.l.m.Z...e.d.d...Z.d.d...Z.d.d.  SUCCESS
+06:08:01.284554678 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_cpu_features.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.284558475 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/_cpu_features.cpython-38.pyc res=0  SUCCESS
+06:08:01.284695834 openat < 231202  /usr/lib64/python3.8/__pycache__/platform.cpython-38.pyc fd=3(<f>/usr/lib64/python3.8/__pycache__/platform.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/lib64/python3.8/__pycache__/platform.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4479958  SUCCESS
+06:08:01.284705382 fstat < 231202  /usr/lib64/python3.8/__pycache__/platform.cpython-38.pyc res=0  SUCCESS
+06:08:01.284713167 fstat < 231202  /usr/lib64/python3.8/__pycache__/platform.cpython-38.pyc res=0  SUCCESS
+06:08:01.284728095 read < 231202  /usr/lib64/python3.8/__pycache__/platform.cpython-38.pyc res=24328 data=U.......e5.d.........................@...sl...d.Z.d.Z.d.Z.d.d.l.Z.d.d.l.Z.d.d.l.  SUCCESS
+06:08:01.284729988 read < 231202  /usr/lib64/python3.8/__pycache__/platform.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.284733675 close < 231202  /usr/lib64/python3.8/__pycache__/platform.cpython-38.pyc res=0  SUCCESS
+06:08:01.286118382 openat < 231202  /dev/null fd=5(<f>/dev/null) dirfd=-100(AT_FDCWD) name=/dev/null flags=4099(O_RDWR|O_CLOEXEC) mode=0 dev=81 ino=170  SUCCESS
+06:08:01.286123621 fstat < 231202   res=0  SUCCESS
+06:08:01.286650904 close < 231203   res=0  SUCCESS
+06:08:01.286651866 close < 231203   res=0  SUCCESS
+06:08:01.286675410 close < 231202   res=0  SUCCESS
+06:08:01.286710606 openat < 231203  /proc/self/fd fd=3(<f>/proc/self/fd) dirfd=-100(AT_FDCWD) name=/proc/self/fd flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=80 ino=582935  SUCCESS
+06:08:01.286735704 close < 231203   res=0  SUCCESS
+06:08:01.286736535 close < 231203  /dev/null res=0  SUCCESS
+06:08:01.286739751 close < 231203  /proc/self/fd res=0  SUCCESS
+06:08:01.286830282 write < 231203   res=8 data=OSError:  SUCCESS
+06:08:01.286836543 write < 231203   res=1 data=2  SUCCESS
+06:08:01.286837956 write < 231203   res=1 data=:  SUCCESS
+06:08:01.287747889 close < 231202  /dev/null res=0  SUCCESS
+06:08:01.287750914 close < 231202   res=0  SUCCESS
+06:08:01.287760523 read < 231202   res=10 data=OSError:2:  SUCCESS
+06:08:01.287763428 read < 231202   res=0 data=NULL  SUCCESS
+06:08:01.287770792 close < 231202   res=0  SUCCESS
+06:08:01.287828160 close < 231202   res=0  SUCCESS
+06:08:01.287901458 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/_cpuid_c.abi3.so fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Util/_cpuid_c.abi3.so) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/../Util/_cpuid_c.abi3.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482471  SUCCESS
+06:08:01.287906297 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/_cpuid_c.abi3.so res=832 data=.ELF..............>.....P.......@.......(C..........@.8...@.!. .................  SUCCESS
+06:08:01.287909052 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/_cpuid_c.abi3.so res=0  SUCCESS
+06:08:01.287951813 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/_cpuid_c.abi3.so res=0  SUCCESS
+06:08:01.288159594 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Random/__pycache__/__init__.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Random/__pycache__/__init__.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Random/__pycache__/__init__.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482162  SUCCESS
+06:08:01.288162149 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Random/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.288172949 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Random/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.288175624 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Random/__pycache__/__init__.cpython-38.pyc res=1259 data=U.......d..h.........................@...s<...d.d.g.Z.d.d.l.m.Z...G.d.d...d.e...  SUCCESS
+06:08:01.288177437 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Random/__pycache__/__init__.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.288180984 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Random/__pycache__/__init__.cpython-38.pyc res=0  SUCCESS
+06:08:01.288314575 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aes.abi3.so fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aes.abi3.so) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/../Cipher/_raw_aes.abi3.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4481995  SUCCESS
+06:08:01.288318052 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aes.abi3.so res=832 data=.ELF..............>.....p.......@...................@.8...@.".!.................  SUCCESS
+06:08:01.288320006 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aes.abi3.so res=0  SUCCESS
+06:08:01.288359500 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aes.abi3.so res=0  SUCCESS
+06:08:01.288450281 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aesni.abi3.so fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aesni.abi3.so) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/../Cipher/_raw_aesni.abi3.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4481965  SUCCESS
+06:08:01.288453918 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aesni.abi3.so res=832 data=.ELF..............>.............@...................@.8...@.".!.................  SUCCESS
+06:08:01.288455881 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aesni.abi3.so res=0  SUCCESS
+06:08:01.288498462 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_aesni.abi3.so res=0  SUCCESS
+06:08:01.288634738 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/Padding.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/Padding.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/Padding.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482496  SUCCESS
+06:08:01.288637503 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/Padding.cpython-38.pyc res=0  SUCCESS
+06:08:01.288648584 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/Padding.cpython-38.pyc res=0  SUCCESS
+06:08:01.288654044 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/Padding.cpython-38.pyc res=2319 data=U.......d..h.........................@...s(...d.d.g.Z.d.d.l.T.d.d.d...Z.d.d.d...  SUCCESS
+06:08:01.288655868 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/Padding.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.288659505 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Util/__pycache__/Padding.cpython-38.pyc res=0  SUCCESS
+06:08:01.288721201 openat < 231202  libutama.so fd=3(<f>libutama.so) dirfd=-100(AT_FDCWD) name=libutama.so(libutama.so) flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=10308 ino=6687027  SUCCESS
+06:08:01.288723706 fstat < 231202  libutama.so res=0  SUCCESS
+06:08:01.288732602 fstat < 231202  libutama.so res=0  SUCCESS
+06:08:01.288747570 read < 231202  libutama.so res=912 data=.....;..k..'>5..w.......G..].>.1Vsr..t.A.Y.pzTy....0.....I.........oS..w.&3.....  SUCCESS
+06:08:01.288749244 read < 231202  libutama.so res=0 data=NULL  SUCCESS
+06:08:01.288771245 close < 231202  libutama.so res=0  SUCCESS
+06:08:01.288846927 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/_mode_cbc.cpython-38.pyc fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/_mode_cbc.cpython-38.pyc) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/_mode_cbc.cpython-38.pyc flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4482039  SUCCESS
+06:08:01.288849392 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/_mode_cbc.cpython-38.pyc res=0  SUCCESS
+06:08:01.288855794 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/_mode_cbc.cpython-38.pyc res=0  SUCCESS
+06:08:01.288864841 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/_mode_cbc.cpython-38.pyc res=7453 data=U.......d..h.*.......................@...sp...d.Z.d.g.Z.d.d.l.m.Z...d.d.l.m.Z.m.  SUCCESS
+06:08:01.288866665 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/_mode_cbc.cpython-38.pyc res=0 data=NULL  SUCCESS
+06:08:01.288869971 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/__pycache__/_mode_cbc.cpython-38.pyc res=0  SUCCESS
+06:08:01.288968436 openat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_cbc.abi3.so fd=3(<f>/usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_cbc.abi3.so) dirfd=-100(AT_FDCWD) name=/usr/local/lib64/python3.8/site-packages/Crypto/Util/../Cipher/_raw_cbc.abi3.so flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4481942  SUCCESS
+06:08:01.288971943 read < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_cbc.abi3.so res=832 data=.ELF..............>.............@........Q..........@.8...@.!. .................  SUCCESS
+06:08:01.288973856 fstat < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_cbc.abi3.so res=0  SUCCESS
+06:08:01.289010976 close < 231202  /usr/local/lib64/python3.8/site-packages/Crypto/Cipher/_raw_cbc.abi3.so res=0  SUCCESS
+06:08:01.290301115 openat < 231202  /etc/ld.so.cache fd=3(<f>/etc/ld.so.cache) dirfd=-100(AT_FDCWD) name=/etc/ld.so.cache flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493854  SUCCESS
+06:08:01.290304120 fstat < 231202  /etc/ld.so.cache res=0  SUCCESS
+06:08:01.290310803 close < 231202  /etc/ld.so.cache res=0  SUCCESS
+06:08:01.290324248 openat < 231202  /lib64/libtinfo.so.6 fd=3(<f>/lib64/libtinfo.so.6) dirfd=-100(AT_FDCWD) name=/lib64/libtinfo.so.6 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4634571  SUCCESS
+06:08:01.290327635 read < 231202  /lib64/libtinfo.so.6 res=832 data=.ELF..............>.....0.......@.......`...........@.8...@.....................  SUCCESS
+06:08:01.290331211 read < 231202  /lib64/libtinfo.so.6 res=32 data=............GNU.................  SUCCESS
+06:08:01.290333265 fstat < 231202  /lib64/libtinfo.so.6 res=0  SUCCESS
+06:08:01.290343975 read < 231202  /lib64/libtinfo.so.6 res=32 data=............GNU.................  SUCCESS
+06:08:01.290371878 close < 231202  /lib64/libtinfo.so.6 res=0  SUCCESS
+06:08:01.290386195 openat < 231202  /lib64/libdl.so.2 fd=3(<f>/lib64/libdl.so.2) dirfd=-100(AT_FDCWD) name=/lib64/libdl.so.2 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297168  SUCCESS
+06:08:01.290388870 read < 231202  /lib64/libdl.so.2 res=832 data=.ELF..............>.....p.......@.......xB..........@.8...@.!. .................  SUCCESS
+06:08:01.290390763 fstat < 231202  /lib64/libdl.so.2 res=0  SUCCESS
+06:08:01.290413586 close < 231202  /lib64/libdl.so.2 res=0  SUCCESS
+06:08:01.290423946 openat < 231202  /lib64/libc.so.6 fd=3(<f>/lib64/libc.so.6) dirfd=-100(AT_FDCWD) name=/lib64/libc.so.6 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297158  SUCCESS
+06:08:01.290426641 read < 231202  /lib64/libc.so.6 res=832 data=.ELF..............>.............@......... .........@.8...@.L.K.........@.......  SUCCESS
+06:08:01.290428384 fstat < 231202  /lib64/libc.so.6 res=0  SUCCESS
+06:08:01.290430959 read < 231202  /lib64/libc.so.6 res=32 data=............GNU.................  SUCCESS
+06:08:01.290465374 close < 231202  /lib64/libc.so.6 res=0  SUCCESS
+06:08:01.290743738 openat < 231202  /dev/tty fd=3(<f>/dev/tty) dirfd=-100(AT_FDCWD) name=/dev/tty flags=67(O_NONBLOCK|O_RDWR) mode=0 dev=81 ino=208  SUCCESS
+06:08:01.290747164 close < 231202  /dev/tty res=0  SUCCESS
+06:08:01.290906925 connect < 231202  NULL res=-2(ENOENT) tuple=NULL fd=3(<u>/var/run/nscd/socket)  ENOENT
+06:08:01.290911504 close < 231202  /var/run/nscd/socket res=0  SUCCESS
+06:08:01.290920460 connect < 231202  NULL res=-2(ENOENT) tuple=NULL fd=3(<u>/var/run/nscd/socket)  ENOENT
+06:08:01.290923165 close < 231202  /var/run/nscd/socket res=0  SUCCESS
+06:08:01.290940228 openat < 231202  /etc/nsswitch.conf fd=3(<f>/etc/nsswitch.conf) dirfd=-100(AT_FDCWD) name=/etc/nsswitch.conf flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4629750  SUCCESS
+06:08:01.290943925 fstat < 231202  /etc/nsswitch.conf res=0  SUCCESS
+06:08:01.290948964 read < 231202  /etc/nsswitch.conf res=2215 data=#.# /etc/nsswitch.conf.#.# Name Service Switch config file. This file should be.  SUCCESS
+06:08:01.290956679 read < 231202  /etc/nsswitch.conf res=0 data=NULL  SUCCESS
+06:08:01.290958722 close < 231202  /etc/nsswitch.conf res=0  SUCCESS
+06:08:01.290965786 openat < 231202  /etc/ld.so.cache fd=3(<f>/etc/ld.so.cache) dirfd=-100(AT_FDCWD) name=/etc/ld.so.cache flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493854  SUCCESS
+06:08:01.290967920 fstat < 231202  /etc/ld.so.cache res=0  SUCCESS
+06:08:01.290973971 close < 231202  /etc/ld.so.cache res=0  SUCCESS
+06:08:01.290980624 openat < 231202  /lib64/glibc-hwcaps/x86-64-v3/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/glibc-hwcaps/x86-64-v3/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.290987727 openat < 231202  /lib64/glibc-hwcaps/x86-64-v2/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/glibc-hwcaps/x86-64-v2/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.290994780 openat < 231202  /lib64/tls/x86_64/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/tls/x86_64/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291001433 openat < 231202  /lib64/tls/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/tls/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291008185 openat < 231202  /lib64/tls/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/tls/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291015098 openat < 231202  /lib64/tls/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/tls/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291022282 openat < 231202  /lib64/x86_64/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/x86_64/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291028514 openat < 231202  /lib64/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291034715 openat < 231202  /lib64/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291041087 openat < 231202  /lib64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/lib64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291047349 openat < 231202  /usr/lib64/glibc-hwcaps/x86-64-v3/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/glibc-hwcaps/x86-64-v3/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291051707 openat < 231202  /usr/lib64/glibc-hwcaps/x86-64-v2/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/glibc-hwcaps/x86-64-v2/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291056116 openat < 231202  /usr/lib64/tls/x86_64/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/tls/x86_64/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291060624 openat < 231202  /usr/lib64/tls/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/tls/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291065183 openat < 231202  /usr/lib64/tls/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/tls/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291069711 openat < 231202  /usr/lib64/tls/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/tls/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291074671 openat < 231202  /usr/lib64/x86_64/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/x86_64/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291078889 openat < 231202  /usr/lib64/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291083147 openat < 231202  /usr/lib64/x86_64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/x86_64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291087435 openat < 231202  /usr/lib64/libnss_sss.so.2 fd=-2(ENOENT) dirfd=-100(AT_FDCWD) name=/usr/lib64/libnss_sss.so.2 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0  ENOENT
+06:08:01.291100619 openat < 231202  /etc/ld.so.cache fd=3(<f>/etc/ld.so.cache) dirfd=-100(AT_FDCWD) name=/etc/ld.so.cache flags=36865(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4493854  SUCCESS
+06:08:01.291102774 fstat < 231202  /etc/ld.so.cache res=0  SUCCESS
+06:08:01.291107553 close < 231202  /etc/ld.so.cache res=0  SUCCESS
+06:08:01.291116119 openat < 231202  /lib64/libnss_files.so.2 fd=3(<f>/lib64/libnss_files.so.2) dirfd=-100(AT_FDCWD) name=/lib64/libnss_files.so.2 flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=5297195  SUCCESS
+06:08:01.291118994 read < 231202  /lib64/libnss_files.so.2 res=832 data=.ELF..............>......'......@.......X...........@.8...@. ...................  SUCCESS
+06:08:01.291121068 fstat < 231202  /lib64/libnss_files.so.2 res=0  SUCCESS
+06:08:01.291156354 close < 231202  /lib64/libnss_files.so.2 res=0  SUCCESS
+06:08:01.291188134 openat < 231202  /etc/passwd fd=3(<f>/etc/passwd) dirfd=-100(AT_FDCWD) name=/etc/passwd flags=69633(O_RDONLY|O_CLOEXEC) mode=0 dev=6F ino=4472540  SUCCESS
+06:08:01.291191531 fstat < 231202  /etc/passwd res=0  SUCCESS
+06:08:01.291197672 read < 231202  /etc/passwd res=826 data=root:x:0:0:root:/root:/bin/bash.bin:x:1:1:bin:/bin:/sbin/nologin.daemon:x:2:2:da  SUCCESS
+06:08:01.291200688 close < 231202  /etc/passwd res=0  SUCCESS
+06:08:01.291321615 pipe < 231202   res=0 fd1=3(<p>) fd2=4(<p>) ino=566985  SUCCESS
+06:08:01.291427485 close < 231202   res=0  SUCCESS
+06:08:01.291435991 close < 231202   res=-9(EBADF)  EBADF
+06:08:01.291551929 close < 231202   res=0  SUCCESS
+06:08:01.806487226 close < 231202   res=-9(EBADF)  EBADF
+06:08:01.806540205 openat < 231202  /home/uzer/README.txt fd=3(<f>/home/uzer/README.txt) dirfd=-100(AT_FDCWD) name=/home/uzer/README.txt flags=49414(O_TRUNC|O_CREAT|O_WRONLY|O_F_CREATED) mode=0666 dev=6F ino=4457343  SUCCESS
+06:08:01.806552559 close < 231202  /home/uzer/README.txt res=0  SUCCESS
+06:08:01.806555755 fstat < 231202  /home/uzer/README.txt res=0  SUCCESS
+06:08:01.806585711 write < 231202  /home/uzer/README.txt res=91 data=HAHHA got encrypted! now give me chizuru pillow, and i will sent you the decrypt  SUCCESS
+06:08:01.806593456 close < 231202  /dev/null res=0  SUCCESS
