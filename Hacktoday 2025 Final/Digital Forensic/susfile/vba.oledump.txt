@@ -1,0 +1,7 @@
+  1:       527 'PROJECT'
+  2:        89 'PROJECTwm'
+  3: m     169 'VBA/Sheet1'
+  4: M     359 'VBA/ThisWorkbook'
+  5: m     171 'VBA/Workbook'
+  6:         7 'VBA/_VBA_PROJECT'
+  7:       228 'VBA/dir'
