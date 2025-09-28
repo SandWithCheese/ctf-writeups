@@ -1,0 +1,136 @@
+149996 15:35:23.703048789 0 ransom (26730) > write fd=3(<f>/home/durr/Downloads/Rxv3HnNVzpUYOdzg.bin) size=32 
+149997 15:35:23.703066640 0 ransom (26730) < write res=32 data=.VNE;.n...'..WS-......?ff......1 
+150197 15:35:23.710895809 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0004.jpg.enc) size=4096 
+150198 15:35:23.710932799 0 ransom (26730) < write res=4096 data=dv....W-.m...(g...../.X...qs.1(.Z..1pA.g..l..>.w.)..C.X....>.&...^~.g.N.. ...1~r 
+150201 15:35:23.710998550 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0004.jpg.enc) size=4096 
+150202 15:35:23.711011940 0 ransom (26730) < write res=4096 data=S.....h...UIYy.%)^.r'....j5.......:J.T...1......kF$..@].f...v.N.o....Zk.Q....... 
+150205 15:35:23.711047602 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0004.jpg.enc) size=4096 
+150206 15:35:23.711051538 0 ransom (26730) < write res=4096 data=N.`..o..~.........2}..Y.....Lb.?K.......ny.O.u ..S..&....`L..3..n._{.P...s...... 
+150209 15:35:23.711083399 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0004.jpg.enc) size=3808 
+150210 15:35:23.711087476 0 ransom (26730) < write res=3808 data=....)...G...l....s..[...D+..C].!.z....[..pJ..T.]G...T`..........P.>Y.Z..7%.Z.DAn 
+150302 15:35:23.714751898 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150303 15:35:23.714773696 0 ransom (26730) < write res=4096 data=dv....W-.m...(g...../.X...qs.1(.Z..1pA.g..l..>.w.)..C.X....>.&...^~.g.N.. ...1~r 
+150306 15:35:23.714914951 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150307 15:35:23.714925415 0 ransom (26730) < write res=4096 data=ApZ..|..8...b2.....e[......f.....@.........w..(9Q.#...MS.9W y.,6"G..H.....x.[... 
+150310 15:35:23.714960066 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150311 15:35:23.714963886 0 ransom (26730) < write res=4096 data=%.WYx....0...M..n.....h.._...l.2u..#.i...S......,}5....x.-3...a....,.......dW.r} 
+150314 15:35:23.714998019 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150315 15:35:23.715001247 0 ransom (26730) < write res=4096 data=..f/..h.XO...@.....%.5.Vk..p.Xf-..2c&E.1`^m....S.b.g..[..4.[..A.b..pj0R...'-;..b 
+150327 15:35:23.715860060 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150328 15:35:23.715873820 0 ransom (26730) < write res=4096 data=_$UP....>r........B..a.b.e..{..R...A;...'Zh...n<.I.ZD`@..E...j.....2..j...9..... 
+150331 15:35:23.715908156 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150332 15:35:23.715914271 0 ransom (26730) < write res=4096 data=..X....G.;]V........6..R...9...[."q.....zA...k...L.?`....%\......t.Ei>...G..S..G 
+150335 15:35:23.715947966 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150336 15:35:23.715951281 0 ransom (26730) < write res=4096 data=.s.c.W....2......nd...N....05.h.T...Tt.Z..V.+*..j....+...6...Kq..."d..H;Id...... 
+150339 15:35:23.715985330 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150340 15:35:23.715988296 0 ransom (26730) < write res=4096 data=/N....3R...v......,...R....:.;.F....A.saV.......w....c9.@@_k.A...V..F._.+)Q...#A 
+150343 15:35:23.716048204 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150344 15:35:23.716058455 0 ransom (26730) < write res=4096 data=.L.6.X..L.<.<A.lUl~8.....Z."t,..g.CU.i....I..|..>fO^b....#5.}..Hn..kJ...Z.4...rp 
+150347 15:35:23.716093592 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=4096 
+150348 15:35:23.716130887 0 ransom (26730) < write res=4096 data=b5*F..u.}...(u.:.......|.N.y5..X........T......n...S..:".......#H,.%..vK.(...... 
+150351 15:35:23.716140497 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0005.jpg.enc) size=336 
+150352 15:35:23.716151993 0 ransom (26730) < write res=336 data=...V.....x...ey..=...WB.?... /.;...I.....y...~~......^Q.2...# .(...P.....n...ow. 
+150378 15:35:23.718662417 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=4096 
+150379 15:35:23.718683915 0 ransom (26730) < write res=4096 data=dv....W-.m...(g...../.X...qs.1(.Z..1pA.g..l..>.w.)..C.X....>.&...^~.g.N.. ...1~r 
+150382 15:35:23.718732936 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=4096 
+150383 15:35:23.718739096 0 ransom (26730) < write res=4096 data=#....G.Gs.?)..U|.\.65P....@.6...........i*...kk....}....5.q^..l.G..J1,...AUB.|P. 
+150386 15:35:23.718801959 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=4096 
+150387 15:35:23.718812454 0 ransom (26730) < write res=4096 data=........e/...|.DH.K...4..._....z......"@.*.".j2...?...}&*~.3..........^...L&N.=t 
+150390 15:35:23.718847573 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=4096 
+150391 15:35:23.718851197 0 ransom (26730) < write res=4096 data=....`..........}../W..V......5.9K.*.v.j./&.Gc.@mTS......i+.&.....+.F^...+./..P@. 
+150428 15:35:23.721627597 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=4096 
+150432 15:35:23.722218526 0 ransom (26730) < write res=4096 data=..J.....L.D.G.';.z.......0_....X..F(.y~..........@H......;^....I..]?.bm......... 
+150435 15:35:23.722255653 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=4096 
+150436 15:35:23.722262739 0 ransom (26730) < write res=4096 data=...K..W.a.....g....VM.*....lc.C.....:V..n.`O...#.#...w....I.4($*...k.sf......... 
+150439 15:35:23.722296839 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=4096 
+150440 15:35:23.722300288 0 ransom (26730) < write res=4096 data=.V.T....fR#..w......._w.5....|.Lu}...P..Fc..'.@........P@..$.I.bS....@.....d.j.. 
+150443 15:35:23.722334115 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=4096 
+150444 15:35:23.722337195 0 ransom (26730) < write res=4096 data=.t./....4.m.).%G.t.......^CxmY9.'.Na.I...%KO.K.$.o.l.P.Q..&.aY......K....-^...3. 
+150447 15:35:23.722342222 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0006.jpg.enc) size=364 
+150448 15:35:23.722345337 0 ransom (26730) < write res=364 data=.@%$......m..(....,.......!...{_.C6=......|..=....9......."...pV.Z/.......w..... 
+150465 15:35:23.722451679 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/ransom.enc) size=4096 
+150466 15:35:23.722460716 0 ransom (26730) < write res=4096 data=DS../.........g...b...X........R...2..........p.......M.WC....:S...)..........y. 
+150469 15:35:23.722494884 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/ransom.enc) size=4096 
+150470 15:35:23.722499831 0 ransom (26730) < write res=4096 data=g.t\......}...g....1/!J.(N.....R}Tl...|..#....4.&ok...[..7......m.zB......\.;..Y 
+150473 15:35:23.722533959 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/ransom.enc) size=4096 
+150474 15:35:23.722537494 0 ransom (26730) < write res=4096 data=..u/x..!..+.].)..$.4H...@.v5.i.R...9.....q...g(..<...Y..D.!h..p.P.,.w..!..jg...( 
+150477 15:35:23.722571543 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/ransom.enc) size=4096 
+150478 15:35:23.722574401 0 ransom (26730) < write res=4096 data=.../..........g..c./....T..9..|....w..@{J.p.Hp.9..g,...].Dg....S...)..........y. 
+150481 15:35:23.722579348 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/ransom.enc) size=296 
+150482 15:35:23.722582172 0 ransom (26730) < write res=296 data=.../..........g.......X._H.....R...2..........p.......[..C.....S...)..........y. 
+150506 15:35:23.723926466 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0008.jpg.enc) size=4096 
+150507 15:35:23.723950025 0 ransom (26730) < write res=4096 data=dv....W-.m...(g...../.X...qs.1(.Z..1pA.g..l..>.w.)..C.X....>.&...^~.g.N.. ...1~r 
+150510 15:35:23.724021809 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0008.jpg.enc) size=4096 
+150511 15:35:23.724038150 0 ransom (26730) < write res=4096 data=e.......?Z.. .......... .......U..7:...........'q.........>X;...........`3..p.=. 
+150514 15:35:23.724084375 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0008.jpg.enc) size=4096 
+150515 15:35:23.724090416 0 ransom (26730) < write res=4096 data='Ga.W.(..}....Ol.h).3..}............c......S...|.......qwV*....T..\C..w....;...U 
+150518 15:35:23.724129275 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0008.jpg.enc) size=4096 
+150519 15:35:23.724134289 0 ransom (26730) < write res=4096 data=e..Dh.r....Hp....o...V....@.J....O.q...g.....)`.......KF...8.....N.j...v....."i. 
+150530 15:35:23.727631068 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0008.jpg.enc) size=4096 
+150531 15:35:23.727662122 0 ransom (26730) < write res=4096 data=/i.[{+.D..W..ct.0..EW.-.#............'M..\S..........8$.a..[...i$..M.,..%...L..e 
+150534 15:35:23.727697482 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0008.jpg.enc) size=4096 
+150535 15:35:23.727701936 0 ransom (26730) < write res=4096 data=..Q`..=t7...1."c....+>+b.5.X...m.2..LM.d>j^V..C...{........{....H...v....%...L.~ 
+150538 15:35:23.727712124 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0008.jpg.enc) size=1009 
+150539 15:35:23.727715566 0 ransom (26730) < write res=1009 data=3..).~..n...l.g.k]..x.X........X"..(.o......}.p.rN..i.[..!.....I9..?.|..h...r.y. 
+150576 15:35:23.730346497 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0000.jpg.enc) size=4096 
+150577 15:35:23.730374008 0 ransom (26730) < write res=4096 data=dv....W-.m...(g...../.X...qs.1(.Z..1pA.g..l..>.w.)..C.X....>.&...^~.g.N.. ...1~r 
+150580 15:35:23.730410295 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0000.jpg.enc) size=4096 
+150581 15:35:23.730418516 0 ransom (26730) < write res=4096 data=.*n!.5........W.&......H..".b.Yy..G<w.g.k.o...b....&0.U...U....A.'.)!+..eN?..... 
+150584 15:35:23.730452670 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0000.jpg.enc) size=4096 
+150585 15:35:23.730456338 0 ransom (26730) < write res=4096 data=-.g.s5..%U.N......L`D:.d.N .*..5.rC..s..0.v....W.(kDR..S...U.0..}......Y&z.....Y 
+150588 15:35:23.730484026 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0000.jpg.enc) size=3255 
+150589 15:35:23.730487605 0 ransom (26730) < write res=3255 data=}8......4U..5....../*#I...PrEK.....bA......:Oj...p#..'...>.6.j'.......fb".../... 
+150606 15:35:23.730568360 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/script.sh.enc) size=1372 
+150607 15:35:23.730576445 0 ransom (26730) < write res=1372 data=SH.....:...sR?(...{...S...9..h..^..8........I&.0.p.}.D.I....F./K...a.^.x.(..G.q. 
+150632 15:35:23.731579323 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0003.jpg.enc) size=4096 
+150633 15:35:23.731596386 0 ransom (26730) < write res=4096 data=dv....W-.m...(g...../.X...qs.1(.Z..1pA.g..l..>.w.)..C.X....>.&...^~.g.N.. ...1~r 
+150636 15:35:23.731630954 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0003.jpg.enc) size=4096 
+150637 15:35:23.731636385 0 ransom (26730) < write res=4096 data=Hc......;.u...>q.v5..Q.o.C.].t.M....vEK.....c..N.4?..........,......l....?<8p... 
+150640 15:35:23.731640302 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0003.jpg.enc) size=199 
+150641 15:35:23.731643813 0 ransom (26730) < write res=199 data=..../~.UV...T.yOC].H@.Bt............0o.NW...U.~^ZN.OA.Qy.!..........9|.OP...Z.wU 
+150673 15:35:23.733945730 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150674 15:35:23.733966380 0 ransom (26730) < write res=4096 data=dv....W-.m...(g...../.X...qs.1(.Z..1pA.g..l..>.w.)..C.X....>.&...^~.g.N.. ...1~r 
+150677 15:35:23.734018117 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150678 15:35:23.734024659 0 ransom (26730) < write res=4096 data=Z.......IN.*M. ..Y....xi>(..........o0..^.R.x..........r..F...].......<n0...B].. 
+150681 15:35:23.734058712 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150682 15:35:23.734064249 0 ransom (26730) < write res=4096 data=.G.7....}3.).Fj..Vk.....V.n.MA...!.`..i_.....J+.7...~.....)...2.);xGU.w.W....S.' 
+150685 15:35:23.734098234 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150686 15:35:23.734101477 0 ransom (26730) < write res=4096 data=......zi0a....Q.v....G.........4.oA3K.hr.:t.....jc......db.T....l...+."....\.M.. 
+150744 15:35:23.736782144 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150745 15:35:23.736803724 0 ransom (26730) < write res=4096 data=......QA.X6.<.+,...TP?`..I...aH..`St......w..._T.A..r1...1Mj....WOP..$d.....!4.. 
+150748 15:35:23.736838703 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150749 15:35:23.736842889 0 ransom (26730) < write res=4096 data=l.....D...,...#....m4.X4.H.....4Na;}.W.y?Y>[E.9.9.qo..."4!....-*u..e..i.>...../. 
+150752 15:35:23.736877023 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150753 15:35:23.736880357 0 ransom (26730) < write res=4096 data=l...T.Q8..^.....1".n5.#......fug...J.o.}..q.....^.:...K......."..t..g.pq.{...gG. 
+150756 15:35:23.736914211 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150757 15:35:23.736917452 0 ransom (26730) < write res=4096 data=..K..*..1....F..J.._..wI+y.J.$vi.....f&@s..U..4.T.....K....S.mN.xw5..d.b.3..?M.9 
+150760 15:35:23.736951528 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150761 15:35:23.736954608 0 ransom (26730) < write res=4096 data=..3...1.wxd.9..4..2. ..7..M"...4..Pi.:.M.....;....SJ...@.... ..:m..]..4}.o...... 
+150764 15:35:23.736988520 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150765 15:35:23.736991815 0 ransom (26730) < write res=4096 data=A:.Tu.....?.8../.B..hgq&^2y...;R.......#.W9.....b).....'....f...P..M.....=...... 
+150768 15:35:23.737025515 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150769 15:35:23.737028566 0 ransom (26730) < write res=4096 data=z....6.?:.j^...u....y..}..'Rf..m?}..a....I....l..9....#...2....Q...J@..Q.2bN.... 
+150772 15:35:23.737062565 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150773 15:35:23.737068417 0 ransom (26730) < write res=4096 data=+..N..P.....0{..x.,..,.%I...C2.R..W.q...........y..L......8.`PXw.....C....yN". . 
+150776 15:35:23.737102148 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150777 15:35:23.737105262 0 ransom (26730) < write res=4096 data=.......h..b...GO.L.._..>....`...H.O..M..............v.'..........lJ_.C.A......K. 
+150780 15:35:23.737139216 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150781 15:35:23.737142321 0 ransom (26730) < write res=4096 data=;.!.K...7.]L...jN.;d..[uj...F0...y.q ....(.....Jy.@.g....{7b4o ....E.....st#.... 
+150784 15:35:23.737176146 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150785 15:35:23.737179401 0 ransom (26730) < write res=4096 data=......y.AY....OWR...fhO..}.j...R.V.B........H..7.........7......r.....V.g....... 
+150788 15:35:23.737213593 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150789 15:35:23.737216701 0 ransom (26730) < write res=4096 data=jR5/42.l..J.,..h....%y..^..`...._&....k....L.Y]...,..mv......L./xs9.Vj...7.(}.uG 
+150792 15:35:23.737250699 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=4096 
+150793 15:35:23.737253997 0 ransom (26730) < write res=4096 data=.;.Z>.....TJ7....l...n....+}.....N......=DjU..P.m@H.....&..... m.!.....B...3..=0 
+150796 15:35:23.737257966 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0007.jpg.enc) size=226 
+150797 15:35:23.737261352 0 ransom (26730) < write res=226 data=3../.~..n...l.y.k]..x.B........R"..2.o......}.~.rN..i.Q..!.....S9..).|..h...r.w. 
+150845 15:35:23.738493689 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0002.jpg.enc) size=1634 
+150846 15:35:23.738513647 0 ransom (26730) < write res=1634 data=..h...K0......v;... ..........g....2.UD.G....Gp.......[.vf..[..S.X.'.^..Q..._... 
+150878 15:35:23.739665835 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0001.jpg.enc) size=4096 
+150879 15:35:23.739684950 0 ransom (26730) < write res=4096 data=..h...K0......v;... ..........g....2.UD.G....Gp.......[.vf..[..S.X.'.^..Q..._... 
+150882 15:35:23.739713921 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0001.jpg.enc) size=3345 
+150883 15:35:23.739720216 0 ransom (26730) < write res=3345 data=...DI..]!..............Q&cR..............*-%>..S>{."..F......kBf.:Zx..=Er...c.". 
+150904 15:35:23.740873110 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0009.jpg.enc) size=4096 
+150905 15:35:23.740893046 0 ransom (26730) < write res=4096 data=dv....W-.m...(g...../.X...qs.1(.Z..1pA.g..l..>.w.)..C.X....>.&...^~.g.N.. ...1~r 
+150908 15:35:23.740916105 0 ransom (26730) > write fd=5(<f>/home/durr/Downloads/0009.jpg.enc) size=2557 
+150909 15:35:23.740922072 0 ransom (26730) < write res=2557 data=w.._.p.z(.+{%.%]..C|..i....|=.{+......r...(.C...,.YS/hw.......?"1.mv...*.Om..... 
