@@ -1,0 +1,32 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: src/backend/Dockerfile
+      args:
+        SSH_PASSWORD: devpassword
+    container_name: oneshot-backend
+    ports:
+      - "2222:22"
+      - "5000:5000"
+    environment:
+      - UPLOAD_ROOT=/srv/uploads
+      - SECRET=19JUTA_FLAG_GRATIS
+    volumes:
+      - "./flag:/flag:ro"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O- http://127.0.0.1:5000/api/health >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  frontend:
+    build:
+      context: .
+      dockerfile: src/frontend/Dockerfile
+    container_name: oneshot-frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "5173:80"

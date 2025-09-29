@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="card" style="max-width:520px; margin:0 auto;">
+    <h2>Login</h2>
+    {% if error %}<p class="muted" style="color:#ff8080">{{ error }}</p>{% endif %}
+    <form method="post" class="stack" action="/login/">
+      <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+      <label for="id_username">Username</label>
+      <input type="text" id="id_username" name="username" required>
+
+      <label for="id_password">Password</label>
+      <input type="password" id="id_password" name="password" required>
+
+      <button class="btn" type="submit">Login</button>
+    </form>
+  </div>
+{% endblock %}

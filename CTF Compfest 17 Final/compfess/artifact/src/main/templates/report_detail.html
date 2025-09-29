@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Report</h1>
+
+<p><strong>UUID:</strong> {{ rid }}</p>
+
+{% if exists %}
+  <form method="post" action="/admin/reports/download">
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    <input type="hidden" name="url" value="{{ file_url }}">
+    <button type="submit">Download</button>
+  </form>
+{% else %}
+  <p>File not found.</p>
+{% endif %}
+
+<p><a href="/admin/reports/">Back to Admin Reports</a></p>
+
+{% endblock %}

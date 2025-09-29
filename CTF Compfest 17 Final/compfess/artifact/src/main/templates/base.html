@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compfess</title>
+  <style>
+    :root { --bg:#0b1117; --card:#111827; --muted:#9ca3af; --fg:#e5e7eb; --accent:#5eead4; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial; background:var(--bg); color:var(--fg); }
+    a { color: var(--accent); text-decoration: none; }
+    .nav { display:flex; gap:1rem; align-items:center; padding:1rem 1.25rem; background: #0f172a; position:sticky; top:0; }
+    .nav .brand { font-weight:700; letter-spacing:.5px; }
+    .container { max-width: 920px; margin: 1.5rem auto; padding: 0 1rem; }
+    .card { background: var(--card); border: 1px solid #1f2937; border-radius: 16px; padding: 1rem 1.25rem; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+    .btn { background:#1f2937; border:1px solid #334155; padding:.55rem .9rem; border-radius: 12px; color:var(--fg); display:inline-block; }
+    .btn:hover { border-color:#475569; }
+    input, select, textarea { width:100%; padding:.6rem .7rem; background:#0b1220; color:var(--fg); border:1px solid #1f2a40; border-radius:12px; }
+    label{ font-size:.9rem; color: var(--muted); }
+    .stack{ display:grid; gap:.75rem; }
+    .list { display:grid; gap:.75rem; margin-top:.75rem; }
+    .muted{ color:var(--muted); }
+    .row{ display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; }
+    .pill{ padding:.15rem .5rem; border-radius:999px; background:#0b1220; border:1px solid #203047; font-size:.75rem; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div class="brand"><a href="/">Compfess</a></div>
+    <div class="row" style="margin-left:auto;">
+      {% if cur_user and cur_user.is_authenticated %}
+        <span class="pill">{{ cur_user.profile.role }}</span>
+        <a class="btn" href="/u/{{ cur_user.profile.id }}/">@{{ cur_user.username }}</a>
+        <a class="btn" href="/logout/">Logout</a>
+      {% else %}
+        <a class="btn" href="/login/">Login</a>
+        <a class="btn" href="/register/">Register</a>
+      {% endif %}
+      <a class="btn" href="/send/">Send menfess</a>
+      <a class="btn" href="/feed/">Feed</a>
+    </div>
+  </div>
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

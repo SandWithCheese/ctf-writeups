@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retro Guess</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --retro-green: #33ff00;
+            --retro-bg: #0a0a0a;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: var(--retro-bg);
+            color: var(--retro-green);
+            font-family: 'Press Start 2P', cursive;
+            overflow: hidden;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 1rem;
+            text-shadow: 0 0 5px var(--retro-green), 0 0 10px var(--retro-green);
+        }
+
+        body::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            z-index: 2;
+            background-size: 100% 3px, 4px 100%;
+            pointer-events: none;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #fff;
+            text-shadow: 0 0 8px #fff, 0 0 12px var(--retro-green);
+        }
+
+        .result {
+            font-size: 1rem;
+            line-height: 1.5;
+            min-height: 4.5em;
+        }
+
+        .blinking-cursor {
+            animation: blink 1s step-end infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>GUESS THE NUMBER</h1>
+    <h3 class="result">> AWAITING YOUR GUESS..._</h3>
+
+    <script>
+        const resultEl = document.querySelector('.result');
+        
+        const guess = {{ value | tojson }} || '';
+
+        const random = Math.floor(Math.random() * 100) + 1;
+
+        if (guess !== '') {
+            const guessNum = parseInt(guess);
+            if (guessNum === random) {
+                resultEl.innerHTML = `> SYSTEM ALERT:<br>> WINNER! WINNER!<br>> The number was indeed ${guessNum}!`;
+            } else {
+                resultEl.innerHTML = `> ACCESS DENIED:<br>> Your guess: ${guessNum}<br>> Correct number: ${random}`;
+            }
+        }
+    </script>
+</body>
+</html>

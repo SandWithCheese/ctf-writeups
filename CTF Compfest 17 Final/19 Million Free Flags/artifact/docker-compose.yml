@@ -1,0 +1,43 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: src/backend/Dockerfile
+      args:
+        SSH_PASSWORD: password
+    container_name: oneshot-backend
+    ports:
+      - "6522:22"
+      - "6550:5000"
+    environment:
+      - UPLOAD_ROOT=/srv/uploads
+      - SECRET=secret
+    volumes:
+      - "./flag:/flag:ro"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O- http://127.0.0.1:5000/api/health >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+
+  frontend:
+    build:
+      context: .
+      dockerfile: src/frontend/Dockerfile
+    container_name: oneshot-frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "5173:80"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 128M

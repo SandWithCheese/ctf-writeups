@@ -1,0 +1,4 @@
+# enemy targets (one host:port per line)
+127.0.0.1:1337
+10.0.0.5:31337
+# Add/remove lines live; changes will be picked up next tick.

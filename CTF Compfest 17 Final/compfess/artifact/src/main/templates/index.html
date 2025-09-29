@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="card">
+    <h2>Latest menfesses</h2>
+    <div class="list">
+      {% for m in menfesses %}
+        <div class="card">
+          <div class="row">
+            <span class="muted">From</span>
+            <strong>{{ m.sender_label() }}</strong>
+            <span class="muted">to</span>
+            {% if cur_user and cur_user.is_authenticated and cur_user.is_superuser %}
+              <a class="btn" href="/u/{{ m.recipient.profile.uuid }}/">@{{ m.recipient.username }}</a>
+            {% else %}
+              <span class="pill">@{{ m.recipient.username }}</span>
+            {% endif %}
+            <span class="muted">• {{ m.created_at }}</span>
+          </div>
+          <p style="margin:.5rem 0 0 0; white-space:pre-wrap;">{{ m.content }}</p>
+        </div>
+      {% else %}
+        <p class="muted">No menfess yet. Be the first!</p>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}
