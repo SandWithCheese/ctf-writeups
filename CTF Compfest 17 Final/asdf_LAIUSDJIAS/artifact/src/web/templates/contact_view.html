@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Message {{ contact_id }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800">
+    <main class="min-h-screen flex flex-col items-center justify-center p-6">
+        <section class="bg-white shadow-xl rounded-xl p-8 w-full max-w-2xl">
+            <h1 class="text-2xl font-bold text-slate-900 mb-2">Message contact id : {{ contact_id }}</h1>
+            <h2 class="text-sm uppercase tracking-wide text-slate-500 mb-4">Feedback</h2>
+            <pre class="bg-slate-900 text-slate-100 rounded-lg p-4 overflow-auto text-sm">{{ feedback }}</pre>
+            {% if encoded %}
+            <p class="text-xs text-slate-500 mt-4">Content came from base64 fallback. Original payload below.</p>
+            <pre class="bg-slate-900 text-slate-100 rounded-lg p-4 overflow-auto text-xs mt-2">{{ raw_feedback }}</pre>
+            {% endif %}
+            <div class="mt-6">
+                <a href="{{ url_for('contact') }}" class="text-indigo-600 hover:text-indigo-800 font-semibold">Back to contact form</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="card" style="max-width:680px; margin:0 auto;">
+    <h2>Edit profile</h2>
+    <p class="muted"></p>
+    <form method="post" class="stack">
+      <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+      {{ form.bio.label_tag()|safe }}
+      {{ form.bio|safe }}
+
+      <button class="btn" type="submit">Save</button>
+    </form>
+  </div>
+{% endblock %}

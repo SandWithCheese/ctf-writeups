@@ -1,0 +1,13 @@
+django
+gunicorn
+whitenoise
+psycopg2-binary
+requests
+urllib3
+python-dotenv
+Jinja2
+djangorestframework
+djangorestframework-simplejwt
+django-extensions
+bcrypt
+argon2-cffi

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="card" style="max-width:720px; margin:0 auto;">
+    <h2>Send menfess</h2>
+    <form method="post" class="stack">
+      <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+      <label>Recipient</label>
+      {{ form.recipient }}
+      <label>Message</label>
+      {{ form.content }}
+      <button class="btn" type="submit">Send</button>
+    </form>
+    {% if not cur_user or not cur_user.is_authenticated %}
+      <p class="muted" style="margin-top:.5rem;">You are sending as <strong>Guest</strong>.</p>
+    {% endif %}
+  </div>
+{% endblock %}

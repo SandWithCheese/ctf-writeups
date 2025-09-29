@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - Utilities</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        #main-content {
+            min-height: calc(100vh - 96px - 96px);
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+        .tool-panel.hidden { display: none; }
+        .tool-nav-link.active { background-color: #eef2ff; color: #4f46e5; font-weight: 600; }
+    </style>
+</head>
+<body class="bg-slate-100 font-sans text-slate-800 flex flex-col h-full">
+
+<header class="bg-white shadow-sm sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="text-3xl font-bold text-slate-900">Admin Panel</h1>
+        <nav>
+            <a href="/" class="text-slate-600 hover:text-indigo-600 mx-3 transition-colors duration-300">Home</a>
+            <a href="#" class="text-slate-600 hover:text-indigo-600 mx-3 transition-colors duration-300">Logout</a>
+        </nav>
+    </div>
+</header>
+
+<main id="main-content" class="flex-1 container mx-auto p-4 grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
+
+    <aside class="md:col-span-1 bg-white p-6 rounded-xl shadow-lg md:sticky top-4 h-full">
+        <h2 class="text-2xl font-semibold mb-4 text-slate-900">Utilities</h2>
+        <nav id="tool-navigation" class="flex flex-col gap-2">
+            <a href="#" class="tool-nav-link p-2 rounded-md transition-colors duration-200 hover:bg-slate-100 active" data-tool="base64">Base64 Converter</a>
+            <a href="#" class="tool-nav-link p-2 rounded-md transition-colors duration-200 hover:bg-slate-100" data-tool="url-encoder">URL Encoder</a>
+            <a href="#" class="tool-nav-link p-2 rounded-md transition-colors duration-200 hover:bg-slate-100" data-tool="yaml-parser">YAML Parser</a>
+            <a href="#" class="tool-nav-link p-2 rounded-md transition-colors duration-200 hover:bg-slate-100" data-tool="hasher">Hash Generator</a>
+        </nav>
+        <div class="mt-8 border-t pt-4">
+            <h3 class="text-lg font-semibold text-slate-800">System Status</h3>
+            <p class="text-sm text-slate-500 mt-2">All services are running normally. <span class="text-green-500">●</span></p>
+        </div>
+    </aside>
+
+    <section class="md:col-span-3 flex flex-col gap-6 h-full overflow-auto">
+        <article id="base64" class="tool-panel bg-white p-6 rounded-xl shadow-lg">
+            <h2 class="text-2xl font-bold mb-4 text-slate-900">Base64 Converter</h2>
+            <label for="base64-input" class="block font-semibold mb-2">Input:</label>
+            <textarea id="base64-input" class="w-full h-40 p-2 border border-slate-300 rounded-md"></textarea>
+            <div class="flex gap-4 mt-4">
+                <button id="base64-encode" class="flex-1 bg-indigo-600 text-white font-semibold p-2 rounded-md hover:bg-indigo-700">Encode</button>
+                <button id="base64-decode" class="flex-1 bg-slate-600 text-white font-semibold p-2 rounded-md hover:bg-slate-700">Decode</button>
+            </div>
+            <div class="mt-4">
+                <label for="base64-output" class="block font-semibold mb-2">Output:</label>
+                <textarea id="base64-output" class="w-full h-40 p-2 bg-slate-50 border rounded-md" readonly></textarea>
+            </div>
+        </article>
+
+        <article id="url-encoder" class="tool-panel bg-white p-6 rounded-xl shadow-lg hidden">
+            <h2 class="text-2xl font-bold mb-4 text-slate-900">URL Encoder / Decoder</h2>
+            <label for="url-input" class="block font-semibold mb-2">Input:</label>
+            <textarea id="url-input" class="w-full h-40 p-2 border border-slate-300 rounded-md"></textarea>
+            <div class="flex gap-4 mt-4">
+                <button id="url-encode" class="flex-1 bg-indigo-600 text-white font-semibold p-2 rounded-md hover:bg-indigo-700">Encode</button>
+                <button id="url-decode" class="flex-1 bg-slate-600 text-white font-semibold p-2 rounded-md hover:bg-slate-700">Decode</button>
+            </div>
+            <div class="mt-4">
+                <label for="url-output" class="block font-semibold mb-2">Output:</label>
+                <textarea id="url-output" class="w-full h-40 p-2 bg-slate-50 border rounded-md" readonly></textarea>
+            </div>
+        </article>
+
+        <article id="yaml-parser" class="tool-panel bg-white p-6 rounded-xl shadow-lg hidden">
+            <h2 class="text-2xl font-bold mb-4 text-slate-900">YAML Parser</h2>
+            <form id="yaml-form">
+                <label for="yaml-input" class="block font-semibold mb-2">YAML Input:</label>
+                <textarea id="yaml-input" name="yaml_data" class="w-full h-40 p-2 border border-slate-300 rounded-md" placeholder="Enter YAML data here..."></textarea>
+                <button type="submit" class="mt-4 bg-indigo-600 text-white font-semibold p-2 px-4 rounded-md hover:bg-indigo-700">Parse</button>
+            </form>
+            <div class="mt-4">
+                <label for="yaml-output" class="block font-semibold mb-2">Output:</label>
+                <pre id="yaml-output" class="w-full h-40 p-2 bg-slate-50 border rounded-md overflow-auto">Result will be shown here.</pre>
+            </div>
+        </article>
+
+        <article id="hasher" class="tool-panel bg-white p-6 rounded-xl shadow-lg hidden">
+            <h2 class="text-2xl font-bold mb-4 text-slate-900">Hash Generator</h2>
+            <label for="hash-input" class="block font-semibold mb-2">Input:</label>
+            <textarea id="hash-input" class="w-full h-40 p-2 border border-slate-300 rounded-md"></textarea>
+            <div class="flex items-end gap-4 mt-4">
+                <div class="flex-grow">
+                    <label for="hash-algo" class="block font-semibold mb-2">Algorithm:</label>
+                    <select id="hash-algo" class="w-full p-2 border border-slate-300 rounded-md">
+                        <option value="SHA-256">SHA-256</option>
+                        <option value="SHA-1">SHA-1</option>
+                        <option value="SHA-512">SHA-512</option>
+                        <option value="MD5">MD5 (Insecure)</option>
+                    </select>
+                </div>
+                <button id="hash-generate" class="bg-indigo-600 text-white font-semibold p-2 px-4 rounded-md hover:bg-indigo-700">Generate</button>
+            </div>
+            <div class="mt-4">
+                <label for="hash-output" class="block font-semibold mb-2">Output (Hex):</label>
+                <input id="hash-output" type="text" class="w-full p-2 bg-slate-50 border rounded-md font-mono" readonly />
+            </div>
+        </article>
+
+    </section>
+</main>
+
+<footer class="bg-white p-6 text-center text-slate-500 mt-8 border-t border-slate-200">
+    &copy; 2025 Admin Panel. All rights reserved.
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('.tool-nav-link');
+    const toolPanels = document.querySelectorAll('.tool-panel');
+
+    document.getElementById('tool-navigation').addEventListener('click', e => {
+        if(e.target.tagName === 'A') {
+            e.preventDefault();
+            const targetTool = e.target.dataset.tool;
+
+            navLinks.forEach(link => link.classList.remove('active'));
+            e.target.classList.add('active');
+
+            toolPanels.forEach(panel => {
+                panel.id === targetTool ? panel.classList.remove('hidden') : panel.classList.add('hidden');
+            });
+        }
+    });
+
+    document.getElementById('base64-encode').addEventListener('click', () => {
+        try {
+            document.getElementById('base64-output').value = btoa(document.getElementById('base64-input').value);
+        } catch(e) {
+            document.getElementById('base64-output').value = 'Error: Invalid input.';
+        }
+    });
+    document.getElementById('base64-decode').addEventListener('click', () => {
+        try {
+            document.getElementById('base64-output').value = atob(document.getElementById('base64-input').value);
+        } catch(e) {
+            document.getElementById('base64-output').value = 'Error: Invalid Base64 string.';
+        }
+    });
+
+    document.getElementById('url-encode').addEventListener('click', () => {
+        document.getElementById('url-output').value = encodeURIComponent(document.getElementById('url-input').value);
+    });
+    document.getElementById('url-decode').addEventListener('click', () => {
+        try {
+            document.getElementById('url-output').value = decodeURIComponent(document.getElementById('url-input').value);
+        } catch(e) {
+            document.getElementById('url-output').value = 'Error: Invalid URL encoding.';
+        }
+    });
+
+    document.getElementById('yaml-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const outputEl = document.getElementById('yaml-output');
+        outputEl.textContent = 'Processing...';
+        const formData = new FormData(this);
+
+        fetch('/web/yaml', { method: 'POST', body: formData })
+            .then(resp => resp.text())
+            .then(data => { outputEl.textContent = data; })
+            .catch(err => { outputEl.textContent = `Error: ${err}`; });
+    });
+
+    document.getElementById('hash-generate').addEventListener('click', async () => {
+        const input = document.getElementById('hash-input').value;
+        const algo = document.getElementById('hash-algo').value;
+        const outputEl = document.getElementById('hash-output');
+
+        if (!input) { outputEl.value = 'Input cannot be empty.'; return; }
+
+        try {
+            const encoder = new TextEncoder();
+            const data = encoder.encode(input);
+            const hashBuffer = await crypto.subtle.digest(algo, data);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            outputEl.value = hashArray.map(b => b.toString(16).padStart(2,'0')).join('');
+        } catch(e) {
+            outputEl.value = algo === 'MD5' 
+                ? 'MD5 not supported in Web Crypto API.'
+                : `Error: ${e.message}`;
+        }
+    });
+});
+</script>
+</body>
+</html>

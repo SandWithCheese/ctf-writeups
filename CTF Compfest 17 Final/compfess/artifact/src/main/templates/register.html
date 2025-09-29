@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="card" style="max-width:520px; margin:0 auto;">
+    <h2>Register</h2>
+    <form method="post" class="stack">
+      <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+      {{ form.username.label_tag()|safe }}
+      {{ form.username|safe }}
+
+      {{ form.email.label_tag()|safe }}
+      {{ form.email|safe }}
+
+      {{ form.password.label_tag()|safe }}
+      {{ form.password|safe }}
+
+      <button class="btn" type="submit">Create account</button>
+    </form>
+  </div>
+{% endblock %}

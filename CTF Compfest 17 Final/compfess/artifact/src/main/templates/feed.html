@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="card">
+    <h2>Public feed</h2>
+
+    <!-- Filter bar -->
+    <form method="get" action="/feed/by-sender/" class="row" style="gap:.5rem; margin:.5rem 0 1rem 0;">
+      <input type="text" name="sender" placeholder="username" value="{{ filter_sender or '' }}" style="max-width:240px;">
+      <button class="btn" type="submit">Filter</button>
+      <a class="btn" href="/feed/">Clear</a>
+      {% if filter_sender %}
+        <span class="pill">filtered by: {{ filter_sender }}</span>
+      {% endif %}
+    </form>
+
+    <div class="list">
+      {% for m in menfesses %}
+        <div class="card">
+          <div class="row">
+            <span class="muted">From</span>
+            <strong>{{ m.sender_label() }}</strong>
+            <span class="muted">to</span>
+            {% if cur_user and cur_user.is_authenticated and cur_user.is_superuser %}
+              <a class="btn" href="/u/{{ m.recipient.profile.id }}/">@{{ m.recipient.username }}</a>
+            {% else %}
+              <span class="pill">@{{ m.recipient.username }}</span>
+            {% endif %}
+            <span class="muted">• {{ m.created_at }}</span>
+          </div>
+          <p style="white-space:pre-wrap;">{{ m.content }}</p>
+        </div>
+      {% else %}
+        <p class="muted">Nothing here yet.</p>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}

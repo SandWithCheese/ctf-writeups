@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Submitted</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800">
+    <main class="min-h-screen flex flex-col items-center justify-center p-6">
+        <section class="bg-white shadow-xl rounded-xl p-8 w-full max-w-xl text-center">
+            <h1 class="text-3xl font-bold text-slate-900 mb-4">Thanks for contacting us!</h1>
+            <p class="text-lg text-slate-700 mb-6">Message contact id : {{ contact_id }}</p>
+            <div class="flex gap-4 justify-center">
+                <a href="{{ url_for('contact_view', contact_id=contact_id) }}" class="text-indigo-600 hover:text-indigo-800 font-semibold">View message</a>
+                <a href="{{ url_for('contact') }}" class="text-slate-500 hover:text-slate-700">Send another</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

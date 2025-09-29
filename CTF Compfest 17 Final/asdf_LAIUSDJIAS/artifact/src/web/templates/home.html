@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>asdf:LAIUSDJIAS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #94a3b8;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+    </style>
+</head>
+<body class="bg-slate-100 font-sans text-slate-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center p-4 flex-wrap">
+            <h1 class="text-3xl font-bold text-slate-900">asdf:LAIUSDJIAS</h1>
+            <nav class="mt-2 sm:mt-0">
+                <a href="/web/" class="text-slate-600 hover:text-indigo-600 mx-3 transition-colors duration-300">Home</a>
+                <a href="/web/about" class="text-slate-600 hover:text-indigo-600 mx-3 transition-colors duration-300">About</a>
+                <a href="/web/contact" class="text-slate-600 hover:text-indigo-600 mx-3 transition-colors duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+        
+        <aside class="md:col-span-1 bg-white p-6 rounded-xl shadow-lg md:sticky top-24">
+            <h2 class="text-2xl font-semibold mb-4 text-slate-900">Guessing Game</h2>
+            <iframe name="guess-frame" src="/web/guess" class="w-full h-48 mb-4 border border-slate-200 rounded-lg"></iframe>
+            <form action="/web/guess" method="get" target="guess-frame" class="flex flex-col gap-3 mb-8">
+                <input type="text" name="q" placeholder="Enter a number (1-100)" class="p-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <input type="submit" value="Make a Guess" class="bg-indigo-600 text-white font-semibold p-2 rounded-md hover:bg-indigo-700 cursor-pointer transition-colors duration-300">
+            </form>
+
+            <h3 class="text-xl font-semibold mb-3 text-slate-900">Search Posts</h3>
+            <input type="text" id="search-input" placeholder="Filter by title..." class="p-2 border border-slate-300 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            <br>
+            <br>
+            <br>
+            <img src="https://images.steamusercontent.com/ugc/2032861231230829483/0810F4EA412E47AD2A6FB345E390F6C9ABA8AFC6/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Decorative" class="mt-6 rounded-lg shadow-md object-cover">
+            <p class="opacity-40 mt-2">author: gak kuad kami wak ngurusin ini web chall ????</p>
+        </aside>
+
+        <section class="md:col-span-2 flex flex-col gap-6">
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-2xl font-bold mb-2 text-slate-900">INI BLOG.</h2>
+                <p class="text-slate-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac faucibus odio. Fusce a eros ligula.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Tech Trends 2025</h2>
+                <p class="text-slate-600">Discover the latest trends in technology this year and how they will shape the industry.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Cybersecurity Basics</h2>
+                <p class="text-slate-600">A guide to understanding fundamental cybersecurity concepts for beginners and enthusiasts.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">JavaScript Tips & Tricks</h2>
+                <p class="text-slate-600">Learn some practical JavaScript tips to write cleaner, faster, and more maintainable code.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Travel Diaries: A Week in Japan</h2>
+                <p class="text-slate-600">Explore my journey through Tokyo and Kyoto with photos, tips, and hidden gems.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Healthy Living & Mindful Eating</h2>
+                <p class="text-slate-600">Tips and advice for maintaining a balanced lifestyle in a fast-paced world.</p>
+            </article>
+            
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">The Art of Baking Sourdough</h2>
+                <p class="text-slate-600">A step-by-step guide for beginners to bake the perfect loaf of sourdough bread at home.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Introduction to Machine Learning</h2>
+                <p class="text-slate-600">Breaking down the core concepts of machine learning and how it's changing our world.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Beginner's Guide to Investing</h2>
+                <p class="text-slate-600">Simple strategies for starting your investment journey and building long-term wealth.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">DIY Home Office Makeover</h2>
+                <p class="text-slate-600">Transform your workspace on a budget with these creative and easy DIY ideas.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">The Power of Vue.js 3</h2>
+                <p class="text-slate-600">An overview of the Composition API and other new features in the latest version of Vue.js.</p>
+            </article>
+
+             <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Top 5 Sci-Fi Books of the Decade</h2>
+                <p class="text-slate-600">A curated list of must-read science fiction novels that will expand your imagination.</p>
+            </article>
+
+            <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Mastering CSS Grid Layout</h2>
+                <p class="text-slate-600">Move beyond Flexbox and create powerful, responsive layouts with CSS Grid.</p>
+            </article>
+
+             <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">A Guide to Remote Work Success</h2>
+                <p class="text-slate-600">Stay productive and maintain a healthy work-life balance while working from home.</p>
+            </article>
+
+             <article class="bg-white p-6 rounded-xl shadow-lg post transition-shadow duration-300 hover:shadow-2xl">
+                <h2 class="text-xl font-semibold mb-2 text-slate-900">Exploring National Parks</h2>
+                <p class="text-slate-600">Tips for planning your next adventure to some of the most beautiful natural landscapes.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="bg-white p-6 text-center text-slate-500 mt-8 border-t border-slate-200">
+        &copy; 2025 PapaChicken &amp; Sons. All rights reserved.
+    </footer>
+
+    <script>
+        const searchInput = document.getElementById('search-input');
+        const posts = document.querySelectorAll('.post');
+
+        searchInput.addEventListener('input', () => {
+            const query = searchInput.value.toLowerCase();
+            posts.forEach(post => {
+                const title = post.querySelector('h2').textContent.toLowerCase();
+                post.style.display = title.includes(query) ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>

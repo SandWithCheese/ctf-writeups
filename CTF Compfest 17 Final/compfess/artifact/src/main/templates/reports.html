@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Admin Reports</h1>
+
+<section>
+  <h2>Create a report</h2>
+  <form method="post" action="/admin/reports/new">
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    <div>
+      <label>Report content</label><br>
+      <textarea name="content" rows="6" placeholder="Type your report..."></textarea>
+    </div>
+    <button type="submit">Create</button>
+  </form>
+</section>
+
+<hr>
+
+<section>
+  <h2>Upload notes (.txt, .zip, .tar)</h2>
+  <form method="post" action="/admin/reports/new" enctype="multipart/form-data">
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    <div>
+      <label>Select file</label><br>
+      <input type="file" name="file" required>
+    </div>
+    <button type="submit">Upload</button>
+  </form>
+</section>
+
+{% endblock %}
