@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Upload image</h2>
+<form method="post" enctype="multipart/form-data">
+  <label>Title</label>
+  <input name="title" placeholder="My picture" />
+  <label>Image file (png/jpg/jpeg/bmp)</label>
+  <input type="file" name="image" accept=".png,.jpg,.jpeg,.bmp" required />
+  <label>Notes (optional, saved with metadata)</label>
+  <textarea name="notes" rows="4" placeholder="CDN descriptors, tags, etc."></textarea>
+  <button type="submit">Upload</button>
+</form>
+{% endblock %}

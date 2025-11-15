@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<article>
+  <h2>{{ post['title'] or 'Untitled' }}</h2>
+  <p>By {{ post['author'] or 'unknown' }}</p>
+
+  {% if post['image_filename'] %}
+    <img src="{{ url_for('uploaded_file', filename=post['image_filename']) }}" style="max-width:400px">
+    <div class="meta-snippet">
+      {{ metadata_snippet or '' }}
+    </div>
+  {% endif %}
+
+  <p>{{ post['content'] }}</p>
+</article>
+{% endblock %}

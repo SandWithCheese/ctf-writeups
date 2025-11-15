@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  cdn_services:
+    container_name: cdn_container
+    hostname: cdn
+    build:
+      context: .
+      args:
+          - PASSWORD=root
+    ports:
+      - "4500:8000"  # app
+      - "4522:22"    # ssh
+    environment:
+      SECRET_KEY: "REDACTED"
+    restart: always
