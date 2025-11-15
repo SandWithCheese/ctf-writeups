@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="post">
+  <h2>{{ post.title }}</h2>
+  <img class="full" src="{{ url_for('cdn_serve', filename=post.filename) }}" alt="" />
+
+  <details class="desc">
+    <summary>Delivery details</summary>
+    <p>Static CDN reference: <code>/i/{{ post.filename }}</code></p>
+    <p>Uploaded at: <code>{{ post.created_at }}</code></p>
+  </details>
+  <template id="internal-meta" hidden>{{ metadata_snippet or '' }}</template>
+</article>
+{% endblock %}

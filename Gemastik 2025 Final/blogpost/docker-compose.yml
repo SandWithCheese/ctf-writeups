@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    container_name: ctf_web
+    ports:
+      - "4413:8000"
+    environment:
+      - FLASK_ENV=production
+    command: ["/app/entrypoint.sh"]

@@ -1,0 +1,1 @@
+exiftool -overwrite_original -ImageDescription $'File Name: {{7*7}}' base.jpg

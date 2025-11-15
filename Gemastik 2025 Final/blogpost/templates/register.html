@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<div style="max-width:520px; margin:28px auto;">
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for m in messages %}
+          <li>{{ m }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+
+  <div class="card" style="padding:22px;">
+    <h2 style="margin-top:0">Register</h2>
+
+    <form method="post" action="{{ url_for('register') }}" style="display:flex; flex-direction:column; gap:12px;">
+      <label>
+        <div class="label-muted">Username</div>
+        <input name="username" id="reg-username" type="text" placeholder="choose a username" required>
+      </label>
+
+      <label>
+        <div class="label-muted">Password</div>
+        <div style="position:relative;">
+          <input name="password" id="reg-password" type="password" placeholder="create a password" required style="padding-right:92px;">
+          <button type="button" id="reg-pw-toggle" style="position:absolute; right:6px; top:6px; height:36px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); background:transparent; color:var(--muted); padding:6px 10px; cursor:pointer;">
+            Show
+          </button>
+        </div>
+      </label>
+
+      <div style="display:flex; gap:10px; align-items:center; justify-content:flex-end;">
+        <a href="{{ url_for('login') }}" class="label-muted" style="text-decoration:none; color:var(--muted);">Already have an account?</a>
+        <button class="btn" type="submit" style="min-width:120px;">Register</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  // autofocus username
+  document.getElementById('reg-username')?.focus();
+
+  // password toggle
+  (function(){
+    const pw = document.getElementById('reg-password');
+    const btn = document.getElementById('reg-pw-toggle');
+    if (!pw || !btn) return;
+    btn.addEventListener('click', () => {
+      if (pw.type === 'password') {
+        pw.type = 'text';
+        btn.innerText = 'Hide';
+      } else {
+        pw.type = 'password';
+        btn.innerText = 'Show';
+      }
+      pw.focus();
+    });
+  })();
+</script>
+
+{% endblock %}

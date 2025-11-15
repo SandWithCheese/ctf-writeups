@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<div class="card" style="padding:20px; max-width:900px; margin:auto;">
+  <h2 style="margin-top:0">Create post (upload image)</h2>
+
+  <form method="post" enctype="multipart/form-data" class="card" style="padding:16px; gap:12px; display:flex; flex-direction:column;">
+    <label>
+      <div class="label-muted">Title</div>
+      <input name="title" placeholder="Post title" type="text">
+    </label>
+
+    <label>
+      <div class="label-muted">Content</div>
+      <textarea name="content" rows="6" placeholder="Write something..."></textarea>
+    </label>
+
+    <div>
+      <div class="label-muted" style="margin-bottom:6px;">Image</div>
+
+      <div class="file-wrap" style="align-items:center;">
+        <label class="file-btn" for="image">Choose image</label>
+        <span class="label-muted" id="file-name">No file chosen</span>
+        <input id="image" type="file" name="image" accept=".png,.jpg,.jpeg,.bmp" onchange="handleFileChange(this)">
+      </div>
+
+      <div id="preview-wrap" style="margin-top:12px; display:none;">
+        <div class="label-muted" style="margin-bottom:6px;">Preview</div>
+        <img id="preview" alt="preview" style="max-width:320px; border-radius:8px; border:1px solid rgba(255,255,255,0.03);">
+      </div>
+    </div>
+
+    <div style="display:flex; gap:10px; align-items:center;">
+      <button class="btn" type="submit">Create</button>
+      <button type="button" class="button ghost" onclick="resetFile()" style="background:transparent; color:var(--muted); border:1px solid rgba(255,255,255,0.04); padding:8px 12px; border-radius:8px;">
+        Clear file
+      </button>
+    </div>
+  </form>
+</div>
+
+<script>
+  function handleFileChange(input) {
+    const file = input.files && input.files[0];
+    const nameSpan = document.getElementById('file-name');
+    const previewWrap = document.getElementById('preview-wrap');
+    const preview = document.getElementById('preview');
+
+    if (!file) {
+      nameSpan.innerText = 'No file chosen';
+      previewWrap.style.display = 'none';
+      preview.src = '';
+      return;
+    }
+
+    nameSpan.innerText = file.name;
+
+    if (file.type.startsWith('image/')) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        preview.src = e.target.result;
+        previewWrap.style.display = 'block';
+      };
+      reader.readAsDataURL(file);
+    } else {
+      previewWrap.style.display = 'none';
+      preview.src = '';
+    }
+  }
+
+  function resetFile() {
+    const input = document.getElementById('image');
+    input.value = '';
+    document.getElementById('file-name').innerText = 'No file chosen';
+    document.getElementById('preview-wrap').style.display = 'none';
+    document.getElementById('preview').src = '';
+  }
+</script>
+
+{% endblock %}

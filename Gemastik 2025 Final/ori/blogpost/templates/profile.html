@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Profile: {{ user['username'] }}</h2>
+<p>Role: {{ user['role'] }}</p>
+
+{% if flag %}
+  <h3>FLAG (admin only):</h3>
+  <pre>{{ flag }}</pre>
+{% else %}
+  <p>No special access.</p>
+{% endif %}
+{% endblock %}
