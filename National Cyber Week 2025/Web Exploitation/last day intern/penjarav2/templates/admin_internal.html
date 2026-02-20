@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Admin Internal – ONLY{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Admin Internal</h2>
+
+    <p>Payload:</p>
+    <pre>{{ payload }}</pre>
+
+    {% if error %}
+    <h3>Error</h3>
+    <pre>{{ error }}</pre>
+    {% else %}
+    <h3>Execution output</h3>
+    <pre>{{ output }}</pre>
+    {% endif %}
+</div>
+
+</div>
+{% endblock %}

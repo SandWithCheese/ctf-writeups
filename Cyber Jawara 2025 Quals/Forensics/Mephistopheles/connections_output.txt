@@ -1,0 +1,255 @@
+--- Possible Connection context at line 18912 ---
+Microsoft-Windows-Sysmon/Operational
+technique_id=T1083,technique_name=File and Directory Discovery
+2025-12-21 16:14:49.202
+C:\Windows\System32\rundll32.exe
+10.0.17763.1 (WinBuild.160101.0800)
+Windows host process (Rundll32)
+Microsoft
+Windows
+Operating System
+Microsoft Corporation
+RUNDLL32.EXE
+C:\Windows\System32\rundll32.exe C:\Windows\System32\shell32.dll,SHCreateLocalServerRunDll {9aa46009-3ce0-458a-a354-715610a075e6} -Embedding
+C:\Windows\system32\
+WIN-UJ3UDV7VU3C\Administrator
+High
+SHA1=F3BA3415DD068A8871F285570BEA2E29874CBFF1,MD5=C73BA51880F5A7FB20C84185A23212EF,SHA256=01B407AF0200B66A34D9B1FA6D9EAAB758EFA36A36BB99B554384F59F8690B1A,IMPHASH=F27A7FC3A53E74F45BE370131953896A
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+SetValue
+2025-12-21 16:14:49.505
+C:\Windows\System32\rundll32.exe
+HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-3294144129-4246481759-1015221122-500\\Device\HarddiskVolume2\Windows\System32\rundll32.exe
+Binary Data
+WIN-UJ3UDV7VU3C\Administrator
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+SetValue
+2025-12-21 16:14:49.945
+C:\Windows\system32\ServerManager.exe
+HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-3294144129-4246481759-1015221122-500\\Device\HarddiskVolume2\Windows\System32\ServerManager.exe
+Binary Data
+WIN-UJ3UDV7VU3C\Administrator
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+technique_id=T1571,technique_name=Non-Standard Port
+2025-12-21 16:14:50.535
+C:\Program Files\Google\Chrome\Application\chrome.exe
+WIN-UJ3UDV7VU3C\Administrator
+224.0.0.251
+192.168.100.107
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+technique_id=T1571,technique_name=Non-Standard Port
+2025-12-21 16:14:50.535
+C:\Program Files\Google\Chrome\Application\chrome.exe
+WIN-UJ3UDV7VU3C\Administrator
+ff02:0:0:0:0:0:0:fb
+fe80:0:0:0:8767:a770:2369:c1de
+Microsoft-Windows-Sysmon
+-----------------------------------------------
+--- Possible Connection context at line 19358 ---
+WIN-UJ3UDV7VU3C\Administrator
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+2025-12-21 16:15:12.545
+NT AUTHORITY\SYSTEM
+C:\Program Files\Windows Defender\MsMpEng.exe
+C:\Users\Administrator\AppData\Local\Temp\nsnA9E8.tmp\System.dll
+SHA1=97332A2FFCF12A3E3F27E7C05213B5D7FAA13735,MD5=9B38A1B07A0EBC5C7E59E63346ECC2DB,SHA256=8B4C47C4CF5E76EC57DD5A050D5ACD832A0D532EE875D7B44F6CDAF68F90D37C,IMPHASH=509A34B3A68A773E0AFB4259E68F9F82
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+2025-12-21 16:15:12.615
+NT AUTHORITY\SYSTEM
+C:\Program Files\Windows Defender\MsMpEng.exe
+C:\Users\Administrator\AppData\Local\Temp\nsnA9E8.tmp\System.dll
+SHA1=97332A2FFCF12A3E3F27E7C05213B5D7FAA13735,MD5=9B38A1B07A0EBC5C7E59E63346ECC2DB,SHA256=8B4C47C4CF5E76EC57DD5A050D5ACD832A0D532EE875D7B44F6CDAF68F90D37C,IMPHASH=509A34B3A68A773E0AFB4259E68F9F82
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+RuleName
+UtcTime
+ProcessGuid
+ProcessId
+Image
+User
+Protocol
+Initiated
+SourceIsIpv6
+SourceIp
+SourceHostname
+SourcePort
+SourcePortName
+DestinationIsIpv6
+DestinationIp
+DestinationHostname
+DestinationPort
+DestinationPortName
+technique_id=T1036,technique_name=Masquerading
+2025-12-21 16:15:12.387
+C:\Users\Administrator\Downloads\AnsiArtInstaller.exe
+WIN-UJ3UDV7VU3C\Administrator
+192.168.100.48
+192.168.100.157
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+technique_id=T1033,technique_name=System Owner/User Discovery
+2025-12-21 16:15:15.530
+C:\Windows\SysWOW64\whoami.exe
+10.0.17763.1 (WinBuild.160101.0800)
+whoami - displays logged on user information
+Microsoft
+-----------------------------------------------
+--- Possible Connection context at line 65504 ---
+SourceImage
+TargetProcessGUID
+TargetProcessId
+TargetImage
+GrantedAccess
+CallTrace
+SourceUser
+TargetUser
+technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+2025-12-24 07:22:41.042
+C:\Users\Administrator\Downloads\AnsiArtInstaller.exe
+C:\Windows\SysWOW64\cmd.exe
+C:\Windows\SYSTEM32\ntdll.dll+a0fb4|C:\Windows\System32\wow64.dll+10705|C:\Windows\System32\wow64.dll+fef1|C:\Windows\System32\wow64.dll+7783|C:\Windows\System32\wow64cpu.dll+1783|C:\Windows\System32\wow64cpu.dll+1199|C:\Windows\System32\wow64.dll+cfda|C:\Windows\System32\wow64.dll+cea0|C:\Windows\SYSTEM32\ntdll.dll+d5c3d|C:\Windows\SYSTEM32\ntdll.dll+c3879|C:\Windows\SYSTEM32\ntdll.dll+756c3|C:\Windows\SYSTEM32\ntdll.dll+7566e|C:\Windows\SYSTEM32\ntdll.dll+710dc(wow64)|C:\Windows\System32\KERNELBASE.dll+e6c56(wow64)|C:\Windows\System32\KERNELBASE.dll+1a606b(wow64)|C:\Windows\System32\KERNELBASE.dll+1a5d4c(wow64)|UNKNOWN(000000000065066B)
+WIN-UJ3UDV7VU3C\Administrator
+WIN-UJ3UDV7VU3C\Administrator
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+RuleName
+UtcTime
+ProcessGuid
+ProcessId
+Image
+User
+Protocol
+Initiated
+SourceIsIpv6
+SourceIp
+SourceHostname
+SourcePort
+SourcePortName
+DestinationIsIpv6
+DestinationIp
+DestinationHostname
+DestinationPort
+DestinationPortName
+technique_id=T1036,technique_name=Masquerading
+2025-12-24 07:22:40.507
+C:\Users\Administrator\Downloads\AnsiArtInstaller.exe
+WIN-UJ3UDV7VU3C\Administrator
+192.168.100.48
+192.168.100.157
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+technique_id=T1574.010,technique_name=Services File Permissions Weakness
+2025-12-24 07:22:50.330
+C:\Windows\System32\svchost.exe
+C:\Windows\ServiceState\EventLog\Data\lastalive1.dat
+2025-12-24 07:06:48.327
+NT AUTHORITY\LOCAL SERVICE
+-----------------------------------------------
+--- Possible Connection context at line 69819 ---
+SourceImage
+TargetProcessGUID
+TargetProcessId
+TargetImage
+GrantedAccess
+CallTrace
+SourceUser
+TargetUser
+technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+2025-12-24 07:44:15.174
+C:\Users\Administrator\Downloads\AnsiArtInstaller.exe
+C:\Windows\SysWOW64\cmd.exe
+C:\Windows\SYSTEM32\ntdll.dll+a0fb4|C:\Windows\System32\wow64.dll+10705|C:\Windows\System32\wow64.dll+fef1|C:\Windows\System32\wow64.dll+7783|C:\Windows\System32\wow64cpu.dll+1783|C:\Windows\System32\wow64cpu.dll+1199|C:\Windows\System32\wow64.dll+cfda|C:\Windows\System32\wow64.dll+cea0|C:\Windows\SYSTEM32\ntdll.dll+d5c3d|C:\Windows\SYSTEM32\ntdll.dll+c3879|C:\Windows\SYSTEM32\ntdll.dll+756c3|C:\Windows\SYSTEM32\ntdll.dll+7566e|C:\Windows\SYSTEM32\ntdll.dll+710dc(wow64)|C:\Windows\System32\KERNELBASE.dll+e6c56(wow64)|C:\Windows\System32\KERNELBASE.dll+1a606b(wow64)|C:\Windows\System32\KERNELBASE.dll+1a5d4c(wow64)|UNKNOWN(000000000081066B)
+WIN-UJ3UDV7VU3C\Administrator
+WIN-UJ3UDV7VU3C\Administrator
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+RuleName
+UtcTime
+ProcessGuid
+ProcessId
+Image
+User
+Protocol
+Initiated
+SourceIsIpv6
+SourceIp
+SourceHostname
+SourcePort
+SourcePortName
+DestinationIsIpv6
+DestinationIp
+DestinationHostname
+DestinationPort
+DestinationPortName
+technique_id=T1036,technique_name=Masquerading
+2025-12-24 07:44:30.755
+C:\Users\Administrator\Downloads\AnsiArtInstaller.exe
+WIN-UJ3UDV7VU3C\Administrator
+192.168.100.48
+192.168.100.157
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+RuleName
+UtcTime
+ProcessGuid
+ProcessId
+QueryName
+QueryStatus
+-----------------------------------------------
+--- Possible Connection context at line 220954 ---
+2025-12-24 14:16:33.606
+C:\Windows\SysWOW64\cmd.exe
+10.0.17763.592 (WinBuild.160101.0800)
+Windows Command Processor
+Microsoft
+Windows
+Operating System
+Microsoft Corporation
+Cmd.Exe
+C:\Users\ADMINI~1\AppData\Local\Temp\1\
+WIN-UJ3UDV7VU3C\Administrator
+High
+SHA1=E2EAD0993B917E1828A658ADA0B87E01D5B8424F,MD5=C43699F84A68608E7E57C43B7761BBB8,SHA256=2EDB180274A51C83DDF8414D99E90315A9047B18C51DFD070326214D4DA59651,IMPHASH=392B4D61B1D1DADC1F06444DF258188A
+C:\Users\Administrator\Downloads\AnsiArtInstaller.exe
+"C:\Users\Administrator\Downloads\AnsiArtInstaller.exe"
+WIN-UJ3UDV7VU3C\Administrator
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+2025-12-24 14:16:33.604
+C:\Users\Administrator\Downloads\AnsiArtInstaller.exe
+C:\Windows\SysWOW64\cmd.exe
+C:\Windows\SYSTEM32\ntdll.dll+a0fb4|C:\Windows\System32\wow64.dll+10705|C:\Windows\System32\wow64.dll+fef1|C:\Windows\System32\wow64.dll+7783|C:\Windows\System32\wow64cpu.dll+1783|C:\Windows\System32\wow64cpu.dll+1199|C:\Windows\System32\wow64.dll+cfda|C:\Windows\System32\wow64.dll+cea0|C:\Windows\SYSTEM32\ntdll.dll+d5c3d|C:\Windows\SYSTEM32\ntdll.dll+c3879|C:\Windows\SYSTEM32\ntdll.dll+756c3|C:\Windows\SYSTEM32\ntdll.dll+7566e|C:\Windows\SYSTEM32\ntdll.dll+710dc(wow64)|C:\Windows\System32\KERNELBASE.dll+e6c56(wow64)|C:\Windows\System32\KERNELBASE.dll+1a606b(wow64)|C:\Windows\System32\KERNELBASE.dll+1a5d4c(wow64)|UNKNOWN(000000000292066B)
+WIN-UJ3UDV7VU3C\Administrator
+WIN-UJ3UDV7VU3C\Administrator
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+SetValue
+2025-12-24 14:16:35.125
+C:\Windows\system32\svchost.exe
+HKLM\System\CurrentControlSet\Services\DsmSvc\State\LastActiveTime
+Binary Data
+NT AUTHORITY\SYSTEM
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+technique_id=T1036,technique_name=Masquerading
+2025-12-24 14:16:25.636
+C:\Users\Administrator\Downloads\AnsiArtInstaller.exe
+WIN-UJ3UDV7VU3C\Administrator
+192.168.100.48
+192.168.100.157
+Microsoft-Windows-Sysmon
+Microsoft-Windows-Sysmon/Operational
+technique_id=T1574.010,technique_name=Services File Permissions Weakness
+2025-12-24 14:17:00.705
+C:\Windows\System32\svchost.exe
+C:\Windows\ServiceState\EventLog\Data\lastalive0.dat
+2025-12-20 09:54:56.559
+NT AUTHORITY\LOCAL SERVICE
+-----------------------------------------------

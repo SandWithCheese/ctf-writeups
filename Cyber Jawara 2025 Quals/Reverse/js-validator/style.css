@@ -1,0 +1,110 @@
+body {
+    background-color: #212529;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    image-rendering: pixelated;
+}
+
+.container {
+    border: 4px solid #fff;
+    padding: 3rem;
+    background-color: #0000ff;
+    /* Retro blue background */
+    box-shadow: 10px 10px 0px #000;
+    /* Hard shadow for depth */
+    text-align: center;
+    max-width: 90%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #ffd700;
+    /* Gold */
+    text-shadow: 3px 3px 0 #000;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    background-color: #000;
+    border: 4px solid #fff;
+    color: #00ff00;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    outline: none;
+    box-shadow: inset 3px 3px 0px #333;
+}
+
+input:focus {
+    background-color: #111;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    border: 4px solid #fff;
+    padding: 15px 30px;
+    font-family: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 0px #000;
+    transition: transform 0.1s;
+    text-transform: uppercase;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0px #000;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 1rem;
+    min-height: 2rem;
+    text-shadow: 2px 2px 0 #000;
+    display: inline-block;
+    /* Allow borders to wrap content */
+}
+
+/* Common retro box style for results */
+.success,
+.failure {
+    border: 4px solid #fff;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 0px #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.success {
+    background-color: #008000;
+    /* Dark green background */
+    color: #fff;
+}
+
+.failure {
+    background-color: #800000;
+    /* Dark red background */
+    color: #fff;
+}

@@ -1,0 +1,45 @@
+﻿"Top 1000 values of winlog.event_data.ProcessName.keyword","Count of records"
+"C:\Windows\System32\services.exe",37
+"C:\Windows\System32\conhost.exe",15
+"C:\Program Files (x86)\Google\GoogleUpdater\142.0.7416.0\updater.exe",12
+"C:\Windows\System32\wevtutil.exe",12
+"C:\Windows\System32\backgroundTaskHost.exe",9
+"C:\Windows\System32\svchost.exe",7
+"C:\Windows\System32\taskhostw.exe",6
+"C:\Windows\System32\RuntimeBroker.exe",5
+"C:\Windows\System32\winlogon.exe",5
+"C:\Windows\System32\dllhost.exe",3
+"C:\Program Files\Common Files\microsoft shared\ink\TabTip.exe",2
+"C:\Users\konoha\AppData\Local\Microsoft\OneDrive\25.189.0928.0002\FileCoAuth.exe",2
+"C:\Windows\System32\wininit.exe",2
+"C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe",1
+"C:\Program Files\RUXIM\PLUGScheduler.exe",1
+"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe",1
+"C:\Program Files\WindowsApps\Microsoft.WindowsStore_22509.1401.11.0_x64__8wekyb3d8bbwe\WinStore.DesktopExtension\StoreDesktopExtension.exe",1
+"C:\Users\konoha\AppData\Local\Microsoft\OneDrive\OneDrive.exe",1
+"C:\Users\konoha\AppData\Local\Temp\windows_update.bin.exe",1
+"C:\Users\konoha\AppData\Roaming\check_windows_update.exe",1
+"C:\Windows\System32\ClipRenew.exe",1
+"C:\Windows\System32\LogonUI.exe",1
+"C:\Windows\System32\SecurityHealthSystray.exe",1
+"C:\Windows\System32\SppExtComObj.Exe",1
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe",1
+"C:\Windows\System32\cmd.exe",1
+"C:\Windows\System32\ctfmon.exe",1
+"C:\Windows\System32\dxgiadaptercache.exe",1
+"C:\Windows\System32\mobsync.exe",1
+"C:\Windows\System32\oobe\UserOOBEBroker.exe",1
+"C:\Windows\System32\sihost.exe",1
+"C:\Windows\System32\slui.exe",1
+"C:\Windows\System32\smartscreen.exe",1
+"C:\Windows\System32\sppsvc.exe",1
+"C:\Windows\System32\upfc.exe",1
+"C:\Windows\System32\userinit.exe",1
+"C:\Windows\System32\vm3dservice.exe",1
+"C:\Windows\System32\wermgr.exe",1
+"C:\Windows\System32\wlrmdr.exe",1
+"C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe",1
+"C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe",1
+"C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe",1
+"C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe",1
+"C:\Windows\explorer.exe",1

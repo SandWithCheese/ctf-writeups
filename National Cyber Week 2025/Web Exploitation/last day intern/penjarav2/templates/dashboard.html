@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Welcome, {{ user['username'] }}</h2>
+    <p>
+        i've build a strong secret feature called <strong>f**c*er</strong>. i cant tell you since my boss will beat me if i tell you 
+    </p>
+    <p style="margin-top:1rem;">
+        <a href="{{ url_for('secret') }}"><button>Go to Secret</button></a>
+    </p>
+</div>
+{% endblock %}

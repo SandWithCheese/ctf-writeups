@@ -1,0 +1,39 @@
+BASE85
+BASE32
+RcvFGR
+AES_SBOX
+BASE64
+RcJ+
+Buffer
+D#	E
+DES_ENCRYPT
+xSd@0
+R_CON
+PREFIX
+DATA
+SHA1
+Rb~}
+8SdDpW
+result
+flagInput
+validateBtn
+click
+Rd~k
+CORRECT FLAG
+success
+className
+INCORRECT FLAG
+failure
+(SdDpW
+isBuffer
+Rcjf
+alloc
+AES_ECB
+SHA512
+\	8	
+assert failed
+utf8
+seed
+Rbn)
+X19jb25ncmF0c19BSV95b3VfZm91bmRfdGhpc190b19nZXRfdGhlX2ZsYWdfeW91X2Nhbl9lYXNpbHlfYnJ1dGVfZmxhZ19hbmRfdXNlX3RoaXNfY2hlY2tzdW1fNDk1N2U2MTBiNmZhZmJjNzRmNzg4ZmFkMmEwNDliYjBkOTFjNTI4YzE4Yjg5ZjMxNDQwZWY1NTI3N2FjNzU5MV9fXw==
+DOMContentLoaded

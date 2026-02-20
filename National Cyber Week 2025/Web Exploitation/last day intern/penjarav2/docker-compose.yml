@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    image: penjara-web:latest
+    environment:
+      - SECRET_KEY=use-a-random-secret
+    ports:
+      - "9989:5000"   
+    restart: unless-stopped
+   

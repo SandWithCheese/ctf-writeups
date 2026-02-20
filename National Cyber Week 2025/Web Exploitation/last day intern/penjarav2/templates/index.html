@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}BEJIR{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>welcome to BEJIR company </h1>
+    <p>here we provide the best customer service in town</p>
+    <hr>
+    {% if not user %}
+        <p>
+            <a href="{{ url_for('register') }}"><button>Register</button></a>
+            <a href="{{ url_for('login') }}"><button>Login</button></a>
+        </p>
+    {% else %}
+        <p>
+            You are already logged in as <strong>{{ user['username'] }}</strong>.  
+           you can  Go to <a href="{{ url_for('dashboard') }}">dashboard</a> to find something interesting
+        </p>
+    {% endif %}
+</div>
+{% endblock %}

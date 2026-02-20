@@ -1,0 +1,1227 @@
+[1.1.17.1] 11/12/2025, 09:10:38:712
+    ..\..\BTDevManager\BTDevManager.cpp(RunService(), 84):    RunService+++
+
+[1.1.17.1] 11/12/2025, 09:10:38:750
+    ..\..\BTDevManager\BTDevManager.cpp(RunService(), 86):    CurrentProcessID from RunService is 8800
+
+[1.1.17.1] 11/12/2025, 09:10:38:750
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 683):    ServiceMain
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 708):    Servcie Start
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1849):    SYSTEM\CurrentControlSet\Enum\USB\VID_0BDA&PID_D723&MI_00\6&31C58877&0&0000
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1861):    RegQueryValueEx fail
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1893):    FindDev: 0,DriverLoad: 0,DriverInstall: 1
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 742):    not find btdevice
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 823):    Start, run CheckWhqlThread
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\HelperFunc.cpp(RegisterDevChange(), 161):    RegisterDevChange ++
+
+[1.1.17.1] 11/12/2025, 09:10:38:765
+    ..\..\BTDevManager\HelperFunc.cpp(RegisterDevChange(), 199):    RegisterDevChange --
+
+[1.1.17.1] 11/12/2025, 09:10:38:781
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/12/2025, 09:10:38:781
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/12/2025, 09:10:38:781
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 1256
+
+[1.1.17.1] 11/12/2025, 09:10:38:781
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 2960
+
+[1.1.17.1] 11/12/2025, 09:10:38:781
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/12/2025, 09:10:38:960
+    ..\..\BTDevManager\HelperFunc.cpp(MyCmInterfaceNotification(), 113):    csHardwareId,\\?\USB#VID_0BDA&PID_D723&MI_00#6&31C58877&0&0000#{0850302A-B344-4FDA-9BE9-90576B8D46F0}
+
+[1.1.17.1] 11/12/2025, 09:10:38:962
+    ..\..\BTDevManager\HelperFunc.cpp(MyCmInterfaceNotification(), 140):    MyCmInterfaceNotification: removal
+
+[1.1.17.1] 11/12/2025, 09:10:39:03
+    ..\..\BTDevManager\notification.cpp(CheckServiceThread(), 372):    CheckServiceThread ++
+
+[1.1.17.1] 11/12/2025, 09:10:39:03
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 2101):    rtkbtfilter has been load
+
+[1.1.17.1] 11/12/2025, 09:10:39:11
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 2123):    FindDev: 1,DriverLoad: 1, disable: 0
+
+[1.1.17.1] 11/12/2025, 09:10:39:11
+    ..\..\BTDevManager\notification.cpp(CheckServiceThread(), 516):    CheckServiceThread --
+
+[1.1.17.1] 11/12/2025, 09:10:39:549
+    ..\..\BTDevManager\HelperFunc.cpp(MyCmInterfaceNotification(), 113):    csHardwareId,\\?\USB#VID_0BDA&PID_D723&MI_00#6&31C58877&0&0000#{0850302A-B344-4FDA-9BE9-90576B8D46F0}
+
+[1.1.17.1] 11/12/2025, 09:10:39:549
+    ..\..\BTDevManager\HelperFunc.cpp(MyCmInterfaceNotification(), 120):    MyCmInterfaceNotification: Arrival
+
+[1.1.17.1] 11/12/2025, 09:10:39:580
+    ..\..\BTDevManager\notification.cpp(CheckServiceThread(), 372):    CheckServiceThread ++
+
+[1.1.17.1] 11/12/2025, 09:10:39:580
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/12/2025, 09:10:39:580
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 328):    Another CheckWhqlThread not end
+
+[1.1.17.1] 11/12/2025, 09:10:39:580
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 2101):    rtkbtfilter has been load
+
+[1.1.17.1] 11/12/2025, 09:10:39:595
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 2123):    FindDev: 1,DriverLoad: 1, disable: 0
+
+[1.1.17.1] 11/12/2025, 09:10:39:595
+    ..\..\BTDevManager\notification.cpp(CheckServiceThread(), 516):    CheckServiceThread --
+
+[1.1.17.1] 11/12/2025, 09:10:45:790
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/12/2025, 09:10:52:828
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/12/2025, 09:10:59:850
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/12/2025, 09:10:59:973
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/12/2025, 09:11:06:879
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/12/2025, 09:11:13:904
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/12/2025, 09:11:20:913
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/12/2025, 09:11:27:925
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/12/2025, 09:11:34:939
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/12/2025, 09:11:41:974
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/12/2025, 09:11:48:987
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/12/2025, 09:11:56:01
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/12/2025, 09:12:03:12
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/12/2025, 09:12:10:37
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/12/2025, 09:12:17:51
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/12/2025, 09:12:24:66
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/12/2025, 09:31:50:377
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/12/2025, 09:31:51:379
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/12/2025, 10:59:14:83
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/12/2025, 10:59:15:170
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/12/2025, 10:59:16:98
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/12/2025, 11:00:36:375
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 391):    WTS_SESSION_LOGOFF event happened!
+
+[1.1.17.1] 11/12/2025, 11:10:08:421
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 344):    SERVICE_CONTROL_STOP event happened!
+
+[1.1.17.1] 11/12/2025, 11:10:08:436
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 838):    WaitForSingleObject stopServiceEvent
+
+[1.1.17.1] 11/12/2025, 11:10:08:436
+    ..\..\BTDevManager\HelperFunc.cpp(UnRegisterDevChange(), 206):    UnRegisterDevChange++
+
+[1.1.17.1] 11/12/2025, 11:10:08:436
+    ..\..\BTDevManager\HelperFunc.cpp(UnRegisterDevChange(), 223):    UnRegisterDevChange--
+
+[1.1.17.1] 11/12/2025, 11:10:08:608
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 853):    Service Stopped, should delete 0
+
+[1.1.17.1] 11/12/2025, 11:16:17:00
+    ..\..\BTDevManager\BTDevManager.cpp(RunService(), 84):    RunService+++
+
+[1.1.17.1] 11/12/2025, 11:16:17:183
+    ..\..\BTDevManager\BTDevManager.cpp(RunService(), 86):    CurrentProcessID from RunService is 3648
+
+[1.1.17.1] 11/12/2025, 11:16:17:234
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 683):    ServiceMain
+
+[1.1.17.1] 11/12/2025, 11:16:17:244
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 708):    Servcie Start
+
+[1.1.17.1] 11/12/2025, 11:16:17:255
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1849):    SYSTEM\CurrentControlSet\Enum\USB\VID_0BDA&PID_D723&MI_00\6&31C58877&0&0000
+
+[1.1.17.1] 11/12/2025, 11:16:17:255
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1872):    rtkbtfilter has been load
+
+[1.1.17.1] 11/12/2025, 11:16:17:255
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1893):    FindDev: 1,DriverLoad: 1,DriverInstall: 1
+
+[1.1.17.1] 11/12/2025, 11:16:17:255
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/12/2025, 11:16:17:255
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/12/2025, 11:16:17:255
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 823):    Start, run CheckWhqlThread
+
+[1.1.17.1] 11/12/2025, 11:16:17:255
+    ..\..\BTDevManager\HelperFunc.cpp(RegisterDevChange(), 161):    RegisterDevChange ++
+
+[1.1.17.1] 11/12/2025, 11:16:17:336
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/12/2025, 11:16:17:336
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 3852
+
+[1.1.17.1] 11/12/2025, 11:16:17:336
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/12/2025, 11:16:17:336
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/12/2025, 11:16:17:336
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 3856
+
+[1.1.17.1] 11/12/2025, 11:16:17:346
+    ..\..\BTDevManager\HelperFunc.cpp(RegisterDevChange(), 199):    RegisterDevChange --
+
+[1.1.17.1] 11/12/2025, 11:16:24:369
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/12/2025, 11:16:31:492
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/12/2025, 11:16:37:974
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/12/2025, 11:16:38:559
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/12/2025, 11:16:45:635
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/12/2025, 11:16:52:664
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/12/2025, 11:16:59:865
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/12/2025, 11:17:06:894
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/12/2025, 11:17:13:923
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/12/2025, 11:17:20:952
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/12/2025, 11:17:27:997
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/12/2025, 11:17:35:26
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/12/2025, 11:17:42:55
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/12/2025, 11:17:49:84
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/12/2025, 11:17:56:113
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/12/2025, 11:18:03:141
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/12/2025, 11:25:15:983
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 358):    WTS_CONSOLE_CONNECT event happened!
+
+[1.1.17.1] 11/12/2025, 11:25:19:897
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 375):    WTS_SESSION_LOGON event happened!
+
+[1.1.17.1] 11/12/2025, 11:25:19:913
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 382):    WTS_SESSION_LOGON, run CheckWhqlThread
+
+[1.1.17.1] 11/12/2025, 11:25:19:944
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/12/2025, 11:25:19:960
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 2264
+
+[1.1.17.1] 11/12/2025, 11:26:13:47
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/12/2025, 11:26:42:532
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 366):    WTS_REMOTE_CONNECT event happened!
+
+[1.1.17.1] 11/12/2025, 11:26:48:577
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 391):    WTS_SESSION_LOGOFF event happened!
+
+[1.1.17.1] 11/12/2025, 11:26:49:762
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 362):    WTS_CONSOLE_DISCONNECT event happened!
+
+[1.1.17.1] 11/12/2025, 11:26:49:762
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 370):    WTS_REMOTE_DISCONNECT event happened!
+
+[1.1.17.1] 11/12/2025, 11:26:50:468
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 358):    WTS_CONSOLE_CONNECT event happened!
+
+[1.1.17.1] 11/12/2025, 11:26:50:614
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 414):    enter s3/s4
+
+[1.1.17.1] 11/12/2025, 11:26:50:614
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 427):    RESET g_dwCheckDisappearCount = 15
+
+[1.1.17.1] 11/13/2025, 02:03:13:498
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 7
+
+[1.1.17.1] 11/13/2025, 02:03:13:758
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 431):    enter PBT_APMRESUMEAUTOMATIC
+
+[1.1.17.1] 11/13/2025, 02:03:13:758
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/13/2025, 02:03:13:758
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/13/2025, 02:03:13:758
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/13/2025, 02:03:13:774
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 648
+
+[1.1.17.1] 11/13/2025, 02:03:13:774
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/13/2025, 02:03:16:370
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 375):    WTS_SESSION_LOGON event happened!
+
+[1.1.17.1] 11/13/2025, 02:03:16:370
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 382):    WTS_SESSION_LOGON, run CheckWhqlThread
+
+[1.1.17.1] 11/13/2025, 02:03:16:448
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/13/2025, 02:03:16:448
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 6564
+
+[1.1.17.1] 11/13/2025, 02:03:20:805
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/13/2025, 02:03:27:881
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/13/2025, 02:03:34:950
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/13/2025, 02:03:37:606
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/13/2025, 02:03:41:989
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/13/2025, 02:03:49:72
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/13/2025, 02:03:56:134
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/13/2025, 02:04:03:166
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/13/2025, 02:04:10:195
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/13/2025, 02:04:12:834
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/13/2025, 02:04:17:218
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/13/2025, 02:04:24:289
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/13/2025, 02:04:31:391
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/13/2025, 02:04:38:422
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/13/2025, 02:04:45:501
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/13/2025, 02:04:52:530
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/13/2025, 02:04:59:559
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/13/2025, 03:29:12:128
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 395):    WTS_SESSION_LOCK event happened!
+
+[1.1.17.1] 11/13/2025, 03:29:12:348
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 414):    enter s3/s4
+
+[1.1.17.1] 11/13/2025, 03:29:12:348
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 427):    RESET g_dwCheckDisappearCount = 15
+
+[1.1.17.1] 11/13/2025, 03:46:44:596
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 431):    enter PBT_APMRESUMEAUTOMATIC
+
+[1.1.17.1] 11/13/2025, 03:46:44:596
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/13/2025, 03:46:44:596
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/13/2025, 03:46:44:596
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/13/2025, 03:46:44:596
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 6640
+
+[1.1.17.1] 11/13/2025, 03:46:44:612
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/13/2025, 03:46:44:659
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 7
+
+[1.1.17.1] 11/13/2025, 03:46:45:02
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/13/2025, 03:46:51:640
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/13/2025, 03:46:58:669
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/13/2025, 03:47:05:698
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/13/2025, 03:47:12:727
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/13/2025, 03:47:19:756
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/13/2025, 03:47:26:785
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/13/2025, 03:47:33:800
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/13/2025, 03:47:40:826
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/13/2025, 03:47:47:838
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/13/2025, 03:47:54:849
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/13/2025, 03:48:01:871
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/13/2025, 03:48:08:891
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/13/2025, 03:48:15:908
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/13/2025, 03:48:22:935
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/13/2025, 03:48:29:937
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/13/2025, 04:06:08:508
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/13/2025, 04:21:04:809
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 414):    enter s3/s4
+
+[1.1.17.1] 11/13/2025, 04:21:04:825
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 427):    RESET g_dwCheckDisappearCount = 15
+
+[1.1.17.1] 11/13/2025, 06:34:09:695
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/13/2025, 06:34:09:867
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 431):    enter PBT_APMRESUMEAUTOMATIC
+
+[1.1.17.1] 11/13/2025, 06:34:09:867
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/13/2025, 06:34:09:883
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/13/2025, 06:34:09:883
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/13/2025, 06:34:09:883
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 5944
+
+[1.1.17.1] 11/13/2025, 06:34:09:883
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/13/2025, 06:34:09:945
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 7
+
+[1.1.17.1] 11/13/2025, 06:34:16:909
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/13/2025, 06:34:18:166
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/13/2025, 06:34:21:493
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 399):    WTS_SESSION_UNLOCK event happened!
+
+[1.1.17.1] 11/13/2025, 06:34:23:917
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/13/2025, 06:34:31:36
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/13/2025, 06:34:38:201
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/13/2025, 06:34:45:253
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/13/2025, 06:34:52:274
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/13/2025, 06:34:59:311
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/13/2025, 06:35:06:348
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/13/2025, 06:35:13:361
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/13/2025, 06:35:20:377
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/13/2025, 06:35:27:394
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/13/2025, 06:35:34:410
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/13/2025, 06:35:41:426
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/13/2025, 06:35:48:432
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/13/2025, 06:35:55:449
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/13/2025, 09:43:25:509
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/13/2025, 09:43:42:117
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 366):    WTS_REMOTE_CONNECT event happened!
+
+[1.1.17.1] 11/13/2025, 09:44:45:200
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 395):    WTS_SESSION_LOCK event happened!
+
+[1.1.17.1] 11/13/2025, 09:44:45:262
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 370):    WTS_REMOTE_DISCONNECT event happened!
+
+[1.1.17.1] 11/13/2025, 09:45:42:971
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 399):    WTS_SESSION_UNLOCK event happened!
+
+[1.1.17.1] 11/13/2025, 09:46:00:531
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 366):    WTS_REMOTE_CONNECT event happened!
+
+[1.1.17.1] 11/13/2025, 09:46:02:84
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 391):    WTS_SESSION_LOGOFF event happened!
+
+[1.1.17.1] 11/13/2025, 09:46:03:168
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 362):    WTS_CONSOLE_DISCONNECT event happened!
+
+[1.1.17.1] 11/13/2025, 09:46:03:413
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 370):    WTS_REMOTE_DISCONNECT event happened!
+
+[1.1.17.1] 11/13/2025, 09:46:04:07
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 358):    WTS_CONSOLE_CONNECT event happened!
+
+[1.1.17.1] 11/13/2025, 09:46:04:121
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 414):    enter s3/s4
+
+[1.1.17.1] 11/13/2025, 09:46:04:121
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 427):    RESET g_dwCheckDisappearCount = 15
+
+[1.1.17.1] 11/14/2025, 00:20:49:159
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 431):    enter PBT_APMRESUMEAUTOMATIC
+
+[1.1.17.1] 11/14/2025, 00:20:49:213
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/14/2025, 00:20:49:213
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/14/2025, 00:20:49:259
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/14/2025, 00:20:49:291
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 192
+
+[1.1.17.1] 11/14/2025, 00:20:49:291
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/14/2025, 00:20:49:384
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 7
+
+[1.1.17.1] 11/14/2025, 00:20:50:955
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 375):    WTS_SESSION_LOGON event happened!
+
+[1.1.17.1] 11/14/2025, 00:20:50:955
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 382):    WTS_SESSION_LOGON, run CheckWhqlThread
+
+[1.1.17.1] 11/14/2025, 00:20:50:986
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/14/2025, 00:20:50:986
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 9148
+
+[1.1.17.1] 11/14/2025, 00:20:56:324
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/14/2025, 00:21:03:467
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/14/2025, 00:21:10:605
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/14/2025, 00:21:17:635
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/14/2025, 00:21:24:717
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/14/2025, 00:21:25:779
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/14/2025, 00:21:31:762
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/14/2025, 00:21:38:822
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/14/2025, 00:21:45:884
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/14/2025, 00:21:52:913
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/14/2025, 00:22:00:43
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/14/2025, 00:22:07:471
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/14/2025, 00:22:14:536
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/14/2025, 00:22:21:569
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/14/2025, 00:22:28:587
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/14/2025, 00:22:35:617
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/14/2025, 01:23:55:575
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/14/2025, 05:58:14:211
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 366):    WTS_REMOTE_CONNECT event happened!
+
+[1.1.17.1] 11/14/2025, 05:58:18:926
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 391):    WTS_SESSION_LOGOFF event happened!
+
+[1.1.17.1] 11/14/2025, 05:58:20:02
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 362):    WTS_CONSOLE_DISCONNECT event happened!
+
+[1.1.17.1] 11/14/2025, 05:58:20:205
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 370):    WTS_REMOTE_DISCONNECT event happened!
+
+[1.1.17.1] 11/14/2025, 05:58:20:461
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 358):    WTS_CONSOLE_CONNECT event happened!
+
+[1.1.17.1] 11/14/2025, 05:58:20:773
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 414):    enter s3/s4
+
+[1.1.17.1] 11/14/2025, 05:58:20:773
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 427):    RESET g_dwCheckDisappearCount = 15
+
+[1.1.17.1] 11/16/2025, 05:47:03:392
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/16/2025, 05:47:03:564
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 431):    enter PBT_APMRESUMEAUTOMATIC
+
+[1.1.17.1] 11/16/2025, 05:47:03:564
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/16/2025, 05:47:03:580
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/16/2025, 05:47:03:595
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/16/2025, 05:47:03:642
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 9644
+
+[1.1.17.1] 11/16/2025, 05:47:03:642
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/16/2025, 05:47:03:814
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 7
+
+[1.1.17.1] 11/16/2025, 05:47:05:622
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 375):    WTS_SESSION_LOGON event happened!
+
+[1.1.17.1] 11/16/2025, 05:47:05:622
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 382):    WTS_SESSION_LOGON, run CheckWhqlThread
+
+[1.1.17.1] 11/16/2025, 05:47:05:669
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/16/2025, 05:47:05:669
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 10960
+
+[1.1.17.1] 11/16/2025, 05:47:10:782
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/16/2025, 05:47:17:860
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/16/2025, 05:47:25:06
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/16/2025, 05:47:32:18
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/16/2025, 05:47:34:610
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/16/2025, 05:47:39:47
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/16/2025, 05:47:46:107
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/16/2025, 05:47:53:198
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/16/2025, 05:48:00:227
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/16/2025, 05:48:07:287
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/16/2025, 05:48:14:316
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/16/2025, 05:48:21:345
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/16/2025, 05:48:28:374
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/16/2025, 05:48:35:403
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/16/2025, 05:48:42:432
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/16/2025, 05:48:49:461
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/16/2025, 09:44:34:748
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 366):    WTS_REMOTE_CONNECT event happened!
+
+[1.1.17.1] 11/16/2025, 09:44:36:399
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/16/2025, 09:44:43:08
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 391):    WTS_SESSION_LOGOFF event happened!
+
+[1.1.17.1] 11/16/2025, 09:44:44:332
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 362):    WTS_CONSOLE_DISCONNECT event happened!
+
+[1.1.17.1] 11/16/2025, 09:44:44:456
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 370):    WTS_REMOTE_DISCONNECT event happened!
+
+[1.1.17.1] 11/16/2025, 09:44:44:597
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 358):    WTS_CONSOLE_CONNECT event happened!
+
+[1.1.17.1] 11/16/2025, 09:44:44:771
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 414):    enter s3/s4
+
+[1.1.17.1] 11/16/2025, 09:44:44:771
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 427):    RESET g_dwCheckDisappearCount = 15
+
+[1.1.17.1] 11/17/2025, 01:47:28:921
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 431):    enter PBT_APMRESUMEAUTOMATIC
+
+[1.1.17.1] 11/17/2025, 01:47:28:921
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/17/2025, 01:47:28:921
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/17/2025, 01:47:28:953
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/17/2025, 01:47:28:968
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 7540
+
+[1.1.17.1] 11/17/2025, 01:47:28:968
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/17/2025, 01:47:30:597
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 375):    WTS_SESSION_LOGON event happened!
+
+[1.1.17.1] 11/17/2025, 01:47:30:597
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 382):    WTS_SESSION_LOGON, run CheckWhqlThread
+
+[1.1.17.1] 11/17/2025, 01:47:30:660
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/17/2025, 01:47:30:660
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 3468
+
+[1.1.17.1] 11/17/2025, 01:47:30:785
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 7
+
+[1.1.17.1] 11/17/2025, 01:47:36:23
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/17/2025, 01:47:43:145
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/17/2025, 01:47:50:245
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/17/2025, 01:47:52:341
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/17/2025, 01:47:57:455
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/17/2025, 01:48:04:523
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/17/2025, 01:48:08:849
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/17/2025, 01:48:11:583
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/17/2025, 01:48:18:612
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/17/2025, 01:48:25:641
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/17/2025, 01:48:33:357
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/17/2025, 01:48:40:817
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/17/2025, 01:48:48:172
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/17/2025, 01:48:55:587
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/17/2025, 01:49:03:308
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/17/2025, 01:49:12:173
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/17/2025, 01:49:19:287
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/17/2025, 03:12:11:953
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 391):    WTS_SESSION_LOGOFF event happened!
+
+[1.1.17.1] 11/17/2025, 03:12:45:638
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 344):    SERVICE_CONTROL_STOP event happened!
+
+[1.1.17.1] 11/17/2025, 03:12:45:638
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 838):    WaitForSingleObject stopServiceEvent
+
+[1.1.17.1] 11/17/2025, 03:12:45:638
+    ..\..\BTDevManager\HelperFunc.cpp(UnRegisterDevChange(), 206):    UnRegisterDevChange++
+
+[1.1.17.1] 11/17/2025, 03:12:45:638
+    ..\..\BTDevManager\HelperFunc.cpp(UnRegisterDevChange(), 223):    UnRegisterDevChange--
+
+[1.1.17.1] 11/17/2025, 03:12:45:794
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 853):    Service Stopped, should delete 0
+
+[1.1.17.1] 11/17/2025, 03:13:23:636
+    ..\..\BTDevManager\BTDevManager.cpp(RunService(), 84):    RunService+++
+
+[1.1.17.1] 11/17/2025, 03:13:23:798
+    ..\..\BTDevManager\BTDevManager.cpp(RunService(), 86):    CurrentProcessID from RunService is 3504
+
+[1.1.17.1] 11/17/2025, 03:13:24:51
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 683):    ServiceMain
+
+[1.1.17.1] 11/17/2025, 03:13:24:102
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 708):    Servcie Start
+
+[1.1.17.1] 11/17/2025, 03:13:24:104
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1849):    SYSTEM\CurrentControlSet\Enum\USB\VID_0BDA&PID_D723&MI_00\6&31C58877&0&0000
+
+[1.1.17.1] 11/17/2025, 03:13:24:104
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1872):    rtkbtfilter has been load
+
+[1.1.17.1] 11/17/2025, 03:13:24:104
+    ..\..\BTDevManager\DeviceInfo.cpp(EnumDeviceAndGetDriverInfoEx(), 1893):    FindDev: 1,DriverLoad: 1,DriverInstall: 1
+
+[1.1.17.1] 11/17/2025, 03:13:24:104
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/17/2025, 03:13:24:112
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/17/2025, 03:13:24:112
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceMain(), 823):    Start, run CheckWhqlThread
+
+[1.1.17.1] 11/17/2025, 03:13:24:114
+    ..\..\BTDevManager\HelperFunc.cpp(RegisterDevChange(), 161):    RegisterDevChange ++
+
+[1.1.17.1] 11/17/2025, 03:13:24:114
+    ..\..\BTDevManager\HelperFunc.cpp(RegisterDevChange(), 199):    RegisterDevChange --
+
+[1.1.17.1] 11/17/2025, 03:13:24:165
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/17/2025, 03:13:24:165
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 3824
+
+[1.1.17.1] 11/17/2025, 03:13:24:165
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/17/2025, 03:13:24:165
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/17/2025, 03:13:24:165
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 3828
+
+[1.1.17.1] 11/17/2025, 03:13:31:326
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/17/2025, 03:13:37:543
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 358):    WTS_CONSOLE_CONNECT event happened!
+
+[1.1.17.1] 11/17/2025, 03:13:38:496
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/17/2025, 03:13:39:230
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 375):    WTS_SESSION_LOGON event happened!
+
+[1.1.17.1] 11/17/2025, 03:13:39:246
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 382):    WTS_SESSION_LOGON, run CheckWhqlThread
+
+[1.1.17.1] 11/17/2025, 03:13:39:277
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/17/2025, 03:13:39:277
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 328):    Another CheckWhqlThread not end
+
+[1.1.17.1] 11/17/2025, 03:13:44:963
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/17/2025, 03:13:45:635
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/17/2025, 03:13:52:719
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/17/2025, 03:13:59:826
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/17/2025, 03:14:07:111
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/17/2025, 03:14:14:201
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/17/2025, 03:14:21:308
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/17/2025, 03:14:28:369
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/17/2025, 03:14:35:439
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/17/2025, 03:14:42:583
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/17/2025, 03:14:49:750
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/17/2025, 03:14:56:826
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/17/2025, 03:15:04:61
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/17/2025, 03:15:11:239
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/17/2025, 06:42:03:732
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/17/2025, 06:42:15:377
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 366):    WTS_REMOTE_CONNECT event happened!
+
+[1.1.17.1] 11/17/2025, 06:42:16:845
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 391):    WTS_SESSION_LOGOFF event happened!
+
+[1.1.17.1] 11/17/2025, 06:42:17:645
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 362):    WTS_CONSOLE_DISCONNECT event happened!
+
+[1.1.17.1] 11/17/2025, 06:42:17:710
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 370):    WTS_REMOTE_DISCONNECT event happened!
+
+[1.1.17.1] 11/17/2025, 06:42:17:928
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 358):    WTS_CONSOLE_CONNECT event happened!
+
+[1.1.17.1] 11/17/2025, 06:42:18:97
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 414):    enter s3/s4
+
+[1.1.17.1] 11/17/2025, 06:42:18:97
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 427):    RESET g_dwCheckDisappearCount = 15
+
+[1.1.17.1] 11/17/2025, 07:21:39:936
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 431):    enter PBT_APMRESUMEAUTOMATIC
+
+[1.1.17.1] 11/17/2025, 07:21:39:936
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/17/2025, 07:21:39:936
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/17/2025, 07:21:39:952
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/17/2025, 07:21:39:968
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 7884
+
+[1.1.17.1] 11/17/2025, 07:21:39:968
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/17/2025, 07:21:39:999
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 7
+
+[1.1.17.1] 11/17/2025, 07:21:41:759
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 375):    WTS_SESSION_LOGON event happened!
+
+[1.1.17.1] 11/17/2025, 07:21:41:759
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 382):    WTS_SESSION_LOGON, run CheckWhqlThread
+
+[1.1.17.1] 11/17/2025, 07:21:41:775
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 319):    CheckWhqlThread++
+
+[1.1.17.1] 11/17/2025, 07:21:41:775
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 333):    CheckWhqlThreadID = 1920
+
+[1.1.17.1] 11/17/2025, 07:21:47:16
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/17/2025, 07:21:54:254
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/17/2025, 07:22:01:316
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/17/2025, 07:22:08:345
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/17/2025, 07:22:12:453
+    ..\..\BTDevManager\WhlkOP.cpp(CheckWhqlThread(), 360):    No HLKAcmengine, CheckWhqlThread--
+
+[1.1.17.1] 11/17/2025, 07:22:15:365
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/17/2025, 07:22:22:388
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/17/2025, 07:22:29:416
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/17/2025, 07:22:36:446
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/17/2025, 07:22:43:470
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/17/2025, 07:22:50:475
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/17/2025, 07:22:57:505
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/17/2025, 07:23:04:534
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/17/2025, 07:23:11:563
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/17/2025, 07:23:18:592
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/17/2025, 07:23:25:621
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/17/2025, 07:58:48:422
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/17/2025, 10:12:48:545
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/17/2025, 10:12:50:483
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/17/2025, 12:43:17:691
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/17/2025, 13:34:16:767
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 395):    WTS_SESSION_LOCK event happened!
+
+[1.1.17.1] 11/17/2025, 13:34:20:646
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 414):    enter s3/s4
+
+[1.1.17.1] 11/17/2025, 13:34:20:662
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 427):    RESET g_dwCheckDisappearCount = 15
+
+[1.1.17.1] 11/17/2025, 13:34:21:199
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
+[1.1.17.1] 11/17/2025, 19:01:13:435
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 431):    enter PBT_APMRESUMEAUTOMATIC
+
+[1.1.17.1] 11/17/2025, 19:01:13:435
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 260):    ++
+
+[1.1.17.1] 11/17/2025, 19:01:13:435
+    ..\..\BTDevManager\Global.cpp(IsMonitorBTAbnormal(), 277):    1
+
+[1.1.17.1] 11/17/2025, 19:01:13:435
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 67):    MonitorLocalBTCardAbnormalAndRescueThread ++
+
+[1.1.17.1] 11/17/2025, 19:01:13:435
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 81):    MonitorLocalBTCardAbnormalAndRescueThread = 2740
+
+[1.1.17.1] 11/17/2025, 19:01:13:435
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 14
+
+[1.1.17.1] 11/17/2025, 19:01:13:544
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 7
+
+[1.1.17.1] 11/17/2025, 19:01:20:484
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 13
+
+[1.1.17.1] 11/17/2025, 19:01:27:513
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 12
+
+[1.1.17.1] 11/17/2025, 19:01:34:542
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 11
+
+[1.1.17.1] 11/17/2025, 19:01:41:571
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 10
+
+[1.1.17.1] 11/17/2025, 19:01:48:600
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 9
+
+[1.1.17.1] 11/17/2025, 19:01:55:629
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 8
+
+[1.1.17.1] 11/17/2025, 19:02:02:658
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 7
+
+[1.1.17.1] 11/17/2025, 19:02:09:687
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 6
+
+[1.1.17.1] 11/17/2025, 19:02:16:716
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 5
+
+[1.1.17.1] 11/17/2025, 19:02:23:745
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 4
+
+[1.1.17.1] 11/17/2025, 19:02:30:774
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 3
+
+[1.1.17.1] 11/17/2025, 19:02:37:803
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 2
+
+[1.1.17.1] 11/17/2025, 19:02:44:832
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 1
+
+[1.1.17.1] 11/17/2025, 19:02:51:861
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 89):    g_dwCheckDisappearCount = 0
+
+[1.1.17.1] 11/17/2025, 19:02:58:890
+    ..\..\BTDevManager\AdapterWorkaround.cpp(MonitorLocalBTCardAbnormalAndRescueThread(), 176):    MonitorLocalBTCardAbnormalAndRescueThread --
+
+[1.1.17.1] 11/17/2025, 19:04:10:689
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 399):    WTS_SESSION_UNLOCK event happened!
+
+[1.1.17.1] 11/17/2025, 19:30:35:617
+    ..\..\BTDevManager\BTDevManager.cpp(ServiceControlHandler(), 451):    SERVICE_CONTROL_POWEREVENT dwEventType == 10
+
